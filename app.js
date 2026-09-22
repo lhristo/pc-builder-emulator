@@ -595,12 +595,10 @@ const savedBuildsKey = "pc-builder-emulator.saved-builds";
 const build = Object.fromEntries(requiredSlots.map((slot) => [slot, multiSlots.has(slot) ? [] : null]));
 const filters = {
   search: "",
-  year: "all",
   price: "all",
   socket: "all",
   ramType: "all",
-  formFactor: "all",
-  power: "all"
+  formFactor: "all"
 };
 let selectedCategory = "case";
 let draggedId = null;
@@ -608,12 +606,10 @@ let draggedId = null;
 const categoryTabs = document.querySelector("#categoryTabs");
 const componentFilters = document.querySelector("#componentFilters");
 const searchInput = document.querySelector("#searchInput");
-const yearFilter = document.querySelector("#yearFilter");
 const priceFilter = document.querySelector("#priceFilter");
 const socketFilter = document.querySelector("#socketFilter");
 const ramTypeFilter = document.querySelector("#ramTypeFilter");
 const formFactorFilter = document.querySelector("#formFactorFilter");
-const powerFilter = document.querySelector("#powerFilter");
 const resultCount = document.querySelector("#resultCount");
 const clearFilters = document.querySelector("#clearFilters");
 const componentList = document.querySelector("#componentList");
@@ -691,7 +687,6 @@ function populateSelect(select, values) {
 }
 
 function renderFilterOptions() {
-  populateSelect(yearFilter, uniqueSpecValues("release"));
   populateSelect(socketFilter, uniqueSpecValues("socket").filter((value) => value !== "Universal"));
   populateSelect(ramTypeFilter, uniqueSpecValues("ramType"));
   populateSelect(formFactorFilter, uniqueSpecValues("formFactor"));
@@ -708,23 +703,13 @@ function searchableText(part) {
     .toLowerCase();
 }
 
-function matchesPowerFilter(part) {
-  if (filters.power === "all") return true;
-  const watts = part.wattage ?? part.specs.watts ?? 0;
-  if (filters.power === "low") return watts > 0 && watts <= 100;
-  if (filters.power === "mid") return watts > 100 && watts <= 300;
-  return watts > 300;
-}
-
 function partMatchesFilters(part) {
   const search = filters.search.trim().toLowerCase();
   if (search && !searchableText(part).includes(search)) return false;
-  if (filters.year !== "all" && String(part.specs.release) !== filters.year) return false;
   if (filters.price !== "all" && part.price > Number(filters.price)) return false;
   if (filters.socket !== "all" && part.specs.socket !== filters.socket) return false;
   if (filters.ramType !== "all" && part.specs.ramType !== filters.ramType) return false;
-  if (filters.formFactor !== "all" && part.specs.formFactor !== filters.formFactor) return false;
-  return matchesPowerFilter(part);
+  return filters.formFactor === "all" || part.specs.formFactor === filters.formFactor;
 }
 
 function renderComponents() {
@@ -1142,12 +1127,10 @@ categoryTabs.addEventListener("click", (event) => {
 
 componentFilters.addEventListener("input", () => {
   filters.search = searchInput.value;
-  filters.year = yearFilter.value;
   filters.price = priceFilter.value;
   filters.socket = socketFilter.value;
   filters.ramType = ramTypeFilter.value;
   filters.formFactor = formFactorFilter.value;
-  filters.power = powerFilter.value;
   renderComponents();
 });
 
@@ -1157,12 +1140,10 @@ componentFilters.addEventListener("submit", (event) => {
 
 clearFilters.addEventListener("click", () => {
   filters.search = "";
-  filters.year = "all";
   filters.price = "all";
   filters.socket = "all";
   filters.ramType = "all";
   filters.formFactor = "all";
-  filters.power = "all";
   componentFilters.reset();
   renderComponents();
 });
