@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desktop Assembly Emulator</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://esm.sh/three@0.164.1",
+          "three/addons/": "https://esm.sh/three@0.164.1/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="library" aria-label="Component library">
+        <div class="topbar">
+          <div>
+            <p class="eyebrow">PC Builder</p>
+            <h1>Assembly Emulator</h1>
+          </div>
+          <button class="icon-button" id="resetBuild" type="button" aria-label="Reset build" title="Reset build">
+            <span aria-hidden="true">↺</span>
+          </button>
+        </div>
+
+        <div class="category-tabs" id="categoryTabs" aria-label="Component categories"></div>
+        <div class="component-list" id="componentList" aria-live="polite"></div>
+      </section>
+
+      <section class="workspace" aria-label="Assembly workspace">
+        <div class="scene-panel">
+          <canvas id="pcScene" aria-label="Rotatable computer model"></canvas>
+          <div class="scene-tools">
+            <button id="rotateLeft" class="icon-button" type="button" aria-label="Rotate left" title="Rotate left">⟲</button>
+            <button id="rotateRight" class="icon-button" type="button" aria-label="Rotate right" title="Rotate right">⟳</button>
+            <button id="fitView" class="icon-button" type="button" aria-label="Fit view" title="Fit view">⌂</button>
+          </div>
+        </div>
+
+        <aside class="build-panel" aria-label="Build panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Drop Zone</p>
+              <h2>Your Computer</h2>
+            </div>
+            <div class="build-totals" aria-label="Build totals">
+              <output id="totalPrice" class="total-price" aria-label="Total price">$0</output>
+              <output id="wattage" class="wattage" aria-label="Estimated wattage">0 W</output>
+            </div>
+          </div>
+
+          <div class="slots" id="slots"></div>
+
+          <div class="status-panel">
+            <div class="compat-header">
+              <span class="status-dot" id="statusDot"></span>
+              <div>
+                <strong id="statusTitle">Choose parts to begin</strong>
+                <p id="statusSubtitle">Drag components from the left into matching slots.</p>
+              </div>
+            </div>
+            <ul id="compatList" class="compat-list"></ul>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
