@@ -25,6 +25,6 @@ The app loads Three.js from a CDN, so the 3D preview needs internet access.
 - Search and filters for release year, price, socket, memory type, form factor, and power class
 - Drag-and-drop assembly slots
 - Keyboard fallback: focus a component card and press Enter to place it
-- Compatibility checks for CPU socket, RAM type, form factor, GPU length, storage interface, radiator support, PSU headroom, RTX 50-series cabling guidance, and CUDIMM motherboard guidance
+- Compatibility checks for CPU socket/platform, RAM type and speed, form factor, GPU length and slot thickness, PCIe 5.0 GPU/storage guidance, storage interface, radiator support, air cooler clearance, cooler socket support, cooling capacity, PSU headroom, GPU cabling, and CUDIMM motherboard guidance
 - Estimated wattage
 - Rotatable 3D desktop model with OrbitControls and quick rotate buttons

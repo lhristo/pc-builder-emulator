@@ -501,6 +501,80 @@ components.push(
   }
 );
 
+const motherboardProfiles = {
+  B650: { pcie5Storage: true, pcie5Gpu: false, maxRamSpeed: 6400, generation: "AMD Ryzen 7000/8000/9000" },
+  B760: { pcie5Storage: false, pcie5Gpu: true, maxRamSpeed: 5600, generation: "Intel 12th/13th/14th Gen" },
+  X870E: { pcie5Storage: true, pcie5Gpu: true, maxRamSpeed: 8000, generation: "AMD Ryzen 7000/8000/9000" },
+  X870: { pcie5Storage: true, pcie5Gpu: true, maxRamSpeed: 8000, generation: "AMD Ryzen 7000/8000/9000" },
+  B850: { pcie5Storage: true, pcie5Gpu: false, maxRamSpeed: 7600, generation: "AMD Ryzen 7000/8000/9000" },
+  B840: { pcie5Storage: false, pcie5Gpu: false, maxRamSpeed: 6400, generation: "AMD Ryzen 7000/8000/9000" },
+  Z890: { pcie5Storage: true, pcie5Gpu: true, maxRamSpeed: 8800, generation: "Intel Core Ultra 200" },
+  B860: { pcie5Storage: true, pcie5Gpu: true, maxRamSpeed: 8000, generation: "Intel Core Ultra 200" },
+  H810: { pcie5Storage: false, pcie5Gpu: true, maxRamSpeed: 6400, generation: "Intel Core Ultra 200" }
+};
+
+const formFactorProfiles = {
+  "Mini-ITX": { maxGpuSlots: 2.5, maxAirCoolerHeight: 75 },
+  mATX: { maxGpuSlots: 3, maxAirCoolerHeight: 160 },
+  ATX: { maxGpuSlots: 4, maxAirCoolerHeight: 175 }
+};
+
+function parseNumber(value) {
+  const match = String(value ?? "").replace(/,/g, "").match(/\d+/);
+  return match ? Number(match[0]) : null;
+}
+
+function enrichCompatibilityData() {
+  components.forEach((part) => {
+    const specs = part.specs;
+
+    if (part.category === "motherboard") {
+      const chipset = specs.chipset ?? (part.name.match(/\b(X870E|X870|B850|B840|B650|Z890|B860|H810|B760)\b/)?.[1]);
+      if (chipset) specs.chipset = chipset;
+      Object.assign(specs, motherboardProfiles[chipset] ?? {});
+    }
+
+    if (part.category === "case") {
+      Object.assign(specs, formFactorProfiles[specs.formFactor] ?? {});
+      specs.maxAirCoolerHeight ??= specs.formFactor === "Mini-ITX" ? 75 : specs.radiator >= 360 ? 175 : 160;
+    }
+
+    if (part.category === "cpu") {
+      specs.generation ??= specs.socket === "AM5" ? "AMD Ryzen 7000/8000/9000" : specs.socket === "LGA1851" ? "Intel Core Ultra 200" : "Intel 12th/13th/14th Gen";
+    }
+
+    if (part.category === "ram") {
+      specs.speedMt ??= parseNumber(specs.speed);
+      specs.modules ??= part.name.includes("128 GB") ? 4 : 2;
+      specs.isCudimm = part.name.includes("CUDIMM");
+    }
+
+    if (part.category === "gpu") {
+      specs.pcieGeneration ??= part.name.includes("RTX 50") || part.name.includes("RX 90") ? 5 : 4;
+      specs.connector ??= part.name.includes("RTX 50") ? "12V-2x6" : "PCIe 8-pin";
+    }
+
+    if (part.category === "storage") {
+      const speed = parseNumber(specs.speed);
+      specs.pcieGeneration ??= specs.interface === "M.2" && speed && speed > 10000 ? 5 : specs.interface === "M.2" ? 4 : 3;
+    }
+
+    if (part.category === "psu") {
+      specs.connector ??= specs.watts >= 750 ? "12V-2x6" : "PCIe 8-pin";
+    }
+
+    if (part.category === "cooler") {
+      specs.supportedSockets ??= ["AM5", "LGA1700", "LGA1851"];
+      specs.height ??= specs.style === "Air" ? (part.name.includes("Dual") || part.name.includes("Twin") ? 158 : 150) : 55;
+      specs.coolingCapacity ??= specs.style === "Liquid" ? Math.max(220, specs.radiator || 240) : 180;
+      if (specs.radiator >= 360) specs.coolingCapacity = 300;
+      if (specs.radiator >= 420) specs.coolingCapacity = 350;
+    }
+  });
+}
+
+enrichCompatibilityData();
+
 const requiredSlots = ["case", "motherboard", "cpu", "ram", "gpu", "storage", "psu", "cooler"];
 const build = Object.fromEntries(requiredSlots.map((slot) => [slot, null]));
 const filters = {
@@ -690,12 +764,25 @@ function evaluateCompatibility() {
 
   if (board && cpu) {
     if (board.specs.socket !== cpu.specs.socket) errors.push(`CPU socket ${cpu.specs.socket} does not match motherboard socket ${board.specs.socket}.`);
-    else notes.push(`Processor and motherboard both use ${cpu.specs.socket}.`);
+    else {
+      notes.push(`Processor and motherboard both use ${cpu.specs.socket}.`);
+      if (board.specs.generation && cpu.specs.generation && !board.specs.generation.includes(cpu.specs.generation.split(" ")[0])) {
+        warnings.push(`${cpu.name} may need a BIOS update on ${board.name}; confirm CPU support before buying.`);
+      }
+    }
   }
 
   if (board && ram) {
     if (board.specs.ramType !== ram.specs.ramType) errors.push(`${ram.specs.ramType} memory cannot be installed on a ${board.specs.ramType} motherboard.`);
-    else notes.push(`${ram.specs.ramType} memory matches the motherboard.`);
+    else {
+      notes.push(`${ram.specs.ramType} memory matches the motherboard.`);
+      if (ram.specs.speedMt && board.specs.maxRamSpeed && ram.specs.speedMt > board.specs.maxRamSpeed) {
+        warnings.push(`${ram.name} is rated for ${ram.specs.speedMt} MT/s, above this board's typical ${board.specs.maxRamSpeed} MT/s target. It may downclock or need tuning.`);
+      }
+      if (ram.specs.modules > 2 && board.specs.formFactor === "Mini-ITX") {
+        errors.push(`${ram.name} uses ${ram.specs.modules} modules, but Mini-ITX boards usually have 2 DIMM slots.`);
+      }
+    }
   }
 
   if (pcCase && board) {
@@ -707,12 +794,21 @@ function evaluateCompatibility() {
   if (pcCase && gpu) {
     if (gpu.specs.length > pcCase.specs.maxGpu) errors.push(`${gpu.name} is ${gpu.specs.length} mm, longer than the case limit of ${pcCase.specs.maxGpu} mm.`);
     else notes.push(`GPU length fits with ${pcCase.specs.maxGpu - gpu.specs.length} mm to spare.`);
+
+    if (gpu.specs.slots > pcCase.specs.maxGpuSlots) {
+      errors.push(`${gpu.name} needs ${gpu.specs.slots} expansion slots, but this case layout supports about ${pcCase.specs.maxGpuSlots}.`);
+    }
   }
 
   if (board && storage) {
-    if (storage.specs.interface === "M.2" && board.specs.m2 < 1) errors.push("Selected motherboard has no M.2 slot.");
-    if (storage.specs.interface === "SATA" && board.specs.sata < 1) errors.push("Selected motherboard has no SATA port.");
-    if (!errors.some((error) => error.includes("slot") || error.includes("SATA"))) notes.push(`${storage.specs.interface} storage is supported.`);
+    const storageErrors = [];
+    if (storage.specs.interface === "M.2" && board.specs.m2 < 1) storageErrors.push("Selected motherboard has no M.2 slot.");
+    if (storage.specs.interface === "SATA" && board.specs.sata < 1) storageErrors.push("Selected motherboard has no SATA port.");
+    errors.push(...storageErrors);
+    if (storage.specs.interface === "M.2" && storage.specs.pcieGeneration >= 5 && !board.specs.pcie5Storage) {
+      warnings.push(`${storage.name} is a PCIe 5.0 SSD, but ${board.name} may run it at PCIe 4.0 speeds.`);
+    }
+    if (!storageErrors.length) notes.push(`${storage.specs.interface} storage is supported.`);
   }
 
   if (pcCase && cooler?.specs.radiator > pcCase.specs.radiator) {
@@ -721,13 +817,43 @@ function evaluateCompatibility() {
     notes.push(`${cooler.name} fits the cooling layout.`);
   }
 
+  if (pcCase && cooler?.specs.style === "Air" && cooler.specs.height > pcCase.specs.maxAirCoolerHeight) {
+    errors.push(`${cooler.name} is ${cooler.specs.height} mm tall, above this case's ${pcCase.specs.maxAirCoolerHeight} mm air cooler clearance.`);
+  }
+
+  if (cpu && cooler) {
+    if (!cooler.specs.supportedSockets.includes(cpu.specs.socket)) {
+      errors.push(`${cooler.name} does not list support for ${cpu.specs.socket}.`);
+    } else {
+      notes.push(`${cooler.name} supports the ${cpu.specs.socket} socket.`);
+    }
+
+    if (cooler.specs.coolingCapacity < cpu.wattage) {
+      errors.push(`${cooler.name} is rated for about ${cooler.specs.coolingCapacity} W cooling, below ${cpu.name}'s ${cpu.wattage} W draw.`);
+    } else if (cooler.specs.coolingCapacity < cpu.wattage * 1.35) {
+      warnings.push(`${cooler.name} can cool ${cpu.name}, but there is limited thermal headroom for boost or quiet operation.`);
+    } else {
+      notes.push(`${cooler.name} has comfortable thermal headroom.`);
+    }
+  }
+
+  if (board && gpu) {
+    if (gpu.specs.pcieGeneration >= 5 && !board.specs.pcie5Gpu) {
+      warnings.push(`${gpu.name} is PCIe ${gpu.specs.pcieGeneration}.0; ${board.name} may run it at an older PCIe mode. It should still work, but bandwidth can be lower.`);
+    } else {
+      notes.push(`Graphics card PCIe support is suitable for the motherboard.`);
+    }
+  }
+
   if (psu) {
     const recommended = Math.ceil(estimated * 1.35);
     if (psu.specs.watts < recommended) errors.push(`${psu.name} is below the recommended ${recommended} W for this build.`);
     else notes.push(`${psu.specs.watts} W power supply has enough headroom.`);
 
-    if (gpu?.name.includes("GeForce RTX 50") && psu.specs.connector !== "12V-2x6") {
-      warnings.push("RTX 50-series cards are best paired with an ATX 3.1 PSU with a native 12V-2x6 cable.");
+    if (gpu?.specs.connector === "12V-2x6" && psu.specs.connector !== "12V-2x6") {
+      warnings.push(`${gpu.name} is best paired with an ATX 3.1 PSU with a native 12V-2x6 cable.`);
+    } else if (gpu && psu.specs.connector === "12V-2x6") {
+      notes.push(`${psu.name} has modern GPU cabling support.`);
     }
   } else if (estimated > 50) {
     warnings.push("Add a power supply to validate power headroom.");
