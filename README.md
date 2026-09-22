@@ -30,4 +30,4 @@ The app loads Three.js from a CDN, so the 3D preview needs internet access.
 - Keyboard fallback: focus a component card and press Enter to place it
 - Compatibility checks for CPU socket/platform, RAM type and speed, form factor, GPU length and slot thickness, PCIe 5.0 GPU/storage guidance, storage interface, radiator support, air cooler clearance, cooler socket support, cooling capacity, PSU headroom, GPU cabling, and CUDIMM motherboard guidance
 - Estimated wattage
-- Rotatable 3D desktop model with OrbitControls and quick rotate buttons
+- Rotatable 3D desktop model with OrbitControls, case size variation, front fans, board details, visible cooling, GPU scaling, storage bays, cabling, and quick rotate buttons
