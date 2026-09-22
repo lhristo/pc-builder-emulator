@@ -322,9 +322,9 @@ h2 {
   height: 100vh;
   min-height: 0;
   background:
-    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-    #0c0f12;
+    linear-gradient(rgba(65, 78, 92, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(65, 78, 92, 0.055) 1px, transparent 1px),
+    radial-gradient(circle at 50% 34%, #ffffff 0, #f0f3f6 46%, #dce3e8 100%);
   background-size: 42px 42px;
 }
 
