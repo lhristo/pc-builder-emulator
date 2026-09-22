@@ -577,6 +577,7 @@ enrichCompatibilityData();
 
 const requiredSlots = ["case", "motherboard", "cpu", "ram", "gpu", "storage", "psu", "cooler"];
 const multiSlots = new Set(["ram", "storage"]);
+const savedBuildsKey = "pc-builder-emulator.saved-builds";
 const build = Object.fromEntries(requiredSlots.map((slot) => [slot, multiSlots.has(slot) ? [] : null]));
 const filters = {
   search: "",
@@ -613,6 +614,10 @@ const summaryStatus = document.querySelector("#summaryStatus");
 const summaryMetrics = document.querySelector("#summaryMetrics");
 const summaryParts = document.querySelector("#summaryParts");
 const summaryReview = document.querySelector("#summaryReview");
+const saveBuildForm = document.querySelector("#saveBuildForm");
+const buildNameInput = document.querySelector("#buildNameInput");
+const savedCount = document.querySelector("#savedCount");
+const savedBuildsEl = document.querySelector("#savedBuilds");
 
 function findComponent(id) {
   return components.find((part) => part.id === id);
@@ -791,6 +796,43 @@ function estimateWattage() {
 
 function estimatePrice() {
   return selectedParts().reduce((sum, part) => sum + (part?.price ?? 0), 0);
+}
+
+function serializeBuild() {
+  return Object.fromEntries(
+    requiredSlots.map((slot) => {
+      const value = build[slot];
+      return [slot, multiSlots.has(slot) ? value.map((part) => part.id) : value?.id ?? null];
+    })
+  );
+}
+
+function hydrateBuild(serialized) {
+  requiredSlots.forEach((slot) => {
+    const value = serialized?.[slot];
+    if (multiSlots.has(slot)) {
+      build[slot] = Array.isArray(value) ? value.map(findComponent).filter(Boolean) : [];
+    } else {
+      build[slot] = value ? findComponent(value) ?? null : null;
+    }
+  });
+}
+
+function readSavedBuilds() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(savedBuildsKey) ?? "[]");
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeSavedBuilds(savedBuilds) {
+  localStorage.setItem(savedBuildsKey, JSON.stringify(savedBuilds));
+}
+
+function createSavedBuildId() {
+  return crypto.randomUUID?.() ?? `build-${Date.now()}-${Math.random().toString(16).slice(2)}`;
 }
 
 function evaluateCompatibility() {
@@ -1004,6 +1046,31 @@ function renderSummary(compatibility) {
     : `<li>All required parts are selected and no compatibility issues are currently detected.</li>`;
 }
 
+function renderSavedBuilds() {
+  const savedBuilds = readSavedBuilds();
+  savedCount.textContent = `${savedBuilds.length}`;
+
+  savedBuildsEl.innerHTML = savedBuilds.length
+    ? savedBuilds
+        .map(
+          (savedBuild) => `<article class="saved-build">
+            <div class="saved-build-top">
+              <div>
+                <strong>${savedBuild.name}</strong>
+                <div class="saved-build-meta">$${savedBuild.price.toLocaleString("en-US")} · ${savedBuild.wattage} W · ${savedBuild.partCount} parts</div>
+              </div>
+              <span>${new Date(savedBuild.updatedAt).toLocaleDateString()}</span>
+            </div>
+            <div class="saved-build-actions">
+              <button type="button" data-load-build="${savedBuild.id}">Load</button>
+              <button type="button" data-delete-build="${savedBuild.id}">Delete</button>
+            </div>
+          </article>`
+        )
+        .join("")
+    : `<div class="empty-state">No saved builds yet.</div>`;
+}
+
 function canDrop(part, slot) {
   return part.category === slot;
 }
@@ -1022,6 +1089,7 @@ function renderAll() {
   renderComponents();
   renderSlots();
   renderStatus();
+  renderSavedBuilds();
 }
 
 categoryTabs.addEventListener("click", (event) => {
@@ -1056,6 +1124,56 @@ clearFilters.addEventListener("click", () => {
   filters.power = "all";
   componentFilters.reset();
   renderComponents();
+});
+
+saveBuildForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const selected = selectedParts();
+  if (!selected.length) return;
+
+  const savedBuilds = readSavedBuilds();
+  const name = buildNameInput.value.trim() || `Build ${savedBuilds.length + 1}`;
+  const existingIndex = savedBuilds.findIndex((savedBuild) => savedBuild.name.toLowerCase() === name.toLowerCase());
+  const existing = existingIndex >= 0 ? savedBuilds[existingIndex] : null;
+  const savedBuild = {
+    id: existing?.id ?? createSavedBuildId(),
+    name,
+    build: serializeBuild(),
+    price: estimatePrice(),
+    wattage: estimateWattage(),
+    partCount: selected.length,
+    createdAt: existing?.createdAt ?? new Date().toISOString(),
+    updatedAt: new Date().toISOString()
+  };
+
+  if (existingIndex >= 0) savedBuilds.splice(existingIndex, 1, savedBuild);
+  else savedBuilds.unshift(savedBuild);
+
+  writeSavedBuilds(savedBuilds);
+  buildNameInput.value = "";
+  renderSavedBuilds();
+});
+
+savedBuildsEl.addEventListener("click", (event) => {
+  const loadButton = event.target.closest("[data-load-build]");
+  const deleteButton = event.target.closest("[data-delete-build]");
+  if (!loadButton && !deleteButton) return;
+
+  const savedBuilds = readSavedBuilds();
+
+  if (loadButton) {
+    const savedBuild = savedBuilds.find((item) => item.id === loadButton.dataset.loadBuild);
+    if (!savedBuild) return;
+    hydrateBuild(savedBuild.build);
+    buildNameInput.value = savedBuild.name;
+    renderAll();
+    updateModel(build);
+    return;
+  }
+
+  const nextBuilds = savedBuilds.filter((item) => item.id !== deleteButton.dataset.deleteBuild);
+  writeSavedBuilds(nextBuilds);
+  renderSavedBuilds();
 });
 
 componentList.addEventListener("dragstart", (event) => {

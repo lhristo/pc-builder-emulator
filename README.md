@@ -26,6 +26,7 @@ The app loads Three.js from a CDN, so the 3D preview needs internet access.
 - Drag-and-drop assembly slots
 - Multiple RAM kits and storage drives per build, with DIMM/M.2/SATA usage checks
 - Build summary with selected parts, total price, estimated wattage, missing slots, and review items
+- Save, load, overwrite, and delete named builds in browser local storage
 - Keyboard fallback: focus a component card and press Enter to place it
 - Compatibility checks for CPU socket/platform, RAM type and speed, form factor, GPU length and slot thickness, PCIe 5.0 GPU/storage guidance, storage interface, radiator support, air cooler clearance, cooler socket support, cooling capacity, PSU headroom, GPU cabling, and CUDIMM motherboard guidance
 - Estimated wattage

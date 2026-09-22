@@ -453,6 +453,15 @@ h2 {
   background: rgba(32, 38, 44, 0.74);
 }
 
+.saved-panel {
+  display: grid;
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: rgba(32, 38, 44, 0.64);
+}
+
 .summary-heading,
 .summary-row,
 .summary-metric,
@@ -571,6 +580,77 @@ h2 {
 
 .summary-review li.missing {
   color: var(--muted);
+}
+
+.save-build-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+}
+
+.save-build-form input {
+  min-width: 0;
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #12171c;
+  color: var(--text);
+  padding: 0 10px;
+}
+
+.save-build-form button,
+.saved-build-actions button {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--chip);
+  color: var(--text);
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.saved-builds {
+  display: grid;
+  gap: 8px;
+}
+
+.saved-build {
+  display: grid;
+  gap: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 10px;
+  background: rgba(18, 23, 28, 0.72);
+}
+
+.saved-build-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.saved-build-top strong {
+  font-size: 0.94rem;
+}
+
+.saved-build-top span,
+.saved-build-meta {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.saved-build-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.saved-build-actions button {
+  min-height: 32px;
+}
+
+.saved-build-actions button:last-child {
+  color: var(--red);
 }
 
 .compat-header {
