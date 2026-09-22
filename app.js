@@ -576,7 +576,8 @@ function enrichCompatibilityData() {
 enrichCompatibilityData();
 
 const requiredSlots = ["case", "motherboard", "cpu", "ram", "gpu", "storage", "psu", "cooler"];
-const build = Object.fromEntries(requiredSlots.map((slot) => [slot, null]));
+const multiSlots = new Set(["ram", "storage"]);
+const build = Object.fromEntries(requiredSlots.map((slot) => [slot, multiSlots.has(slot) ? [] : null]));
 const filters = {
   search: "",
   year: "all",
@@ -705,27 +706,59 @@ function renderComponentCard(part) {
 function renderSlots() {
   slotsEl.innerHTML = requiredSlots
     .map((slot) => {
-      const part = build[slot];
+      const value = build[slot];
+      const parts = multiSlots.has(slot) ? value : value ? [value] : [];
       const title = categories.find((category) => category.id === slot).label;
-      const content = part
-        ? `<div class="slot-part">
-            <strong>${part.name}</strong>
-            <span class="slot-empty">${slotSummary(part)}</span>
+      const content = parts.length
+        ? `<div class="slot-items">
+            ${parts
+              .map(
+                (part, index) => `<div class="slot-item">
+                  <div class="slot-part">
+                    <strong>${part.name}</strong>
+                    <span class="slot-empty">${slotSummary(part)}</span>
+                  </div>
+                  <button class="remove-part" type="button" data-remove="${slot}" data-index="${index}">Remove</button>
+                </div>`
+              )
+              .join("")}
           </div>
-          <button class="remove-part" type="button" data-remove="${slot}">Remove</button>`
+          ${multiSlots.has(slot) ? `<span class="slot-empty">${slotCapacitySummary(slot)}</span>` : ""}`
         : `<span class="slot-empty">Drop a ${title.toLowerCase()} here</span>`;
 
       return `
         <section class="slot" data-slot="${slot}">
           <div class="slot-top">
             <span class="slot-title">${title}</span>
-            ${part ? "" : '<span class="badge">Empty</span>'}
+            ${parts.length ? `<span class="badge">${parts.length} selected</span>` : '<span class="badge">Empty</span>'}
           </div>
           ${content}
         </section>
       `;
     })
     .join("");
+}
+
+function selectedParts() {
+  return Object.entries(build).flatMap(([, value]) => (Array.isArray(value) ? value : value ? [value] : []));
+}
+
+function slotCapacitySummary(slot) {
+  if (slot === "ram") {
+    const modules = build.ram.reduce((sum, part) => sum + (part.specs.modules ?? 2), 0);
+    const boardSlots = build.motherboard?.specs.formFactor === "Mini-ITX" ? 2 : 4;
+    return `${modules}/${boardSlots} DIMM slots planned`;
+  }
+
+  if (slot === "storage") {
+    const m2 = build.storage.filter((part) => part.specs.interface === "M.2").length;
+    const sata = build.storage.filter((part) => part.specs.interface === "SATA").length;
+    const maxM2 = build.motherboard?.specs.m2 ?? 4;
+    const maxSata = build.motherboard?.specs.sata ?? 4;
+    return `${m2}/${maxM2} M.2 and ${sata}/${maxSata} SATA used`;
+  }
+
+  return "";
 }
 
 function slotSummary(part) {
@@ -740,24 +773,24 @@ function slotSummary(part) {
 }
 
 function estimateWattage() {
-  return Object.values(build).reduce((sum, part) => sum + (part?.wattage ?? 0), 50);
+  return selectedParts().reduce((sum, part) => sum + (part?.wattage ?? 0), 50);
 }
 
 function estimatePrice() {
-  return Object.values(build).reduce((sum, part) => sum + (part?.price ?? 0), 0);
+  return selectedParts().reduce((sum, part) => sum + (part?.price ?? 0), 0);
 }
 
 function evaluateCompatibility() {
   const notes = [];
   const errors = [];
   const warnings = [];
-  const selectedCount = Object.values(build).filter(Boolean).length;
+  const selectedCount = requiredSlots.filter((slot) => (multiSlots.has(slot) ? build[slot].length > 0 : Boolean(build[slot]))).length;
   const board = build.motherboard;
   const cpu = build.cpu;
-  const ram = build.ram;
+  const ramParts = build.ram;
   const pcCase = build.case;
   const gpu = build.gpu;
-  const storage = build.storage;
+  const storageParts = build.storage;
   const psu = build.psu;
   const cooler = build.cooler;
   const estimated = estimateWattage();
@@ -772,17 +805,37 @@ function evaluateCompatibility() {
     }
   }
 
-  if (board && ram) {
-    if (board.specs.ramType !== ram.specs.ramType) errors.push(`${ram.specs.ramType} memory cannot be installed on a ${board.specs.ramType} motherboard.`);
-    else {
-      notes.push(`${ram.specs.ramType} memory matches the motherboard.`);
+  if (board && ramParts.length) {
+    const totalModules = ramParts.reduce((sum, part) => sum + (part.specs.modules ?? 2), 0);
+    const boardSlots = board.specs.formFactor === "Mini-ITX" ? 2 : 4;
+    const ramTypes = new Set(ramParts.map((part) => part.specs.ramType));
+
+    if (ramTypes.size > 1) errors.push("Mixed memory generations are not supported in one build.");
+    if ([...ramTypes].some((type) => type !== board.specs.ramType)) errors.push(`All selected memory must match the motherboard type: ${board.specs.ramType}.`);
+    else notes.push(`${board.specs.ramType} memory matches the motherboard.`);
+
+    if (totalModules > boardSlots) {
+      errors.push(`Selected RAM uses ${totalModules} DIMM slots, but ${board.name} has about ${boardSlots}.`);
+    } else {
+      notes.push(`RAM uses ${totalModules}/${boardSlots} DIMM slots.`);
+    }
+
+    if (ramParts.length > 1) {
+      warnings.push("Mixing multiple RAM kits can be unstable even when specs match; a single matched kit is preferred.");
+    }
+
+    ramParts.forEach((ram) => {
       if (ram.specs.speedMt && board.specs.maxRamSpeed && ram.specs.speedMt > board.specs.maxRamSpeed) {
         warnings.push(`${ram.name} is rated for ${ram.specs.speedMt} MT/s, above this board's typical ${board.specs.maxRamSpeed} MT/s target. It may downclock or need tuning.`);
       }
-      if (ram.specs.modules > 2 && board.specs.formFactor === "Mini-ITX") {
-        errors.push(`${ram.name} uses ${ram.specs.modules} modules, but Mini-ITX boards usually have 2 DIMM slots.`);
-      }
-    }
+    });
+  } else if (!ramParts.length && (board || cpu)) {
+    warnings.push("Add at least one RAM kit to complete memory compatibility checks.");
+  }
+
+  if (ramParts.length) {
+    const totalMemory = ramParts.reduce((sum, part) => sum + (parseNumber(part.specs.capacity) ?? 0), 0);
+    if (totalMemory) notes.push(`Total memory capacity is ${totalMemory} GB.`);
   }
 
   if (pcCase && board) {
@@ -800,15 +853,22 @@ function evaluateCompatibility() {
     }
   }
 
-  if (board && storage) {
+  if (board && storageParts.length) {
     const storageErrors = [];
-    if (storage.specs.interface === "M.2" && board.specs.m2 < 1) storageErrors.push("Selected motherboard has no M.2 slot.");
-    if (storage.specs.interface === "SATA" && board.specs.sata < 1) storageErrors.push("Selected motherboard has no SATA port.");
+    const m2Count = storageParts.filter((part) => part.specs.interface === "M.2").length;
+    const sataCount = storageParts.filter((part) => part.specs.interface === "SATA").length;
+
+    if (m2Count > board.specs.m2) storageErrors.push(`Selected storage needs ${m2Count} M.2 slots, but ${board.name} has ${board.specs.m2}.`);
+    if (sataCount > board.specs.sata) storageErrors.push(`Selected storage needs ${sataCount} SATA ports, but ${board.name} has ${board.specs.sata}.`);
     errors.push(...storageErrors);
-    if (storage.specs.interface === "M.2" && storage.specs.pcieGeneration >= 5 && !board.specs.pcie5Storage) {
-      warnings.push(`${storage.name} is a PCIe 5.0 SSD, but ${board.name} may run it at PCIe 4.0 speeds.`);
-    }
-    if (!storageErrors.length) notes.push(`${storage.specs.interface} storage is supported.`);
+    storageParts.forEach((storage) => {
+      if (storage.specs.interface === "M.2" && storage.specs.pcieGeneration >= 5 && !board.specs.pcie5Storage) {
+        warnings.push(`${storage.name} is a PCIe 5.0 SSD, but ${board.name} may run it at PCIe 4.0 speeds.`);
+      }
+    });
+    if (!storageErrors.length) notes.push(`Storage uses ${m2Count}/${board.specs.m2} M.2 and ${sataCount}/${board.specs.sata} SATA connections.`);
+  } else if (!storageParts.length && board) {
+    warnings.push("Add at least one storage drive to complete the build.");
   }
 
   if (pcCase && cooler?.specs.radiator > pcCase.specs.radiator) {
@@ -859,7 +919,7 @@ function evaluateCompatibility() {
     warnings.push("Add a power supply to validate power headroom.");
   }
 
-  if (ram?.name.includes("CUDIMM") && board && !["Z890", "B860", "H810"].includes(board.specs.chipset)) {
+  if (ramParts.some((ram) => ram.name.includes("CUDIMM")) && board && !["Z890", "B860", "H810"].includes(board.specs.chipset)) {
     warnings.push("CUDIMM memory works best on newer Intel 800-series boards; confirm BIOS support before buying.");
   }
 
@@ -898,7 +958,8 @@ function canDrop(part, slot) {
 function setPart(partId, slot) {
   const part = findComponent(partId);
   if (!part || !canDrop(part, slot)) return;
-  build[slot] = part;
+  if (multiSlots.has(slot)) build[slot].push(part);
+  else build[slot] = part;
   renderAll();
   updateModel(build);
 }
@@ -985,14 +1046,16 @@ slotsEl.addEventListener("drop", (event) => {
 slotsEl.addEventListener("click", (event) => {
   const removeButton = event.target.closest("[data-remove]");
   if (!removeButton) return;
-  build[removeButton.dataset.remove] = null;
+  const slot = removeButton.dataset.remove;
+  if (multiSlots.has(slot)) build[slot].splice(Number(removeButton.dataset.index), 1);
+  else build[slot] = null;
   renderAll();
   updateModel(build);
 });
 
 document.querySelector("#resetBuild").addEventListener("click", () => {
   requiredSlots.forEach((slot) => {
-    build[slot] = null;
+    build[slot] = multiSlots.has(slot) ? [] : null;
   });
   renderAll();
   updateModel(build);
@@ -1106,9 +1169,9 @@ function updateModel(parts) {
     }
   }
 
-  const ramColor = parts.ram?.specs.color ?? "#505c66";
+  const ramModuleColors = parts.ram.flatMap((part) => Array.from({ length: part.specs.modules ?? 2 }, () => part.specs.color)).slice(0, 4);
   for (let index = 0; index < 4; index += 1) {
-    box(`ram-${index}`, [0.11, 0.78, 0.055], [0.35, 1.43 + index * 0.12, -0.05], index < 2 && parts.ram ? ramColor : "#38424a");
+    box(`ram-${index}`, [0.11, 0.78, 0.055], [0.35, 1.43 + index * 0.12, -0.05], ramModuleColors[index] ?? "#38424a");
   }
 
   if (parts.gpu) {
@@ -1119,10 +1182,12 @@ function updateModel(parts) {
     box("gpu-slot", [1.2, 0.08, 0.1], [0.25, 1.1, -0.13], "#4a545e");
   }
 
-  if (parts.storage) {
-    const isM2 = parts.storage.specs.interface === "M.2";
-    box("storage", isM2 ? [0.08, 0.58, 0.12] : [0.56, 0.16, 0.46], isM2 ? [0.26, 1.42, -0.49] : [-0.82, 0.62, 0.43], parts.storage.specs.color);
-  }
+  parts.storage.slice(0, 4).forEach((storage, index) => {
+    const isM2 = storage.specs.interface === "M.2";
+    const m2Position = [0.26, 1.32 + index * 0.2, -0.49];
+    const sataPosition = [-0.82, 0.52 + index * 0.18, 0.43];
+    box(`storage-${index}`, isM2 ? [0.08, 0.58, 0.12] : [0.56, 0.16, 0.46], isM2 ? m2Position : sataPosition, storage.specs.color);
+  });
 
   if (parts.psu) {
     box("psu", [1.0, 0.42, 0.78], [-0.45, 0.38, -0.1], parts.psu.specs.color);
