@@ -18,10 +18,21 @@ http://localhost:4173/
 
 The app loads Three.js from a CDN, so the 3D preview needs internet access.
 
+## Update Supplier Data
+
+Regenerate the imported catalog from a supplier XML feed:
+
+```sh
+python3 scripts/convert-products-feed.py /path/to/AllProducts.xml data/feed-components.js
+```
+
+Then commit `data/feed-components.js` with the app.
+
 ## Features
 
 - 63-part component catalog grouped by case, motherboard, processor, RAM, GPU, storage, PSU, and cooler
 - 2024-current desktop platforms, including AM5 Ryzen 9000/9000X3D, LGA1851 Core Ultra 200S/200S Plus, RTX 50-series, Radeon RX 9000-series, PCIe 5.0 SSDs, and ATX 3.1 PSUs
+- Imported supplier feed catalog generated from XML, currently adding 1,735 extra CPU, motherboard, RAM, GPU, storage, case, PSU, and cooler products
 - Search and filters for release year, price, socket, memory type, form factor, and power class
 - Drag-and-drop assembly slots
 - Multiple RAM kits and storage drives per build, with DIMM/M.2/SATA usage checks

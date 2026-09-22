@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { feedComponents } from "./data/feed-components.js";
 
 const categories = [
   { id: "case", label: "Case" },
@@ -501,9 +502,22 @@ components.push(
   }
 );
 
+components.push(...feedComponents);
+
 const motherboardProfiles = {
+  A620: { pcie5Storage: false, pcie5Gpu: false, maxRamSpeed: 6400, generation: "AMD Ryzen 7000/8000/9000" },
   B650: { pcie5Storage: true, pcie5Gpu: false, maxRamSpeed: 6400, generation: "AMD Ryzen 7000/8000/9000" },
+  B650E: { pcie5Storage: true, pcie5Gpu: true, maxRamSpeed: 6400, generation: "AMD Ryzen 7000/8000/9000" },
+  X670: { pcie5Storage: true, pcie5Gpu: false, maxRamSpeed: 6400, generation: "AMD Ryzen 7000/8000/9000" },
+  X670E: { pcie5Storage: true, pcie5Gpu: true, maxRamSpeed: 6400, generation: "AMD Ryzen 7000/8000/9000" },
+  B450: { pcie5Storage: false, pcie5Gpu: false, maxRamSpeed: 3600, generation: "AMD Ryzen AM4" },
+  B550: { pcie5Storage: false, pcie5Gpu: true, maxRamSpeed: 4400, generation: "AMD Ryzen AM4" },
+  X570: { pcie5Storage: false, pcie5Gpu: true, maxRamSpeed: 4400, generation: "AMD Ryzen AM4" },
   B760: { pcie5Storage: false, pcie5Gpu: true, maxRamSpeed: 5600, generation: "Intel 12th/13th/14th Gen" },
+  B660: { pcie5Storage: false, pcie5Gpu: true, maxRamSpeed: 5600, generation: "Intel 12th/13th/14th Gen" },
+  H610: { pcie5Storage: false, pcie5Gpu: false, maxRamSpeed: 5600, generation: "Intel 12th/13th/14th Gen" },
+  Z790: { pcie5Storage: true, pcie5Gpu: true, maxRamSpeed: 7600, generation: "Intel 12th/13th/14th Gen" },
+  H510: { pcie5Storage: false, pcie5Gpu: false, maxRamSpeed: 3200, generation: "Intel 10th/11th Gen" },
   X870E: { pcie5Storage: true, pcie5Gpu: true, maxRamSpeed: 8000, generation: "AMD Ryzen 7000/8000/9000" },
   X870: { pcie5Storage: true, pcie5Gpu: true, maxRamSpeed: 8000, generation: "AMD Ryzen 7000/8000/9000" },
   B850: { pcie5Storage: true, pcie5Gpu: false, maxRamSpeed: 7600, generation: "AMD Ryzen 7000/8000/9000" },
@@ -529,7 +543,7 @@ function enrichCompatibilityData() {
     const specs = part.specs;
 
     if (part.category === "motherboard") {
-      const chipset = specs.chipset ?? (part.name.match(/\b(X870E|X870|B850|B840|B650|Z890|B860|H810|B760)\b/)?.[1]);
+      const chipset = specs.chipset ?? (part.name.match(/\b(X870E|X870|X670E|X670|B850|B840|B650E|B650|A620|Z890|B860|H810|Z790|B760|B660|H610|B550|B450|X570|H510)\b/)?.[1]);
       if (chipset) specs.chipset = chipset;
       Object.assign(specs, motherboardProfiles[chipset] ?? {});
     }
@@ -627,6 +641,33 @@ function formatSpecKey(key) {
   return key.replace(/([A-Z])/g, " $1").replace(/^./, (char) => char.toUpperCase());
 }
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function formatCurrency(amount, currency = "USD") {
+  const symbols = { USD: "$", EUR: "€" };
+  const value = Number(amount || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
+  return `${symbols[currency] ?? `${currency} `}${value}`;
+}
+
+function partCurrency(part) {
+  return part?.specs?.currency ?? "USD";
+}
+
+function buildPriceLabel() {
+  const parts = selectedParts();
+  const currencies = [...new Set(parts.map(partCurrency))];
+  if (!parts.length) return "$0";
+  if (currencies.length > 1) return "Mixed";
+  return formatCurrency(estimatePrice(), currencies[0]);
+}
+
 function renderCategories() {
   categoryTabs.innerHTML = categories
     .map(
@@ -691,20 +732,20 @@ function renderComponents() {
   resultCount.textContent = `${filtered.length} ${filtered.length === 1 ? "part" : "parts"}`;
   componentList.innerHTML = filtered.length
     ? filtered.map(renderComponentCard).join("")
-    : `<div class="empty-state">No ${categories.find((category) => category.id === selectedCategory).label.toLowerCase()} parts match the current filters.</div>`;
+    : `<div class="empty-state">No ${escapeHtml(categories.find((category) => category.id === selectedCategory).label.toLowerCase())} parts match the current filters.</div>`;
 }
 
 function renderComponentCard(part) {
   const specs = Object.entries(part.specs)
     .slice(0, 4)
-    .map(([key, value]) => `<div class="spec-row"><span>${formatSpecKey(key)}</span><strong>${value}</strong></div>`)
+    .map(([key, value]) => `<div class="spec-row"><span>${formatSpecKey(key)}</span><strong>${escapeHtml(value)}</strong></div>`)
     .join("");
 
   return `
-    <article class="component-card" draggable="true" data-id="${part.id}" tabindex="0" aria-label="${part.name}">
+    <article class="component-card" draggable="true" data-id="${part.id}" tabindex="0" aria-label="${escapeHtml(part.name)}">
       <div class="card-top">
-        <h3>${part.name}</h3>
-        <span class="price">$${part.price}</span>
+        <h3>${escapeHtml(part.name)}</h3>
+        <span class="price">${formatCurrency(part.price, partCurrency(part))}</span>
       </div>
       <span class="badge">${categories.find((category) => category.id === part.category).label}</span>
       <div class="specs">${specs}</div>
@@ -724,8 +765,8 @@ function renderSlots() {
               .map(
                 (part, index) => `<div class="slot-item">
                   <div class="slot-part">
-                    <strong>${part.name}</strong>
-                    <span class="slot-empty">${slotSummary(part)}</span>
+                    <strong>${escapeHtml(part.name)}</strong>
+                    <span class="slot-empty">${escapeHtml(slotSummary(part))}</span>
                   </div>
                   <button class="remove-part" type="button" data-remove="${slot}" data-index="${index}">Remove</button>
                 </div>`
@@ -988,7 +1029,7 @@ function renderStatus() {
   const compatibility = evaluateCompatibility();
   const { notes, errors, warnings, estimated } = compatibility;
   wattageEl.textContent = `${estimated} W`;
-  totalPriceEl.textContent = `$${estimatePrice().toLocaleString("en-US")}`;
+  totalPriceEl.textContent = buildPriceLabel();
   statusDot.className = "status-dot";
 
   if (errors.length) {
@@ -1005,7 +1046,7 @@ function renderStatus() {
     statusSubtitle.textContent = "All selected components can be assembled together.";
   }
 
-  compatList.innerHTML = [...errors, ...warnings, ...notes].slice(0, 8).map((item) => `<li>${item}</li>`).join("");
+  compatList.innerHTML = [...errors, ...warnings, ...notes].slice(0, 8).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
   renderSummary(compatibility);
 }
 
@@ -1020,7 +1061,7 @@ function renderSummary(compatibility) {
   summaryStatus.textContent = errors.length ? "Needs fixes" : warnings.length ? "Review" : "Ready";
 
   summaryMetrics.innerHTML = [
-    ["Total", `$${price.toLocaleString("en-US")}`],
+    ["Total", buildPriceLabel()],
     ["Power", `${wattage} W`],
     ["Parts", `${partCount}`]
   ]
@@ -1031,7 +1072,7 @@ function renderSummary(compatibility) {
     .map((slot) => {
       const title = categories.find((category) => category.id === slot).label;
       const names = getSlotParts(slot).map((part) => part.name);
-      return `<div class="summary-part"><span>${title}</span><strong>${names.length ? names.join(" + ") : "Missing"}</strong></div>`;
+      return `<div class="summary-part"><span>${title}</span><strong>${names.length ? escapeHtml(names.join(" + ")) : "Missing"}</strong></div>`;
     })
     .join("");
 
@@ -1042,7 +1083,7 @@ function renderSummary(compatibility) {
   ];
 
   summaryReview.innerHTML = reviewItems.length
-    ? reviewItems.slice(0, 10).map((item) => `<li class="${item.type}">${item.text}</li>`).join("")
+    ? reviewItems.slice(0, 10).map((item) => `<li class="${item.type}">${escapeHtml(item.text)}</li>`).join("")
     : `<li>All required parts are selected and no compatibility issues are currently detected.</li>`;
 }
 
@@ -1056,8 +1097,8 @@ function renderSavedBuilds() {
           (savedBuild) => `<article class="saved-build">
             <div class="saved-build-top">
               <div>
-                <strong>${savedBuild.name}</strong>
-                <div class="saved-build-meta">$${savedBuild.price.toLocaleString("en-US")} · ${savedBuild.wattage} W · ${savedBuild.partCount} parts</div>
+                <strong>${escapeHtml(savedBuild.name)}</strong>
+                <div class="saved-build-meta">${savedBuild.priceLabel ?? formatCurrency(savedBuild.price)} · ${savedBuild.wattage} W · ${savedBuild.partCount} parts</div>
               </div>
               <span>${new Date(savedBuild.updatedAt).toLocaleDateString()}</span>
             </div>
@@ -1140,6 +1181,7 @@ saveBuildForm.addEventListener("submit", (event) => {
     name,
     build: serializeBuild(),
     price: estimatePrice(),
+    priceLabel: buildPriceLabel(),
     wattage: estimateWattage(),
     partCount: selected.length,
     createdAt: existing?.createdAt ?? new Date().toISOString(),
