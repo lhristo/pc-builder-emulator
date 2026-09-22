@@ -503,10 +503,29 @@ components.push(
 
 const requiredSlots = ["case", "motherboard", "cpu", "ram", "gpu", "storage", "psu", "cooler"];
 const build = Object.fromEntries(requiredSlots.map((slot) => [slot, null]));
+const filters = {
+  search: "",
+  year: "all",
+  price: "all",
+  socket: "all",
+  ramType: "all",
+  formFactor: "all",
+  power: "all"
+};
 let selectedCategory = "case";
 let draggedId = null;
 
 const categoryTabs = document.querySelector("#categoryTabs");
+const componentFilters = document.querySelector("#componentFilters");
+const searchInput = document.querySelector("#searchInput");
+const yearFilter = document.querySelector("#yearFilter");
+const priceFilter = document.querySelector("#priceFilter");
+const socketFilter = document.querySelector("#socketFilter");
+const ramTypeFilter = document.querySelector("#ramTypeFilter");
+const formFactorFilter = document.querySelector("#formFactorFilter");
+const powerFilter = document.querySelector("#powerFilter");
+const resultCount = document.querySelector("#resultCount");
+const clearFilters = document.querySelector("#clearFilters");
 const componentList = document.querySelector("#componentList");
 const slotsEl = document.querySelector("#slots");
 const statusDot = document.querySelector("#statusDot");
@@ -533,9 +552,62 @@ function renderCategories() {
     .join("");
 }
 
+function uniqueSpecValues(key) {
+  return [...new Set(components.map((part) => part.specs[key]).filter(Boolean))].sort((a, b) =>
+    String(a).localeCompare(String(b), undefined, { numeric: true })
+  );
+}
+
+function populateSelect(select, values) {
+  const current = select.value;
+  const firstOption = select.querySelector("option[value='all']").outerHTML;
+  select.innerHTML = `${firstOption}${values.map((value) => `<option value="${value}">${value}</option>`).join("")}`;
+  select.value = values.includes(current) ? current : "all";
+}
+
+function renderFilterOptions() {
+  populateSelect(yearFilter, uniqueSpecValues("release"));
+  populateSelect(socketFilter, uniqueSpecValues("socket").filter((value) => value !== "Universal"));
+  populateSelect(ramTypeFilter, uniqueSpecValues("ramType"));
+  populateSelect(formFactorFilter, uniqueSpecValues("formFactor"));
+}
+
+function searchableText(part) {
+  return [
+    part.name,
+    part.category,
+    categories.find((category) => category.id === part.category)?.label,
+    ...Object.entries(part.specs).flat()
+  ]
+    .join(" ")
+    .toLowerCase();
+}
+
+function matchesPowerFilter(part) {
+  if (filters.power === "all") return true;
+  const watts = part.wattage ?? part.specs.watts ?? 0;
+  if (filters.power === "low") return watts > 0 && watts <= 100;
+  if (filters.power === "mid") return watts > 100 && watts <= 300;
+  return watts > 300;
+}
+
+function partMatchesFilters(part) {
+  const search = filters.search.trim().toLowerCase();
+  if (search && !searchableText(part).includes(search)) return false;
+  if (filters.year !== "all" && String(part.specs.release) !== filters.year) return false;
+  if (filters.price !== "all" && part.price > Number(filters.price)) return false;
+  if (filters.socket !== "all" && part.specs.socket !== filters.socket) return false;
+  if (filters.ramType !== "all" && part.specs.ramType !== filters.ramType) return false;
+  if (filters.formFactor !== "all" && part.specs.formFactor !== filters.formFactor) return false;
+  return matchesPowerFilter(part);
+}
+
 function renderComponents() {
-  const filtered = components.filter((part) => part.category === selectedCategory);
-  componentList.innerHTML = filtered.map(renderComponentCard).join("");
+  const filtered = components.filter((part) => part.category === selectedCategory && partMatchesFilters(part));
+  resultCount.textContent = `${filtered.length} ${filtered.length === 1 ? "part" : "parts"}`;
+  componentList.innerHTML = filtered.length
+    ? filtered.map(renderComponentCard).join("")
+    : `<div class="empty-state">No ${categories.find((category) => category.id === selectedCategory).label.toLowerCase()} parts match the current filters.</div>`;
 }
 
 function renderComponentCard(part) {
@@ -717,6 +789,33 @@ categoryTabs.addEventListener("click", (event) => {
   if (!button) return;
   selectedCategory = button.dataset.category;
   renderAll();
+});
+
+componentFilters.addEventListener("input", () => {
+  filters.search = searchInput.value;
+  filters.year = yearFilter.value;
+  filters.price = priceFilter.value;
+  filters.socket = socketFilter.value;
+  filters.ramType = ramTypeFilter.value;
+  filters.formFactor = formFactorFilter.value;
+  filters.power = powerFilter.value;
+  renderComponents();
+});
+
+componentFilters.addEventListener("submit", (event) => {
+  event.preventDefault();
+});
+
+clearFilters.addEventListener("click", () => {
+  filters.search = "";
+  filters.year = "all";
+  filters.price = "all";
+  filters.socket = "all";
+  filters.ramType = "all";
+  filters.formFactor = "all";
+  filters.power = "all";
+  componentFilters.reset();
+  renderComponents();
 });
 
 componentList.addEventListener("dragstart", (event) => {
@@ -935,6 +1034,7 @@ function animate() {
   requestAnimationFrame(animate);
 }
 
+renderFilterOptions();
 renderAll();
 updateModel(build);
 resize();

@@ -28,6 +28,63 @@
         </div>
 
         <div class="category-tabs" id="categoryTabs" aria-label="Component categories"></div>
+        <form class="filters" id="componentFilters" aria-label="Component filters">
+          <label class="filter-field filter-field-wide">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="Name, socket, chipset..." autocomplete="off" />
+          </label>
+
+          <div class="filter-grid">
+            <label class="filter-field">
+              <span>Year</span>
+              <select id="yearFilter">
+                <option value="all">All</option>
+              </select>
+            </label>
+            <label class="filter-field">
+              <span>Max price</span>
+              <select id="priceFilter">
+                <option value="all">All</option>
+                <option value="150">$150</option>
+                <option value="300">$300</option>
+                <option value="600">$600</option>
+                <option value="1000">$1,000</option>
+              </select>
+            </label>
+            <label class="filter-field">
+              <span>Socket</span>
+              <select id="socketFilter">
+                <option value="all">All</option>
+              </select>
+            </label>
+            <label class="filter-field">
+              <span>Memory</span>
+              <select id="ramTypeFilter">
+                <option value="all">All</option>
+              </select>
+            </label>
+            <label class="filter-field">
+              <span>Form</span>
+              <select id="formFactorFilter">
+                <option value="all">All</option>
+              </select>
+            </label>
+            <label class="filter-field">
+              <span>Power</span>
+              <select id="powerFilter">
+                <option value="all">All</option>
+                <option value="low">Low</option>
+                <option value="mid">Mid</option>
+                <option value="high">High</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="filter-actions">
+            <output id="resultCount" aria-live="polite">0 parts</output>
+            <button id="clearFilters" type="button">Clear</button>
+          </div>
+        </form>
         <div class="component-list" id="componentList" aria-live="polite"></div>
       </section>
 
