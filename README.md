@@ -18,6 +18,16 @@ http://localhost:4173/
 
 The app loads Three.js from a CDN, so the 3D preview needs internet access.
 
+## Deployment
+
+GitHub Pages deploys from `main` with GitHub Actions.
+
+Expected URL:
+
+```text
+https://lhristo.github.io/pc-builder-emulator/
+```
+
 ## Update Supplier Data
 
 Regenerate the imported catalog from a supplier XML feed:
