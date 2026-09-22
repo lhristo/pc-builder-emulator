@@ -609,6 +609,10 @@ const statusSubtitle = document.querySelector("#statusSubtitle");
 const compatList = document.querySelector("#compatList");
 const wattageEl = document.querySelector("#wattage");
 const totalPriceEl = document.querySelector("#totalPrice");
+const summaryStatus = document.querySelector("#summaryStatus");
+const summaryMetrics = document.querySelector("#summaryMetrics");
+const summaryParts = document.querySelector("#summaryParts");
+const summaryReview = document.querySelector("#summaryReview");
 
 function findComponent(id) {
   return components.find((part) => part.id === id);
@@ -743,6 +747,15 @@ function selectedParts() {
   return Object.entries(build).flatMap(([, value]) => (Array.isArray(value) ? value : value ? [value] : []));
 }
 
+function getSlotParts(slot) {
+  const value = build[slot];
+  return multiSlots.has(slot) ? value : value ? [value] : [];
+}
+
+function missingSlots() {
+  return requiredSlots.filter((slot) => getSlotParts(slot).length === 0);
+}
+
 function slotCapacitySummary(slot) {
   if (slot === "ram") {
     const modules = build.ram.reduce((sum, part) => sum + (part.specs.modules ?? 2), 0);
@@ -784,7 +797,8 @@ function evaluateCompatibility() {
   const notes = [];
   const errors = [];
   const warnings = [];
-  const selectedCount = requiredSlots.filter((slot) => (multiSlots.has(slot) ? build[slot].length > 0 : Boolean(build[slot]))).length;
+  const missing = missingSlots();
+  const selectedCount = requiredSlots.length - missing.length;
   const board = build.motherboard;
   const cpu = build.cpu;
   const ramParts = build.ram;
@@ -925,11 +939,12 @@ function evaluateCompatibility() {
 
   if (selectedCount < requiredSlots.length) warnings.push(`${requiredSlots.length - selectedCount} required component slots still empty.`);
 
-  return { notes, errors, warnings, estimated };
+  return { notes, errors, warnings, estimated, missing };
 }
 
 function renderStatus() {
-  const { notes, errors, warnings, estimated } = evaluateCompatibility();
+  const compatibility = evaluateCompatibility();
+  const { notes, errors, warnings, estimated } = compatibility;
   wattageEl.textContent = `${estimated} W`;
   totalPriceEl.textContent = `$${estimatePrice().toLocaleString("en-US")}`;
   statusDot.className = "status-dot";
@@ -949,6 +964,44 @@ function renderStatus() {
   }
 
   compatList.innerHTML = [...errors, ...warnings, ...notes].slice(0, 8).map((item) => `<li>${item}</li>`).join("");
+  renderSummary(compatibility);
+}
+
+function renderSummary(compatibility) {
+  const { errors, warnings, missing } = compatibility;
+  const price = estimatePrice();
+  const wattage = estimateWattage();
+  const partCount = selectedParts().length;
+  const statusClass = errors.length ? "bad" : warnings.length ? "warn" : "ok";
+
+  summaryStatus.className = `summary-status ${statusClass}`;
+  summaryStatus.textContent = errors.length ? "Needs fixes" : warnings.length ? "Review" : "Ready";
+
+  summaryMetrics.innerHTML = [
+    ["Total", `$${price.toLocaleString("en-US")}`],
+    ["Power", `${wattage} W`],
+    ["Parts", `${partCount}`]
+  ]
+    .map(([label, value]) => `<div class="summary-metric"><span>${label}</span><strong>${value}</strong></div>`)
+    .join("");
+
+  summaryParts.innerHTML = requiredSlots
+    .map((slot) => {
+      const title = categories.find((category) => category.id === slot).label;
+      const names = getSlotParts(slot).map((part) => part.name);
+      return `<div class="summary-part"><span>${title}</span><strong>${names.length ? names.join(" + ") : "Missing"}</strong></div>`;
+    })
+    .join("");
+
+  const reviewItems = [
+    ...errors.map((text) => ({ type: "error", text })),
+    ...warnings.filter((text) => !text.includes("required component slots")).map((text) => ({ type: "warning", text })),
+    ...missing.map((slot) => ({ type: "missing", text: `Missing ${categories.find((category) => category.id === slot).label.toLowerCase()}.` }))
+  ];
+
+  summaryReview.innerHTML = reviewItems.length
+    ? reviewItems.slice(0, 10).map((item) => `<li class="${item.type}">${item.text}</li>`).join("")
+    : `<li>All required parts are selected and no compatibility issues are currently detected.</li>`;
 }
 
 function canDrop(part, slot) {

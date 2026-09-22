@@ -444,6 +444,135 @@ h2 {
   box-shadow: var(--shadow);
 }
 
+.summary-panel {
+  display: grid;
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: rgba(32, 38, 44, 0.74);
+}
+
+.summary-heading,
+.summary-row,
+.summary-metric,
+.summary-part {
+  display: flex;
+  align-items: center;
+}
+
+.summary-heading {
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.summary-status {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 4px 9px;
+  background: var(--chip);
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 760;
+}
+
+.summary-status.ok {
+  color: var(--green);
+}
+
+.summary-status.warn {
+  color: var(--amber);
+}
+
+.summary-status.bad {
+  color: var(--red);
+}
+
+.summary-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.summary-metric {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px;
+  background: rgba(18, 23, 28, 0.72);
+}
+
+.summary-metric span,
+.summary-section h3,
+.summary-part span {
+  color: var(--quiet);
+  font-size: 0.72rem;
+  font-weight: 760;
+  text-transform: uppercase;
+}
+
+.summary-metric strong {
+  font-size: 1rem;
+}
+
+.summary-section {
+  display: grid;
+  gap: 8px;
+}
+
+.summary-section h3 {
+  margin: 0;
+}
+
+.summary-parts {
+  display: grid;
+  gap: 7px;
+}
+
+.summary-part {
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding-bottom: 7px;
+}
+
+.summary-part:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.summary-part strong {
+  text-align: right;
+  font-size: 0.86rem;
+}
+
+.summary-review {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.summary-review li {
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.summary-review li.error {
+  color: var(--red);
+}
+
+.summary-review li.warning {
+  color: var(--amber);
+}
+
+.summary-review li.missing {
+  color: var(--muted);
+}
+
 .compat-header {
   align-items: flex-start;
   gap: 10px;
