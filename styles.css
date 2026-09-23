@@ -58,11 +58,11 @@ input {
 .library {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 14px;
   padding: 22px;
   border-right: 1px solid var(--line);
   min-height: 0;
-  overflow-y: auto;
+  overflow: hidden;
   overscroll-behavior: contain;
 }
 
@@ -239,10 +239,12 @@ h2 {
 
 .component-list {
   display: grid;
+  flex: 1 1 240px;
+  align-content: start;
   gap: 12px;
   padding-right: 4px;
-  min-height: 0;
-  overflow: auto;
+  min-height: 180px;
+  overflow-y: auto;
 }
 
 .component-card {
@@ -455,10 +457,10 @@ h2 {
 
 .presets-panel {
   display: grid;
-  gap: 12px;
+  gap: 10px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 14px;
+  padding: 12px;
   background:
     linear-gradient(145deg, rgba(94, 167, 255, 0.1), transparent 58%),
     rgba(32, 38, 44, 0.76);
@@ -466,7 +468,7 @@ h2 {
 
 .preset-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
 }
 
@@ -474,7 +476,7 @@ h2 {
   display: grid;
   gap: 5px;
   min-width: 0;
-  min-height: 88px;
+  min-height: 68px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(18, 23, 28, 0.72);
@@ -500,9 +502,7 @@ h2 {
 }
 
 .preset-card small {
-  color: var(--muted);
-  font-size: 0.78rem;
-  line-height: 1.35;
+  display: none;
 }
 
 .saved-panel {
