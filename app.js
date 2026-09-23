@@ -504,6 +504,8 @@ components.push(
 
 components.push(...feedComponents);
 
+const hiddenSpecKeys = new Set(["status"]);
+
 const motherboardProfiles = {
   A620: { pcie5Storage: false, pcie5Gpu: false, maxRamSpeed: 6400, generation: "AMD Ryzen 7000/8000/9000" },
   B650: { pcie5Storage: true, pcie5Gpu: false, maxRamSpeed: 6400, generation: "AMD Ryzen 7000/8000/9000" },
@@ -541,6 +543,9 @@ function parseNumber(value) {
 function enrichCompatibilityData() {
   components.forEach((part) => {
     const specs = part.specs;
+    hiddenSpecKeys.forEach((key) => {
+      delete specs[key];
+    });
 
     if (part.category === "motherboard") {
       const chipset = specs.chipset ?? (part.name.match(/\b(X870E|X870|X670E|X670|B850|B840|B650E|B650|A620|Z890|B860|H810|Z790|B760|B660|H610|B550|B450|X570|H510)\b/)?.[1]);
@@ -801,7 +806,7 @@ function searchableText(part) {
     part.name,
     part.category,
     categories.find((category) => category.id === part.category)?.label,
-    ...Object.entries(part.specs).flat()
+    ...visibleSpecEntries(part).flat()
   ]
     .join(" ")
     .toLowerCase();
@@ -825,7 +830,7 @@ function renderComponents() {
 }
 
 function renderComponentCard(part) {
-  const specs = Object.entries(part.specs)
+  const specs = visibleSpecEntries(part)
     .slice(0, 4)
     .map(([key, value]) => `<div class="spec-row"><span>${formatSpecKey(key)}</span><strong>${escapeHtml(value)}</strong></div>`)
     .join("");
@@ -840,6 +845,10 @@ function renderComponentCard(part) {
       <div class="specs">${specs}</div>
     </article>
   `;
+}
+
+function visibleSpecEntries(part) {
+  return Object.entries(part.specs).filter(([key]) => !hiddenSpecKeys.has(key));
 }
 
 function renderSlots() {
