@@ -7,7 +7,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GLACIAL TECH",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "SHP6-12 G1",
@@ -33,7 +32,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GLACIAL TECH",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "SHP4-12 G1",
@@ -59,7 +57,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000313",
@@ -78,7 +75,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000272",
@@ -97,7 +93,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000151",
@@ -116,7 +111,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000303",
@@ -135,7 +129,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000297",
@@ -154,7 +147,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000240",
@@ -173,7 +165,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000286",
@@ -192,7 +183,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000110",
@@ -211,7 +201,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000157",
@@ -230,7 +219,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000156",
@@ -249,7 +237,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000213",
@@ -268,7 +255,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000131",
@@ -287,7 +273,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000214",
@@ -306,7 +291,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000161",
@@ -325,7 +309,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "",
@@ -353,7 +336,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000163",
@@ -372,7 +354,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "",
@@ -400,7 +381,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000193",
@@ -419,7 +399,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000155",
@@ -438,7 +417,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000173",
@@ -457,7 +435,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000181",
@@ -476,7 +453,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000274",
@@ -495,7 +471,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000254",
@@ -514,7 +489,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000247",
@@ -533,7 +507,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000255",
@@ -552,7 +525,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000242",
@@ -571,7 +543,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "POC0000244",
@@ -590,7 +561,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "NZXT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "CA-PH240-W1",
@@ -609,7 +579,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "NZXT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "PHAN-003RD",
@@ -628,7 +597,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B450M PRO4 R2.0",
@@ -650,7 +618,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B450M-HDV R4.0",
@@ -672,7 +639,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B450 PRO4 R2.0",
@@ -694,7 +660,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "A520M-ITX/AC",
@@ -716,7 +681,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "A520M-HDV",
@@ -738,7 +702,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "A520M PRO4",
@@ -760,7 +723,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "A520M-HVS",
@@ -782,7 +744,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550M-HDV",
@@ -804,7 +765,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550M PHANTOM GAMING 4",
@@ -826,7 +786,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550M-ITX/AC",
@@ -848,7 +807,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550M PRO4",
@@ -870,7 +828,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550 PHANTOM GAMING 4",
@@ -892,7 +849,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550 PHANTOM GAMING-ITX/AX",
@@ -914,7 +870,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550 PRO4",
@@ -936,7 +891,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550 PG RIPTIDE",
@@ -958,7 +912,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "A620M-HDV/M.2",
@@ -980,7 +933,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "A620M-HDV/M.2+",
@@ -1002,7 +954,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "A620M-HVS",
@@ -1024,7 +975,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "A620M PRO RS",
@@ -1046,7 +996,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "A620AM-HVS",
@@ -1068,7 +1017,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "A620AM-X WIFI",
@@ -1090,7 +1038,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "A620AM PRO-A WIFI",
@@ -1112,7 +1059,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "A620AM PRO RS WIFI",
@@ -1134,7 +1080,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "A620AM PRO RS",
@@ -1156,7 +1101,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650 PRO RS",
@@ -1178,7 +1122,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650M-HDV/M.2",
@@ -1200,7 +1143,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650M-H/M.2+",
@@ -1222,7 +1164,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650M PG RIPTIDE",
@@ -1244,7 +1185,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650M PG LIGHTING",
@@ -1266,7 +1206,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650M PRO RS",
@@ -1288,7 +1227,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650 PG LIGHTNING",
@@ -1310,7 +1248,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650 STEEL LEGEND WIFI",
@@ -1332,7 +1269,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650I LIGHTNING WIFI",
@@ -1354,7 +1290,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OMEGA",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "",
@@ -1373,7 +1308,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OMEGA",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "SX-C3153A",
@@ -1392,7 +1326,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "",
@@ -1420,7 +1353,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "BITFENIX",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "BFC-ESM-150-KKWGK-4A",
@@ -1439,7 +1371,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "BITFENIX",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "BFC-TRA-500-WWG-3W1A",
@@ -1458,7 +1389,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "COOLERMASTER",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "MAP-D6PN-218PC-R1",
@@ -1483,7 +1413,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "COOLERMASTER",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "MAM-D6PN-120PA-R1",
@@ -1509,7 +1438,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "GM-14100902311",
@@ -1535,7 +1463,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "_NONAME",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "DP-MCAL-GA",
@@ -1561,7 +1488,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "_NONAME",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "R-AG200-BKNNMN-G",
@@ -1589,7 +1515,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "R-AG400-BKNNMN-G-1",
@@ -1615,7 +1540,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "_NONAME",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "GP-G-AG400-ARGB",
@@ -1643,7 +1567,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "R-AG400-BKADMN-G-1",
@@ -1669,7 +1592,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "",
@@ -1697,7 +1619,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "R-AK400-BKNNMN-G-1",
@@ -1723,7 +1644,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "R-AN600-BKNNMN-G",
@@ -1749,7 +1669,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "R-AK620-BKNNMT-G-1",
@@ -1777,7 +1696,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "",
@@ -1802,7 +1720,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "ACFRE00077A",
@@ -1826,7 +1743,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "FREEZER 8A",
@@ -1854,7 +1770,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "",
@@ -1879,7 +1794,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "FREEZER 36 CO",
@@ -1907,7 +1821,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "NH-U12A",
@@ -1935,7 +1848,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "NH-U9S",
@@ -1962,7 +1874,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "NH-U9S.CH.BK",
@@ -1990,7 +1901,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "NOCTUA NH-L12S LOW PROFILE",
@@ -2018,7 +1928,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "75261750",
@@ -2044,7 +1953,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "75261752",
@@ -2070,7 +1978,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "NH-U14S-TR4-SP3",
@@ -2098,7 +2005,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "COOLERMASTER",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "MLW-D12M-A20PW-R1",
@@ -2122,7 +2028,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "NH-D15",
@@ -2148,7 +2053,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "NH-D15S.CH.BK",
@@ -2176,7 +2080,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "NH-D15.CH.BK",
@@ -2203,7 +2106,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "NH-D15 G2",
@@ -2231,7 +2133,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "NOCTUA NH-D12L",
@@ -2259,7 +2160,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "_NONAME",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "NH-D12L.CH.BK",
@@ -2287,7 +2187,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "POO0000010",
@@ -2312,7 +2211,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "POO0000012",
@@ -2337,7 +2235,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "POO0000032",
@@ -2362,7 +2259,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "POO0000015",
@@ -2387,7 +2283,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "POO0000014",
@@ -2412,7 +2307,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "POO0000033",
@@ -2437,7 +2331,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "POO0000022",
@@ -2462,7 +2355,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "COOLERMASTER",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "",
@@ -2481,7 +2373,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST1000DM014",
@@ -2501,7 +2392,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST1000DM014 3Y",
@@ -2521,7 +2411,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST1000VN008",
@@ -2541,7 +2430,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Celeron Gen10th /LGA1200",
       "partNumber": "INB701G5905SRK27",
@@ -2561,7 +2449,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Pentium Gen10th /LGA1200",
       "partNumber": "INB701G6400SRH3Y",
@@ -2581,7 +2468,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST1000VX013",
@@ -2601,7 +2487,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "WD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "WD11PURZ",
@@ -2621,7 +2506,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "SNK-P0047P",
@@ -2649,7 +2533,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST2000DM008",
@@ -2669,7 +2552,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "SNK-P0047PD",
@@ -2697,7 +2579,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST2000DM008 3Y",
@@ -2717,7 +2598,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "SNK-P0047PS",
@@ -2745,7 +2625,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "SNK-P0068PS",
@@ -2773,7 +2652,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "SNK-P0068AP4",
@@ -2801,7 +2679,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "SNK-P0068PSC",
@@ -2829,7 +2706,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "SNK-P0047PSC",
@@ -2857,7 +2733,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "SNK-P0048P",
@@ -2885,7 +2760,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M STEEL LEGEND WIFI",
@@ -2907,7 +2781,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M PRO-A",
@@ -2929,7 +2802,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M PRO-A WIFI",
@@ -2951,7 +2823,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST2000VX017",
@@ -2971,7 +2842,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M PRO RS",
@@ -2993,7 +2863,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M-X WIFI",
@@ -3015,7 +2884,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M-X R2.0",
@@ -3037,7 +2905,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M-X WIFI R2.0",
@@ -3059,7 +2926,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST2000VN003",
@@ -3079,7 +2945,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M PRO RS WIFI",
@@ -3101,7 +2966,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 10th /LGA1200",
       "partNumber": "INB70110105SRH3P",
@@ -3121,7 +2985,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M RIPTIDE WIFI",
@@ -3143,7 +3006,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST20000VE003",
@@ -3163,7 +3025,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 RIPTIDE WIFI",
@@ -3185,7 +3046,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 PRO RS",
@@ -3207,7 +3067,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 PRO-A",
@@ -3229,7 +3088,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 PRO RS WIFI",
@@ -3251,7 +3109,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 PRO-A WIFI",
@@ -3273,7 +3130,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 STEEL LEGEND WIFI",
@@ -3295,7 +3151,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 LIVEMIXER WIFI",
@@ -3317,7 +3172,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870 STEEL LEGEND WIFI",
@@ -3339,7 +3193,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST3000DM007",
@@ -3359,7 +3212,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870 PRO-A WIFI",
@@ -3381,7 +3233,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870 PRO RS",
@@ -3403,7 +3254,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870 PRO RS WIFI",
@@ -3425,7 +3275,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870 RIPTIDE WIFI",
@@ -3447,7 +3296,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST3000VN006",
@@ -3467,7 +3315,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870E TAICHI",
@@ -3489,7 +3336,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870E NOVA WIFI",
@@ -3511,7 +3357,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST3000VX015",
@@ -3531,7 +3376,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870 NOVA WIFI",
@@ -3553,7 +3397,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "H610M-HVS/M.2 R2.0",
@@ -3575,7 +3418,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST4000VX016",
@@ -3595,7 +3437,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST4000DM004",
@@ -3615,7 +3456,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "RC-260-SKN1",
@@ -3634,7 +3474,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR3",
       "partNumber": "TED38G1600C1101",
@@ -3655,7 +3494,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST4000VN006",
@@ -3675,7 +3513,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST6000DM003",
@@ -3695,7 +3532,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR3",
       "partNumber": "TED3L8G1600C1101",
@@ -3716,7 +3552,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR3",
       "partNumber": "ADDX1600W8G11-SPU",
@@ -3737,7 +3572,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST6000VN006",
@@ -3757,7 +3591,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR3",
       "partNumber": "KVR16N11/8",
@@ -3778,7 +3611,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST6000VX009",
@@ -3798,7 +3630,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST8000VN002",
@@ -3818,7 +3649,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST8000VN004",
@@ -3838,7 +3668,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST8000DM004",
@@ -3858,7 +3687,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "H610M-H2/M.2 D5",
@@ -3880,7 +3708,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "H610M-H2/M.2",
@@ -3902,7 +3729,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "H610M-HDV/M.2+ D5",
@@ -3924,7 +3750,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 10th /LGA1200",
       "partNumber": "INB70110400SRH3C",
@@ -3944,7 +3769,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "H610M-HDV/M.2 R2.0",
@@ -3966,7 +3790,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST8000VX010",
@@ -3986,7 +3809,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 11th /LGA1200",
       "partNumber": "BX8070811400F",
@@ -4006,7 +3828,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 11th /LGA1200",
       "partNumber": "INB70811400SRKP0",
@@ -4026,7 +3847,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST10000VE001",
@@ -4046,7 +3866,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 11th /LGA1200",
       "partNumber": "INB70811600SRKNW",
@@ -4066,7 +3885,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST10000VN000",
@@ -4086,7 +3904,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST12000VN0008",
@@ -4106,7 +3923,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST16000VE004",
@@ -4126,7 +3942,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST16000NM002H",
@@ -4146,7 +3961,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST20000NM002H",
@@ -4166,7 +3980,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST24000NM002H",
@@ -4186,7 +3999,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "ST30000NM004K",
@@ -4206,7 +4018,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "FD-WCU-CELSIUS-S24-BK",
@@ -4234,7 +4045,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "FD-WCU-CELSIUS-S24-BKO",
@@ -4258,7 +4068,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "FD-WCU-CELSIUS-S36-BK",
@@ -4286,7 +4095,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "BX8071512100",
@@ -4306,7 +4114,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "CM8071504651012",
@@ -4326,7 +4133,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "INB71512100FSRL63",
@@ -4346,7 +4152,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71513100FSRMBV",
@@ -4366,7 +4171,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "FD-W-L1-S2411",
@@ -4392,7 +4196,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "CM8071505092202",
@@ -4412,7 +4215,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71513100SRMBU",
@@ -4432,7 +4234,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "FD-W-L1-S2412",
@@ -4458,7 +4259,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AD4U26668G19-SGN",
@@ -4479,7 +4279,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KS2666D4P12008G",
@@ -4500,7 +4299,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "CM8071504650608",
@@ -4520,7 +4318,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "INB71512400SRL5Y",
@@ -4540,7 +4337,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "FD-W-L1-S2811",
@@ -4566,7 +4362,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AD4U32008G22-SGN",
@@ -4587,7 +4382,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "INB71512400FSRL4W",
@@ -4607,7 +4401,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "TED48G2666C1901",
@@ -4628,7 +4421,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "INB71512500SRL5V",
@@ -4648,7 +4440,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "CM8071504647605",
@@ -4668,7 +4459,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "TPRD48G2666HC1901",
@@ -4689,7 +4479,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "BITFENIX",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "BFC-DAW-500-KKGSK-RP",
@@ -4708,7 +4497,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "INB71512600SRL5T",
@@ -4728,7 +4516,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "INB71512600KSRL4T",
@@ -4748,7 +4535,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "FD-W-L1-S2812",
@@ -4774,7 +4560,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "BITFENIX",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "BFC-PM2-300-KKGSK-RP",
@@ -4793,7 +4578,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "INB71512600KFSRL4U",
@@ -4813,7 +4597,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "FD-W-L1-S3611",
@@ -4839,7 +4622,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "BITFENIX",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "BFC-PM2-300-WWGSW-RP",
@@ -4858,7 +4640,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "BITFENIX",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "BFC-PM2-300-KKGSK-3A",
@@ -4877,7 +4658,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "FD-W-L1-S3612",
@@ -4903,7 +4683,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "CM8071504821106",
@@ -4923,7 +4702,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "BITFENIX",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "BFC-PM2-300-WWGSW-3A",
@@ -4942,7 +4720,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71513400FSRMBN",
@@ -4962,7 +4739,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "BX8071513400",
@@ -4982,7 +4758,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "CM8071505093101",
@@ -5002,7 +4777,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71513500SRMBM",
@@ -5022,7 +4796,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71513600KFSRMBE",
@@ -5042,7 +4815,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71513600KSRMBD",
@@ -5062,7 +4834,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "INB71512700KFSRL4P",
@@ -5082,7 +4853,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "BX8071512700F",
@@ -5102,7 +4872,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "INB71512700KSRL4N",
@@ -5122,7 +4891,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "INB71512700SRL4Q",
@@ -5142,7 +4910,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71513700FSRMBB",
@@ -5162,7 +4929,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71513700KSRMB8",
@@ -5182,7 +4948,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71513700KFSRMB9",
@@ -5202,7 +4967,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KCP426NS8/8",
@@ -5223,7 +4987,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KF426C16BB/8",
@@ -5244,7 +5007,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KCP432NS6/8",
@@ -5265,7 +5027,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 12th /LGA1700",
       "partNumber": "BX7071512900K",
@@ -5285,7 +5046,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KS3200D4P13508G",
@@ -5306,7 +5066,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71513900KFSRMBJ",
@@ -5326,7 +5085,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 3.5 HDD",
       "partNumber": "HDD-A2000-MG03SCA200",
@@ -5346,7 +5104,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71513900FSRMB7",
@@ -5366,7 +5123,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71513900SRMB6",
@@ -5386,7 +5142,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "BX8071513900K",
@@ -5406,7 +5161,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71514100SRMX1",
@@ -5426,7 +5180,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "CM8071505092206",
@@ -5446,7 +5199,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "BX8071514100F",
@@ -5466,7 +5218,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "_NONAME",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "",
@@ -5487,7 +5238,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "INCM71505093011SRN3R",
@@ -5507,7 +5257,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "TED48G3200C2201",
@@ -5528,7 +5277,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 13th /LGA1700",
       "partNumber": "INB71514400FFSRN47",
@@ -5548,7 +5296,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "INB71514400SRN46",
@@ -5568,7 +5315,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "TTCED416G3200HC16FDC01",
@@ -5589,7 +5335,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "CM8071504821112",
@@ -5609,7 +5354,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "CT8G4DFRA32A",
@@ -5630,7 +5374,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "INV71514500SRN3T",
@@ -5650,7 +5393,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "DYNACARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "DD4U32008G/S",
@@ -5671,7 +5413,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "CM8071504821014",
@@ -5691,7 +5432,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "BX8071514600KF",
@@ -5711,7 +5451,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "BX8071514600K",
@@ -5731,7 +5470,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "306-7ZWHA11-L80",
@@ -5759,7 +5497,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "CM8071504821015",
@@ -5779,7 +5516,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "CPU Cooler",
       "partNumber": "306-7ZWHA21-L80",
@@ -5807,7 +5543,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "",
       "partNumber": "BX8071514700F",
@@ -5827,7 +5562,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "BX8071514700KF",
@@ -5847,7 +5581,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "INCM71504820721SRN3X",
@@ -5867,7 +5600,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "BX8071514700K",
@@ -5887,7 +5619,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "CM8071504820817",
@@ -5907,7 +5638,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "TF3D48G3200HC16C01",
@@ -5928,7 +5658,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "BX8071514900KF",
@@ -5948,7 +5677,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "BX8071514900K",
@@ -5968,7 +5696,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "TF4D48G3200HC16C01",
@@ -5989,7 +5716,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "BX8071514900F",
@@ -6009,7 +5735,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "CM8071504820610",
@@ -6029,7 +5754,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AX4U32008G16A-SBKD35",
@@ -6050,7 +5774,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "BX8071514900",
@@ -6070,7 +5793,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AX4U32008G16A-SBKD35G",
@@ -6091,7 +5813,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "AT8076806775",
@@ -6111,7 +5832,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "BX80768225F",
@@ -6131,7 +5851,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AX4U32008G16A-SWHD35G",
@@ -6152,7 +5871,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "BX80768225",
@@ -6172,7 +5890,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "BX80768235",
@@ -6192,7 +5909,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "INB768245KSRQCT",
@@ -6212,7 +5928,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "AT8076806414",
@@ -6232,7 +5947,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KVR32N22S8/8",
@@ -6253,7 +5967,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "BX80768245KF",
@@ -6273,7 +5986,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "BX80768265F",
@@ -6293,7 +6005,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "BX80768265KF",
@@ -6313,7 +6024,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KF432C16BB/8",
@@ -6334,7 +6044,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "ULTRA 7 265KF TRAY 5.5GHZ AT80",
@@ -6354,7 +6063,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "BX80768265K",
@@ -6374,7 +6082,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "BX80768265",
@@ -6394,7 +6101,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Core Gen 14th /LGA1700",
       "partNumber": "AT8076806413",
@@ -6414,7 +6120,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZW4R24-813",
@@ -6439,7 +6144,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZW1B41-813",
@@ -6464,7 +6168,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "BX80768285",
@@ -6484,7 +6187,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZW2R11-813",
@@ -6509,7 +6211,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G24R22-809",
@@ -6528,7 +6229,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "",
@@ -6548,7 +6248,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF552C40BB-8",
@@ -6569,7 +6268,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZW5E17-C24",
@@ -6594,7 +6292,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G24W24-809",
@@ -6613,7 +6310,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "INTEL",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "Intel Core Ultra 200",
       "partNumber": "INB768285KSRQD5",
@@ -6633,7 +6329,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF552C36BBE-8",
@@ -6654,7 +6349,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZW2P12-813",
@@ -6679,7 +6373,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "",
@@ -6699,7 +6392,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G16R21-809",
@@ -6718,7 +6410,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZWCA11-L80",
@@ -6744,7 +6435,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "",
@@ -6764,7 +6454,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KVR56U46BS6-8",
@@ -6785,7 +6474,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G16X23-HH9",
@@ -6804,7 +6492,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZWAA11-L80",
@@ -6830,7 +6517,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "",
@@ -6850,7 +6536,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G23A21-809",
@@ -6869,7 +6554,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "8G DDR5 5600",
@@ -6890,7 +6574,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZWCA21-L80",
@@ -6916,7 +6599,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AD5U56008G-S",
@@ -6937,7 +6619,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE with PSU",
       "partNumber": "3B6-BZ05026-HH9",
@@ -6956,7 +6637,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "P3-256",
@@ -6976,7 +6656,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "936-6A1611-003",
@@ -7002,7 +6681,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE with PSU",
       "partNumber": "3B6-BZ05032-HH9",
@@ -7021,7 +6699,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "P4-240",
@@ -7041,7 +6718,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF556C40BB-8",
@@ -7062,7 +6738,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "NX-256",
@@ -7082,7 +6757,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G10R21-W57",
@@ -7101,7 +6775,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF556C36BBE-8",
@@ -7122,7 +6795,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "P4-480",
@@ -7142,7 +6814,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C36BBE-8",
@@ -7163,7 +6834,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G10W21-W57",
@@ -7182,7 +6852,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZW1C41-813",
@@ -7207,7 +6876,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "NX-512",
@@ -7227,7 +6895,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZW2R31-813",
@@ -7252,7 +6919,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "XF-512",
@@ -7272,7 +6938,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "936-6A1521-001",
@@ -7298,7 +6963,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G18P25-809",
@@ -7317,7 +6981,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZW6E17-C24",
@@ -7342,7 +7005,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G18R25-809",
@@ -7361,7 +7023,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "P4-960",
@@ -7381,7 +7042,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "",
@@ -7401,7 +7061,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G18W22-809",
@@ -7420,7 +7079,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZWDA11-L80",
@@ -7446,7 +7104,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "",
@@ -7466,7 +7123,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G21P21-W57",
@@ -7485,7 +7141,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZW9A11-L80",
@@ -7511,7 +7166,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "",
@@ -7531,7 +7185,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G21R21-W57",
@@ -7550,7 +7203,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "306-7ZW6E27-C24",
@@ -7575,7 +7227,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "",
@@ -7595,7 +7246,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G21W21-W57",
@@ -7614,7 +7264,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G15R21-W57",
@@ -7633,7 +7282,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "936-6A0521-005",
@@ -7659,7 +7307,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G25L21-W57",
@@ -7678,7 +7325,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "NE-1TB",
@@ -7698,7 +7344,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "XF-1TB 2280",
@@ -7718,7 +7363,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G23R24-HH9",
@@ -7737,7 +7381,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "306-7G23W22-HH9",
@@ -7756,7 +7399,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261670",
@@ -7775,7 +7417,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261669",
@@ -7794,7 +7435,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261056",
@@ -7813,7 +7453,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE with PSU",
       "partNumber": "15260215",
@@ -7832,7 +7471,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261057",
@@ -7851,7 +7489,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261054",
@@ -7870,7 +7507,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261055",
@@ -7889,7 +7525,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "75261587",
@@ -7915,7 +7550,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "FAN",
       "sourceSubcategory": "Water Cooler",
       "partNumber": "75261588",
@@ -7941,7 +7575,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261537",
@@ -7960,7 +7593,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261538",
@@ -7979,7 +7611,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261378",
@@ -7998,7 +7629,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261379",
@@ -8017,7 +7647,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261541",
@@ -8036,7 +7665,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261542",
@@ -8055,7 +7683,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261501",
@@ -8074,7 +7701,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261502",
@@ -8093,7 +7719,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 SATA",
       "partNumber": "",
@@ -8113,7 +7738,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75260177",
@@ -8132,7 +7756,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "TED416G3200C22DC01",
@@ -8153,7 +7776,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 SATA",
       "partNumber": "",
@@ -8173,7 +7795,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261577",
@@ -8192,7 +7813,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "TLZGD416G3200HC16FDC01",
@@ -8213,7 +7833,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75261578",
@@ -8232,7 +7851,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75260192",
@@ -8251,7 +7869,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75260193",
@@ -8270,7 +7887,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "75260178",
@@ -8289,7 +7905,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "15260042",
@@ -8308,7 +7923,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "15260043",
@@ -8327,7 +7941,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AX4U32008G16A-DTBKD35",
@@ -8348,7 +7961,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AX4U32008G16A-DTBKD35G",
@@ -8369,7 +7981,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-CA-CORE-1100-BL",
@@ -8388,7 +7999,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-CA-CORE-2300-BL",
@@ -8407,7 +8017,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-CA-CORE-2500-BL",
@@ -8426,7 +8035,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "SKC600/256G",
@@ -8446,7 +8054,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "SKC600/512G",
@@ -8466,7 +8073,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "SKC600/1024G",
@@ -8486,7 +8092,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "SKC600/2048G",
@@ -8506,7 +8111,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KF432C16BBK2/16",
@@ -8527,7 +8131,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KF432C16BB2AK2/16",
@@ -8548,7 +8151,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KF436C17BBK2/16",
@@ -8569,7 +8171,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF548C38BBK2-16",
@@ -8590,7 +8191,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "SA400S37/240G",
@@ -8610,7 +8210,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF552C36BBEK2-16",
@@ -8631,7 +8230,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "SA400S37/480G",
@@ -8651,7 +8249,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF552C40BBK2-16",
@@ -8672,7 +8269,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "SA400S37/960G",
@@ -8692,7 +8288,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF556C40BBK2-16",
@@ -8713,7 +8308,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-CA-DEF-XL-R2-BL",
@@ -8732,7 +8326,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF556C40BBK2-32",
@@ -8753,7 +8346,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF556C40BBK2-64",
@@ -8774,7 +8366,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-CA-DEF-R5-BK",
@@ -8793,7 +8384,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF556C36BBEK2-16",
@@ -8814,7 +8404,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SA2000M8/500G",
@@ -8834,7 +8423,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C40BBK2-16",
@@ -8855,7 +8443,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SFYRSK/1000G",
@@ -8875,7 +8462,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SNV3S/500G",
@@ -8895,7 +8481,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SKC3000S/512G",
@@ -8915,7 +8500,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SNV3S/1000G",
@@ -8935,7 +8519,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SNV2S/2000G",
@@ -8955,7 +8538,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SNV3S/2000G",
@@ -8975,7 +8557,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SFYRD/2000G",
@@ -8995,7 +8576,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SKC3000S/1024G",
@@ -9015,7 +8595,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SKC3000D/2048G",
@@ -9035,7 +8614,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1200 /Intel 10th and 11th Gen",
       "partNumber": "H510M-H2/M.2 SE",
@@ -9057,7 +8635,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SKC3000D/4096G",
@@ -9077,7 +8654,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1200 /Intel 10th and 11th Gen",
       "partNumber": "H510M-HDV/M.2 SE",
@@ -9099,7 +8675,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-DEF7M-01",
@@ -9118,7 +8693,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-DEF7M-02",
@@ -9137,7 +8711,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-DEF7C-01",
@@ -9156,7 +8729,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "TED416G2666C1901",
@@ -9177,7 +8749,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-DEF7C-03",
@@ -9196,7 +8767,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-DEF7C-05",
@@ -9215,7 +8785,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SFYRD/4000G",
@@ -9235,7 +8804,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KVR26N19D8/16",
@@ -9256,7 +8824,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SFYRDK/2000G",
@@ -9276,7 +8843,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES2M-01",
@@ -9295,7 +8861,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KS3200D4P13516G",
@@ -9316,7 +8881,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "DYNACARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "DD4U320016G/S",
@@ -9337,7 +8901,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SNV3S/4000G",
@@ -9357,7 +8920,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES2C-01",
@@ -9376,7 +8938,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M-HDV/M.2 D4",
@@ -9398,7 +8959,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "POWERCOLOR",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX 580",
       "partNumber": "4713436170655/1A1-G003028MBG",
@@ -9418,7 +8978,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES2C-02",
@@ -9437,7 +8996,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M-HDV/M.2",
@@ -9459,7 +9017,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "",
@@ -9480,7 +9037,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "TED416G3200C2201",
@@ -9501,7 +9057,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES2C-03",
@@ -9520,7 +9075,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M-H2/M.2",
@@ -9542,7 +9096,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "TTCED432G3200HC16FDC01",
@@ -9563,7 +9116,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES2C-05",
@@ -9582,7 +9134,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "CT16G4DFRA32A",
@@ -9603,7 +9154,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M-X GEN5",
@@ -9625,7 +9175,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES2C-06",
@@ -9644,7 +9193,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MEL2C-05",
@@ -9663,7 +9211,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M PRO RS",
@@ -9685,7 +9232,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AD4U320016G22-SGN",
@@ -9706,7 +9252,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MEL2A-05",
@@ -9725,7 +9270,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES2A-01",
@@ -9744,7 +9288,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AX4U320016G16A-SBKD35",
@@ -9765,7 +9308,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES2A-03",
@@ -9784,7 +9326,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES2A-05",
@@ -9803,7 +9344,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 PRO RS",
@@ -9825,7 +9365,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KVR32N22S8/16",
@@ -9846,7 +9385,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 PRO RS/D4",
@@ -9868,7 +9406,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KF432C16BB/16",
@@ -9889,7 +9426,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES2A-08",
@@ -9908,7 +9444,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3A-01",
@@ -9927,7 +9462,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M STEEL LEGEND WIFI",
@@ -9949,7 +9483,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3A-02",
@@ -9968,7 +9501,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3A-04",
@@ -9987,7 +9519,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AX4U320016G16A-SBKD35G",
@@ -10008,7 +9539,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3A-07",
@@ -10027,7 +9557,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3A-06",
@@ -10046,7 +9575,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AX4U320016G16A-DTBKD35",
@@ -10067,7 +9595,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3A-03",
@@ -10086,7 +9613,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AX4U320016G16A-DTBKD35G",
@@ -10107,7 +9633,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3A-05",
@@ -10126,7 +9651,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3X-01",
@@ -10145,7 +9669,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AX4U320016G16A-DTWHD35G",
@@ -10166,7 +9689,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3X-02",
@@ -10185,7 +9707,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3X-04",
@@ -10204,7 +9725,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "Z790 PG LIGHTNING",
@@ -10226,7 +9746,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3X-06",
@@ -10245,7 +9764,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3X-03",
@@ -10264,7 +9782,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "Z790 PRO RS",
@@ -10286,7 +9803,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES3X-05",
@@ -10305,7 +9821,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES2X-01",
@@ -10324,7 +9839,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MES2X-02",
@@ -10343,7 +9857,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "H810M-H",
@@ -10365,7 +9878,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "Z790 STEEL LEGEND WIFI",
@@ -10387,7 +9899,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-RID1N-12",
@@ -10406,7 +9917,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-RID1N-11",
@@ -10425,7 +9935,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MOD1N-01",
@@ -10444,7 +9953,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860 PRO RS WIFI",
@@ -10466,7 +9974,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KF437C19BB1/16",
@@ -10487,7 +9994,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-MOD1N-02",
@@ -10506,7 +10012,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M-H2",
@@ -10528,7 +10033,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KVR48U40BS8-16",
@@ -10549,7 +10053,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-ERA2N-01",
@@ -10568,7 +10071,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M PRO RS",
@@ -10590,7 +10092,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-ERA2N-02",
@@ -10609,7 +10110,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M PRO RS WIFI",
@@ -10631,7 +10131,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "CT16G48C40U5",
@@ -10652,7 +10151,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KCP548US8-16",
@@ -10673,7 +10171,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-ERA2N-03",
@@ -10692,7 +10189,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M PRO-A",
@@ -10714,7 +10210,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KVR52U42BS8-16",
@@ -10735,7 +10230,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M PRO-A WIFI",
@@ -10757,7 +10251,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-EPO1A-01",
@@ -10776,7 +10269,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KVR56U46BS8-16",
@@ -10797,7 +10289,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M STEEL LEGEND WIFI",
@@ -10819,7 +10310,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-EPO1A-02",
@@ -10838,7 +10328,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M-X",
@@ -10860,7 +10349,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KS4800D5P11016G",
@@ -10881,7 +10369,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-EPO1A-03",
@@ -10900,7 +10387,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M-X WIFI",
@@ -10922,7 +10408,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-EPO1A-04",
@@ -10941,7 +10426,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KS5200D5P11016G",
@@ -10962,7 +10446,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "",
@@ -10983,7 +10466,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860 PRO RS",
@@ -11005,7 +10487,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-EPO1A-05",
@@ -11024,7 +10505,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AD5U480016G-S",
@@ -11045,7 +10525,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860 LIVEMIXER WIFI",
@@ -11067,7 +10546,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-EPO1X-01",
@@ -11086,7 +10564,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860 STEEL LEGEND WIFI",
@@ -11108,7 +10585,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-EPO1X-02",
@@ -11127,7 +10603,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860 PRO-A",
@@ -11149,7 +10624,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-EPO1X-03",
@@ -11168,7 +10642,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860 PRO-A WIFI",
@@ -11190,7 +10663,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-EPO1X-04",
@@ -11209,7 +10681,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M LIGHTNING WIFI",
@@ -11231,7 +10702,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KS5600D5P12516G",
@@ -11252,7 +10722,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-EPO1X-05",
@@ -11271,7 +10740,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860 LIGHTNING WIFI",
@@ -11293,7 +10761,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSPEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KS6000D5P12516G",
@@ -11314,7 +10781,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 PRO-A",
@@ -11336,7 +10802,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "DYNACARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "DD5U560016G/B",
@@ -11357,7 +10822,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AD5U560016G-S",
@@ -11378,7 +10842,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 PRO-A WIFI",
@@ -11400,7 +10863,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 STEEL LEGEND WIFI",
@@ -11422,7 +10884,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AX5U5600C4616G-SLABRWH",
@@ -11443,7 +10904,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF556C36BBEA-16",
@@ -11464,7 +10924,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 PRO RS WIFI WHITE",
@@ -11486,7 +10945,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AX5U6000C4016G-CLABK",
@@ -11507,7 +10965,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 LIGHTNING WIFI",
@@ -11529,7 +10986,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890M RIPTIDE WIFI",
@@ -11551,7 +11007,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 NOVA WIFI",
@@ -11573,7 +11028,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AX5U6000C3016G-CLABK",
@@ -11594,7 +11048,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AX5U6000C3016G-SLABRBK",
@@ -11615,7 +11068,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 LIVEMIXER WIFI",
@@ -11637,7 +11089,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 TAICHI",
@@ -11659,7 +11110,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AX5U6000C3016G-SLABRWH",
@@ -11680,7 +11130,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AX5U6000C3016G-DCCARGY",
@@ -11701,7 +11150,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AX5U6400C3216G-SLABRBK",
@@ -11722,7 +11170,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KF436C18BB/16",
@@ -11743,7 +11190,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-CA-FOCUS-BK-W",
@@ -11762,7 +11208,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KF436C18BB2AK2/32",
@@ -11783,7 +11228,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF548C38BB-16",
@@ -11804,7 +11248,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF552C40BB-16",
@@ -11825,7 +11268,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-CA-FOCUS-WT-W",
@@ -11844,7 +11286,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF552C36BBE-16",
@@ -11865,7 +11306,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF556C36BBE-16",
@@ -11886,7 +11326,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C36BBE2-16",
@@ -11907,7 +11346,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C36BWE2-16",
@@ -11928,7 +11366,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF564C32BB-16",
@@ -11949,7 +11386,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF564C32BBE-16",
@@ -11970,7 +11406,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-FOC2A-01",
@@ -11989,7 +11424,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF568C36RS-16",
@@ -12010,7 +11444,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-FOC2A-02",
@@ -12029,7 +11462,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF568C36RSA-16",
@@ -12050,7 +11482,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF568C34BBE-16",
@@ -12071,7 +11502,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POS1A-01",
@@ -12090,7 +11520,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POS1M-01",
@@ -12109,7 +11538,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POS1M-02",
@@ -12128,7 +11556,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POS1A-02",
@@ -12147,7 +11574,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POS1A-04",
@@ -12166,7 +11592,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POR1M-01",
@@ -12185,7 +11610,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POR1M-06",
@@ -12204,7 +11628,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POA1A-01",
@@ -12223,7 +11646,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POA1A-02",
@@ -12242,7 +11664,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POA1A-03",
@@ -12261,7 +11682,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POA2A-01",
@@ -12280,7 +11700,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POA2A-02",
@@ -12299,7 +11718,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POA2A-03",
@@ -12318,7 +11736,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POA2A-04",
@@ -12337,7 +11754,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POV2A-01",
@@ -12356,7 +11772,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POV2A-02",
@@ -12375,7 +11790,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POV2A-03",
@@ -12394,7 +11808,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POR1A-01",
@@ -12413,7 +11826,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POR1A-02",
@@ -12432,7 +11844,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POR1A-03",
@@ -12451,7 +11862,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 SATA",
       "partNumber": "",
@@ -12471,7 +11881,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POR1A-04",
@@ -12490,7 +11899,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "",
@@ -12510,7 +11918,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POR1A-05",
@@ -12529,7 +11936,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POR1A-06",
@@ -12548,7 +11954,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "_NONAME",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "1TB SSD M2 2280 PCIE",
@@ -12568,7 +11973,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "",
@@ -12588,7 +11992,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POS1X-01",
@@ -12607,7 +12010,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OTHER",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "",
@@ -12627,7 +12029,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POS1X-02",
@@ -12646,7 +12047,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POR1X-01",
@@ -12665,7 +12065,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-POR1X-06",
@@ -12684,7 +12083,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X5240G0C101",
@@ -12704,7 +12102,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-FOC2A-07",
@@ -12723,7 +12120,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X6256G0C101",
@@ -12743,7 +12139,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-FOC2A-03",
@@ -12762,7 +12157,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X6512G0C101",
@@ -12782,7 +12176,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-FOC2A-04",
@@ -12801,7 +12194,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X6001T0C101",
@@ -12821,7 +12213,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-CA-NODE-202-BK",
@@ -12840,7 +12231,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X6002T0C101",
@@ -12860,7 +12250,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X5480G0C101",
@@ -12880,7 +12269,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253E22512G0C101",
@@ -12900,7 +12288,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-CA-NODE-304-BL",
@@ -12919,7 +12306,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X1120G0C101",
@@ -12939,7 +12325,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X1240G0C101",
@@ -12959,7 +12344,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X1480G0C101",
@@ -12979,7 +12363,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-CA-NODE-804-BL-W",
@@ -12998,7 +12381,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X2256G0C101",
@@ -13018,7 +12400,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-DEF7A-01",
@@ -13037,7 +12418,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X2512G0C101",
@@ -13057,7 +12437,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FGM500G0C101",
@@ -13077,7 +12456,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-DEF7A-03",
@@ -13096,7 +12474,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X2001T0C101",
@@ -13116,7 +12493,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253E2001T0C101",
@@ -13136,7 +12512,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FGM001T0C101",
@@ -13156,7 +12531,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X2002T0C101",
@@ -13176,7 +12550,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X7001T0C101",
@@ -13196,7 +12569,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "T253X7002T0C101",
@@ -13216,7 +12588,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-DEF7X-01",
@@ -13235,7 +12606,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 SATA",
       "partNumber": "TM8PS7256G0C101",
@@ -13255,7 +12625,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-DEF7X-02",
@@ -13274,7 +12643,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-DEF7X-03",
@@ -13293,7 +12661,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 SATA",
       "partNumber": "TM8PS7512G0C101",
@@ -13313,7 +12680,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-NOR1C-01",
@@ -13332,7 +12698,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FFC001T0C129",
@@ -13352,7 +12717,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-NOR1C-02",
@@ -13371,7 +12735,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-NOR1C-03",
@@ -13390,7 +12753,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "TED516G4800C4001",
@@ -13411,7 +12773,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FP6256G0C101",
@@ -13431,7 +12792,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-NOR1C-04",
@@ -13450,7 +12810,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FP6512G0C101",
@@ -13470,7 +12829,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-NOR1C-05",
@@ -13489,7 +12847,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-NOR1X-01",
@@ -13508,7 +12865,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FPD512G0C101",
@@ -13528,7 +12884,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FP6001T0C101",
@@ -13548,7 +12903,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-NOR1X-02",
@@ -13567,7 +12921,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-NOR1X-03",
@@ -13586,7 +12939,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FPD001T0C101",
@@ -13606,7 +12958,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KF432C16BBK2/32",
@@ -13627,7 +12978,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-NOR1X-04",
@@ -13646,7 +12996,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FPD002T0C101",
@@ -13666,7 +13015,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FP6002T0C101",
@@ -13686,7 +13034,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KF432C16BB1K2/32",
@@ -13707,7 +13054,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-NOR1X-05",
@@ -13726,7 +13072,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KF432C16BB2A/32",
@@ -13747,7 +13092,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-NOR1X-07",
@@ -13766,7 +13110,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "KCP432ND8/32",
@@ -13787,7 +13130,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "TED532G4800C40DC01",
@@ -13808,7 +13150,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TOR1N-01",
@@ -13827,7 +13168,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "TED516G5600C4601",
@@ -13848,7 +13188,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "TED516G5200C4201",
@@ -13869,7 +13208,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TOR1N-02",
@@ -13888,7 +13226,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "TPBD516G5200HC4201",
@@ -13909,7 +13246,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "TPSD516G5200HC4201",
@@ -13930,7 +13266,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TOR1N-04",
@@ -13949,7 +13284,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "TPBD516G5600HC4601",
@@ -13970,7 +13304,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "TPSD516G5600HC4601",
@@ -13991,7 +13324,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TOR1C-02",
@@ -14010,7 +13342,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "CTCCD516G5600HC4601",
@@ -14031,7 +13362,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TOR1C-03",
@@ -14050,7 +13380,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "TPBD532G5600HC46DC01",
@@ -14071,7 +13400,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TOR1C-04",
@@ -14090,7 +13418,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "CTCCD532G5600HC46DC01",
@@ -14111,7 +13438,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TOR1C-05",
@@ -14130,7 +13456,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FPK500G0C101",
@@ -14150,7 +13475,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "CTCED532G5600HC38GDC01",
@@ -14171,7 +13495,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TOR1A-01",
@@ -14190,7 +13513,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FPK001T0C101",
@@ -14210,7 +13532,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "CTCED532G6000HC30DC01",
@@ -14231,7 +13552,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FFD002T0C01",
@@ -14251,7 +13571,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "CTCWD532G6000HC30DC01",
@@ -14272,7 +13591,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TOR1A-03",
@@ -14291,7 +13609,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "TM8FFD001T0C101",
@@ -14311,7 +13628,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "CTCED532G6000HC38GDC01",
@@ -14332,7 +13648,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "CTCWD532G6000HC38GDC01",
@@ -14353,7 +13668,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TOR1A-04",
@@ -14372,7 +13686,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "TPBD516G6000HC4801",
@@ -14393,7 +13706,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TOR1A-05",
@@ -14412,7 +13724,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "CTCCD532G6000HC4801",
@@ -14433,7 +13744,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TEAM",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "CTCCD564G6000HC48DC01",
@@ -14454,7 +13764,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TOR1A-07",
@@ -14473,7 +13782,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "S78-440N070-P83",
@@ -14493,7 +13801,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TER1N-01",
@@ -14512,7 +13819,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "S78-440E350-P83",
@@ -14532,7 +13838,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TER1N-02",
@@ -14551,7 +13856,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "S78-440P130-P83",
@@ -14571,7 +13875,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AX5U6000C3016G-DCLANRSG",
@@ -14592,7 +13895,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF552C40BBK2-32",
@@ -14613,7 +13915,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE without PSU",
       "partNumber": "FD-C-TER1N-03",
@@ -14632,7 +13933,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440K160-P83",
@@ -14652,7 +13952,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440L870-P83",
@@ -14672,7 +13971,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF556C36BBEK2-32",
@@ -14693,7 +13991,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440K220-P83",
@@ -14713,7 +14010,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C40BBK2-32",
@@ -14734,7 +14030,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440L980-P83",
@@ -14754,7 +14049,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440L0M0-P83",
@@ -14774,7 +14068,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C30BWEK2-32",
@@ -14795,7 +14088,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C36BBE2K2-32",
@@ -14816,7 +14108,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440L0L0-P83",
@@ -14836,7 +14127,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C30BBEK2-32",
@@ -14857,7 +14147,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440L1D0-P83",
@@ -14877,7 +14166,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440Q550-P83",
@@ -14897,7 +14185,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C30BBEAK2-32",
@@ -14918,7 +14205,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AX5U6400C3216G-DTLABRBK",
@@ -14939,7 +14225,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440R030-P83",
@@ -14959,7 +14244,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AX5U6400C3216G-DCLANRSG",
@@ -14980,7 +14264,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440L0J0-P83",
@@ -15000,7 +14283,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440Q990-P83",
@@ -15020,7 +14302,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF564C32BBEK2-32",
@@ -15041,7 +14322,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440L1G0-P83",
@@ -15061,7 +14341,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440L2D0-P83",
@@ -15081,7 +14360,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C30BBEAK2-64",
@@ -15102,7 +14380,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440Q730-P83",
@@ -15122,7 +14399,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF564C32BBK2-64",
@@ -15143,7 +14419,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440L0F0-P83",
@@ -15163,7 +14438,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C32RSAK2-64",
@@ -15184,7 +14458,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF564C32RSAK2-64",
@@ -15205,7 +14478,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440Q940-P83",
@@ -15225,7 +14497,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "S78-440Q670-P83",
@@ -15245,7 +14516,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KVR64A52BD8-64",
@@ -15266,7 +14536,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AD4U320032G22-SGN",
@@ -15287,7 +14556,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR4",
       "partNumber": "AX4U320032G16A-SBKD35",
@@ -15308,7 +14576,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AD5U480032G-S",
@@ -15329,7 +14596,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AD5U560032G-S",
@@ -15350,7 +14616,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KVR48U40BD8-32",
@@ -15371,7 +14636,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KVR52U42BD8-32",
@@ -15392,7 +14656,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FD-P-IA2G-750-EU",
@@ -15411,7 +14674,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF552C36BBE-32",
@@ -15432,7 +14694,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FD-P-IA2P-860-EU",
@@ -15451,7 +14712,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KVR56U46BD8-32",
@@ -15472,7 +14732,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF556C36BBE-32",
@@ -15493,7 +14752,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C36BBE-32",
@@ -15514,7 +14772,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C36BBE2-32",
@@ -15535,7 +14792,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FD-P-IA2G-850-EU",
@@ -15554,7 +14810,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C30BWE-32",
@@ -15575,7 +14830,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "KINGSTON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "KF560C32RSA-48",
@@ -15596,7 +14850,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FD-P-IA3G-750-EU",
@@ -15615,7 +14868,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AX5U6000C3032G-CLARBK",
@@ -15636,7 +14888,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FD-P-IA3G-850-EU",
@@ -15655,7 +14906,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "RAM",
       "sourceSubcategory": "DDR5",
       "partNumber": "AX5U6000C3032G-SLABRBK",
@@ -15676,7 +14926,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FD-P-IA3G-100-EU",
@@ -15695,7 +14944,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FRACTAL DESIGN",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FD-P-IA3G-101-EU-WT",
@@ -15714,7 +14962,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP6A11-809",
@@ -15733,7 +14980,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPGX41-HH9",
@@ -15752,7 +14998,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP2A11-CE0",
@@ -15771,7 +15016,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPAY11-809",
@@ -15790,7 +15034,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP6B11-809",
@@ -15809,7 +15052,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP2B11-CE0",
@@ -15828,7 +15070,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPSY11-CE0",
@@ -15847,7 +15088,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPAX11-809",
@@ -15866,7 +15106,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPAX27-HH9",
@@ -15885,7 +15124,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP8C11-CE0",
@@ -15904,7 +15142,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP8B11-CE0",
@@ -15923,7 +15160,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP2C11",
@@ -15942,7 +15178,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "",
       "partNumber": "306-7ZPSX11-CE0",
@@ -15961,7 +15196,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPBY11-CE0",
@@ -15980,7 +15214,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPFZ11-CE0",
@@ -15999,7 +15232,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "ASU650SS-240GT-R",
@@ -16019,7 +15251,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP8A11-CEO",
@@ -16038,7 +15269,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "ASU650SS-256GT-R",
@@ -16058,7 +15288,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP8A11-CE0",
@@ -16077,7 +15306,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPLY11-HD8",
@@ -16096,7 +15324,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "ASU650SS-512GT-R",
@@ -16116,7 +15343,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP9A11-CE0",
@@ -16135,7 +15361,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "ASU650SS-960GT-R",
@@ -16155,7 +15380,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPFX11-CE0",
@@ -16174,7 +15398,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "ASU650SS-1TT-R",
@@ -16194,7 +15417,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP7B11-CE0",
@@ -16213,7 +15435,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPBX11-CE0",
@@ -16232,7 +15453,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP7C11-CE0",
@@ -16251,7 +15471,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP9B11-CE0",
@@ -16270,7 +15489,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP9D11-CE0",
@@ -16289,7 +15507,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPLX11-HD8",
@@ -16308,7 +15525,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPFY11-CE0",
@@ -16327,7 +15543,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZP4A11-CE0",
@@ -16346,7 +15561,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "306-7ZPEX11-CE0",
@@ -16365,7 +15579,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "ASPECTRIXS20G-1T-C",
@@ -16385,7 +15598,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "AGAMMIXS60-2T-CS",
@@ -16405,7 +15617,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "NE63050018JE-1070F",
@@ -16425,7 +15636,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "NE63050018JE-1072F",
@@ -16445,7 +15655,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "NE63050018JE-1070H",
@@ -16465,7 +15674,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "NE63050018P1-1070F",
@@ -16485,7 +15693,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3060",
       "partNumber": "NE63060019K9-190AD",
@@ -16505,7 +15712,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "ALEG-710-256GCS",
@@ -16525,7 +15731,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "ALEG-710-512GCS",
@@ -16545,7 +15750,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "ALEG-710-1TCS",
@@ -16565,7 +15769,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "ALEG-710-2TCS",
@@ -16585,7 +15788,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "ASX8200PNP-2TT-C",
@@ -16605,7 +15807,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "AGAMMIXS70B-512G-CS",
@@ -16625,7 +15826,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "AGAMMIXS70B-1T-CS",
@@ -16645,7 +15845,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "AGAMMIXS70B-2T-CS",
@@ -16665,7 +15864,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "NE64060019P1-1070D",
@@ -16685,7 +15883,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "NE64060019P1-1070L",
@@ -16705,7 +15902,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "ALEG-800-2000GCS",
@@ -16725,7 +15921,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "NE64060019P1-1070F",
@@ -16745,7 +15940,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "NE6406T019P1-1060F",
@@ -16765,7 +15959,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SLEG-860-500GC",
@@ -16785,7 +15978,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "NE6406T019P1-1060D",
@@ -16805,7 +15997,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SLEG-860-1000GCS",
@@ -16825,7 +16016,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "NE6406T019T1-1061J",
@@ -16845,7 +16035,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SLEG-860-2000GCS",
@@ -16865,7 +16054,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SMAR-980B-1TCS",
@@ -16885,7 +16073,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SMAR-980B-2TCS",
@@ -16905,7 +16092,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070",
       "partNumber": "NED4070019K9-1047D",
@@ -16925,7 +16111,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SSPECTRIX65G-500G-CI",
@@ -16945,7 +16130,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070",
       "partNumber": "NE64070019K9-1048D",
@@ -16965,7 +16149,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "SSPECTRIXS65G-1000G-CI",
@@ -16985,7 +16168,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070",
       "partNumber": "NED4070019K9-1047J",
@@ -17005,7 +16187,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070",
       "partNumber": "NED4070019K9-1047L",
@@ -17025,7 +16206,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "NED407S019K9-1043D",
@@ -17045,7 +16225,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "NED407ST19K9-1043J",
@@ -17065,7 +16244,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "NED107ST19K9-1043S",
@@ -17085,7 +16263,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "NED47TSS19T2-1043J",
@@ -17105,7 +16282,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "NED47TS019T2-1043A",
@@ -17125,7 +16301,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "NED47TSH19T2-1043A",
@@ -17145,7 +16320,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "NED408S019T2-1032A",
@@ -17165,7 +16339,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA350DR00",
@@ -17184,7 +16357,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "NED408ST19T2-1032A",
@@ -17204,7 +16376,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA450AF00",
@@ -17223,7 +16394,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "NED408SS19T2-1032J",
@@ -17243,7 +16413,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "NED408SS19T2-1032S",
@@ -17263,7 +16432,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4090",
       "partNumber": "NED4090019SB-1020G",
@@ -17283,7 +16451,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4090",
       "partNumber": "NED4090019SB-1020Q",
@@ -17303,7 +16470,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA350D803",
@@ -17322,7 +16488,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4090",
       "partNumber": "NED4090S19SB-1020G",
@@ -17342,7 +16507,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5050",
       "partNumber": "NE65050019P1-GB2070D",
@@ -17362,7 +16526,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5050",
       "partNumber": "NE650500119P1-GB2070F",
@@ -17382,7 +16545,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "RTX5060 DUAL OC 8G",
@@ -17402,7 +16564,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "NE75060U19P1-GB2063M",
@@ -17422,7 +16583,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "RTX5060 DUAL 8G",
@@ -17442,7 +16602,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "NE75060V19P1-GB2063L",
@@ -17462,7 +16621,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "RTX5060 INFINITY 3 8G",
@@ -17482,7 +16640,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "NE75060T19P1-GB2063S",
@@ -17502,7 +16659,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "NE7506T019T1-GB2061S",
@@ -17522,7 +16678,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "NE7506T019P1-GB2062D",
@@ -17542,7 +16697,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "NE7506TT19P1-GB2062D",
@@ -17562,7 +16716,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "NE7506TS19T1-GB2061S",
@@ -17582,7 +16735,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "NE75070019K9-GB2050A",
@@ -17602,7 +16754,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "NE75070019K9-GB2050S",
@@ -17622,7 +16773,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "NE75080019T2-GB2035S",
@@ -17642,7 +16792,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "NE75080019T2-GB2030G",
@@ -17662,7 +16811,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "NE7507T019T2-GB2031A",
@@ -17682,7 +16830,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "NE7507T019T2-GB2031Y",
@@ -17702,7 +16849,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA400CT05",
@@ -17721,7 +16867,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "NE7507T019T2-GB2031U",
@@ -17741,7 +16886,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "NE7507TS19T2-GB2031Y",
@@ -17761,7 +16905,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "NE7507TS19T2-GB2031A",
@@ -17781,7 +16924,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "NE7507TS19T2-GB2031U",
@@ -17801,7 +16943,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "NE7507T019T2-GB2030G",
@@ -17821,7 +16962,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA3505301",
@@ -17840,7 +16980,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "NE75080019T2-GB2031A",
@@ -17860,7 +16999,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA450AA00",
@@ -17879,7 +17017,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "NE75080S19T2-GB2031A",
@@ -17899,7 +17036,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA450AD01",
@@ -17918,7 +17054,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "NE75080019T2-GB2031Y",
@@ -17938,7 +17073,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "NE75080T19T2-GB2030G",
@@ -17958,7 +17092,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "NE75090019R5-GB2020G",
@@ -17978,7 +17111,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA500C708",
@@ -17997,7 +17129,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "PALIT",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "NE75090S19R5-GB2020G",
@@ -18017,7 +17148,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA450A404",
@@ -18036,7 +17166,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA5506103",
@@ -18055,7 +17184,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA6506703",
@@ -18074,7 +17202,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA750A001",
@@ -18093,7 +17220,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA7508001",
@@ -18112,7 +17238,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA8508201",
@@ -18131,7 +17256,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA8504501",
@@ -18150,7 +17274,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA7508205",
@@ -18169,7 +17292,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA8504702",
@@ -18188,7 +17310,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA5509407",
@@ -18207,7 +17328,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA6507503",
@@ -18226,7 +17346,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA6507504",
@@ -18245,7 +17364,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "SPA6507504",
@@ -18264,7 +17382,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA7008803",
@@ -18283,7 +17400,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA550A702",
@@ -18302,7 +17418,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA6508601",
@@ -18321,7 +17436,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA5505500",
@@ -18340,7 +17454,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA6505301",
@@ -18359,7 +17472,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA600AS00",
@@ -18378,7 +17490,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA7506101",
@@ -18397,7 +17508,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA5008105",
@@ -18416,7 +17526,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA6005605",
@@ -18435,7 +17544,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "",
@@ -18454,7 +17562,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA8503201",
@@ -18473,7 +17580,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA8505201",
@@ -18492,7 +17598,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA7507301",
@@ -18511,7 +17616,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA8502200",
@@ -18530,7 +17634,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "A520M K V2 1.1",
@@ -18552,7 +17655,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "A520M S2H 1.3",
@@ -18574,7 +17676,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "A520M DS3H V2 1.0",
@@ -18596,7 +17697,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "4182",
@@ -18616,7 +17716,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "9PA8507803",
@@ -18635,7 +17734,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "DYNACARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "DD800240GB/R",
@@ -18655,7 +17753,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "DYNACARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "DD800480GB/R",
@@ -18675,7 +17772,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "DYNACARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "DD800960GB/R",
@@ -18695,7 +17791,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "DYNACARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "DG310256GB/R",
@@ -18715,7 +17810,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "DYNACARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "DG310512GB/R",
@@ -18735,7 +17829,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "DYNACARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "DG3101TB/R",
@@ -18755,7 +17848,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "4083",
@@ -18775,7 +17867,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "DYNACARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "DREBEL512GB/R",
@@ -18795,7 +17886,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "4045",
@@ -18815,7 +17905,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "DYNACARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "DREBEL1TB/R",
@@ -18835,7 +17924,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "3987",
@@ -18855,7 +17943,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "NE6406T019P1-1060B",
@@ -18875,7 +17962,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "4342",
@@ -18895,7 +17981,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "4335",
@@ -18915,7 +18000,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "4373",
@@ -18935,7 +18019,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "4281",
@@ -18955,7 +18038,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "4274",
@@ -18975,7 +18057,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "4434",
@@ -18995,7 +18076,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA10A2413",
@@ -19014,7 +18094,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "4403",
@@ -19034,7 +18113,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA10A4200",
@@ -19053,7 +18131,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA12A1401",
@@ -19072,7 +18149,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "NE75060019P1-GB2063B",
@@ -19092,7 +18168,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA12A1014",
@@ -19111,7 +18186,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "NE750060S19P1-GB2063B",
@@ -19131,7 +18205,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA13F0101",
@@ -19150,7 +18223,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA16F0101",
@@ -19169,7 +18241,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "NE7506T019P1-GB2062T",
@@ -19189,7 +18260,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "FORTRON",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PPA10A3510",
@@ -19208,7 +18278,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "NE7506TS19T1-GB2061T",
@@ -19228,7 +18297,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "NE7506T019P1-GB2062B",
@@ -19248,7 +18316,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "NE7506TT19P1-GB2062B",
@@ -19268,7 +18335,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "NE7506TU19T1-GB2061B",
@@ -19288,7 +18354,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "NE75070S19K9-GB2050T",
@@ -19308,7 +18373,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "EMTEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "ECSSD240GX150",
@@ -19328,7 +18392,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "NE75070019K9-GB2050T",
@@ -19348,7 +18411,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "NE7507T019T2-GB2030P",
@@ -19368,7 +18430,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "EMTEC",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 SATA",
       "partNumber": "ECSSD256GX250",
@@ -19388,7 +18449,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "EMTEC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "ECSSD480GX150",
@@ -19408,7 +18468,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "NE7507T019T2-GB2031K",
@@ -19428,7 +18487,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "NE75080S19T2-GB2031X",
@@ -19448,7 +18506,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "EMTEC",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 SATA",
       "partNumber": "ECSSD512GX250",
@@ -19468,7 +18525,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "EMTEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD 2.5",
       "partNumber": "ECSSD960GX150",
@@ -19488,7 +18544,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "NE75080019T2-GB2031X",
@@ -19508,7 +18563,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "EMTEC",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 SATA",
       "partNumber": "ECSSD1TX250",
@@ -19528,7 +18582,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "NE75090S19R5-GB2020P",
@@ -19548,7 +18601,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "EMTEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "ECSSD256GX300",
@@ -19568,7 +18620,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "EMTEC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "ECSSD512GX300",
@@ -19588,7 +18639,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "EMTEC",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "ECSSD1TX300",
@@ -19608,7 +18658,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "EMTEC",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "ECSSD500GX400",
@@ -19628,7 +18677,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "EMTEC",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "SSD M2 2280 PCIE",
       "partNumber": "ECSSD4TX410",
@@ -19648,7 +18696,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GAINWARD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "NE75090019R5-GB2020P",
@@ -19668,7 +18715,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "CORE BC-650 BRONZE",
@@ -19687,7 +18733,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "CORE GC-650 GOLD",
@@ -19706,7 +18751,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "CORE GX-650 MODULAR GOLD",
@@ -19725,7 +18769,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "CORE GX-650 MODULAR GOLD WHITE",
@@ -19744,7 +18787,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "CORE GC-750 GOLD",
@@ -19763,7 +18805,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "CORE BC-750 BRONZE",
@@ -19782,7 +18823,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "CORE GX-750 MODULAR GOLD",
@@ -19801,7 +18841,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "CORE GX-750 MODULAR GOLD WHITE",
@@ -19820,7 +18859,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FOCUS GX-750  GOLD",
@@ -19839,7 +18877,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FOCUS GX-750  GOLD WHITE",
@@ -19858,7 +18895,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "CORE BC-850 BRONZE",
@@ -19877,7 +18913,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "CORE GC-850 GOLD",
@@ -19896,7 +18931,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "CORE GX-850 MODULAR GOLD",
@@ -19915,7 +18949,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "CORE GX-850 MODULAR GOLD WHITE",
@@ -19934,7 +18967,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FOCUS GX-850  GOLD",
@@ -19953,7 +18985,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FOCUS GX-850  GOLD  WHITE",
@@ -19972,7 +19003,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FOCUS GX-1000  GOLD",
@@ -19991,7 +19021,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "FOCUS GX-1000  GOLD",
@@ -20010,7 +19039,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "YD3200C5FHBOX",
@@ -20030,7 +19058,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AWYD3400C5FHBOX",
@@ -20050,7 +19077,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000031SBX",
@@ -20070,7 +19096,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "1P2S75FSW3A11W",
@@ -20089,7 +19114,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000510BOX",
@@ -20109,7 +19133,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000144BOX",
@@ -20129,7 +19152,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000148MPK",
@@ -20149,7 +19171,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100000644MPK",
@@ -20169,7 +19190,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-000000644",
@@ -20189,7 +19209,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100000644BOX",
@@ -20209,7 +19228,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000147BOX",
@@ -20229,7 +19247,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000143MPK",
@@ -20249,7 +19266,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-000000253",
@@ -20269,7 +19285,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000457BOX",
@@ -20289,7 +19304,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100001489",
@@ -20309,7 +19323,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100001489BOX",
@@ -20329,7 +19342,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000252MPK",
@@ -20349,7 +19361,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "1GD12GFRT3A11W",
@@ -20368,7 +19379,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000252BOX",
@@ -20388,7 +19398,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Athlon /AM4",
       "partNumber": "100-100001488MPK",
@@ -20408,7 +19417,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Athlon /AM4",
       "partNumber": "100-100001488BOX",
@@ -20428,7 +19436,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100000927MPK",
@@ -20448,7 +19455,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100000927MPK",
@@ -20468,7 +19474,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000927BOX",
@@ -20488,7 +19493,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PRIME TX-1300 TITANIUM",
@@ -20507,7 +19511,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000065MPK",
@@ -20527,7 +19530,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "CASE with PSU",
       "partNumber": "PRIME PX-1600 TITANIUM",
@@ -20546,7 +19548,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100000065BOX",
@@ -20566,7 +19567,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PRIME TX-1600 TITANIUM",
@@ -20585,7 +19585,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100001584BOX",
@@ -20605,7 +19604,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-000001585",
@@ -20625,7 +19623,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PRIME PX-2200 TITANIUM",
@@ -20644,7 +19641,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100001585BOX",
@@ -20664,7 +19660,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SEASONIC",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PRIME 700 FANLESS",
@@ -20683,7 +19678,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100000255MPK",
@@ -20703,7 +19697,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100001513MPK",
@@ -20723,7 +19716,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100000263MPK",
@@ -20743,7 +19735,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000263BOX",
@@ -20763,7 +19754,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD A-series /AM4",
       "partNumber": "100-000000926",
@@ -20783,7 +19773,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100000926MPK",
@@ -20803,7 +19792,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100000926WOF",
@@ -20823,7 +19811,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-000001503",
@@ -20843,7 +19830,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100001503WOF",
@@ -20863,7 +19849,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100000063WOF",
@@ -20883,7 +19868,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100001582BOX",
@@ -20903,7 +19887,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "100-100000651POF",
@@ -20923,7 +19906,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100100001581WOF",
@@ -20943,7 +19925,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM4",
       "partNumber": "AW100000000059WOF",
@@ -20963,7 +19944,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000000597",
@@ -20983,7 +19963,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000597MPK",
@@ -21003,7 +19982,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000001904",
@@ -21023,7 +20001,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001904WOF",
@@ -21043,7 +20020,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000000593",
@@ -21063,7 +20039,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001015BOX",
@@ -21083,7 +20058,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000593WOF",
@@ -21103,7 +20077,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001899MPK",
@@ -21123,7 +20096,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000600MPK",
@@ -21143,7 +20115,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000000592",
@@ -21163,7 +20134,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000592BOX",
@@ -21183,7 +20153,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000592SPK",
@@ -21203,7 +20172,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "AW100100000591WOF",
@@ -21223,7 +20191,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000002235",
@@ -21243,7 +20210,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100002235WOF",
@@ -21263,7 +20229,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000599MPK",
@@ -21283,7 +20248,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-1000000910",
@@ -21303,7 +20267,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000910WOF",
@@ -21323,7 +20286,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000000589",
@@ -21343,7 +20305,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "AW100100000589WOF",
@@ -21363,7 +20324,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000590MPK",
@@ -21383,7 +20343,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100100000590BOX",
@@ -21403,7 +20362,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "AW100100000909WOF",
@@ -21423,7 +20381,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "RYZEN 9 7950X TRAY",
@@ -21443,7 +20400,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "AW100100000514WOF",
@@ -21463,7 +20419,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "AW100100000908WOF",
@@ -21483,7 +20438,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000001187",
@@ -21503,7 +20457,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001187MPK",
@@ -21523,7 +20476,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "RYZEN 5 8400F 4.2G TRAY",
@@ -21543,7 +20495,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001591MPK",
@@ -21563,7 +20514,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001591BOX",
@@ -21583,7 +20533,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000931BOX",
@@ -21603,7 +20552,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000001183",
@@ -21623,7 +20571,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001183MPK",
@@ -21643,7 +20590,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001237BOX",
@@ -21663,7 +20609,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000001239",
@@ -21683,7 +20628,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001239MPK",
@@ -21703,7 +20647,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000001590",
@@ -21723,7 +20666,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001590MPK",
@@ -21743,7 +20685,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001590BOX",
@@ -21763,7 +20704,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001236BOX",
@@ -21783,7 +20723,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001236SBX",
@@ -21803,7 +20742,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000001238",
@@ -21823,7 +20761,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001238MPK",
@@ -21843,7 +20780,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001408MPK",
@@ -21863,7 +20799,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000001406",
@@ -21883,7 +20818,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000000718",
@@ -21903,7 +20837,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000718MPK",
@@ -21923,7 +20856,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001409MPK",
@@ -21943,7 +20875,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000718BOX",
@@ -21963,7 +20894,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001405MPK",
@@ -21983,7 +20913,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000001405",
@@ -22003,7 +20932,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001405WOF",
@@ -22023,7 +20951,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "COOLERMASTER",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "MPX-6501-ACAAB-EU",
@@ -22042,7 +20969,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000001404",
@@ -22062,7 +20988,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001404MPK",
@@ -22082,7 +21007,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001404WOF",
@@ -22102,7 +21026,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000001084",
@@ -22122,7 +21045,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001084WOF",
@@ -22142,7 +21064,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001973",
@@ -22162,7 +21083,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001973WOF",
@@ -22182,7 +21102,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000000662",
@@ -22202,7 +21121,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001407MPK",
@@ -22222,7 +21140,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000662WOF",
@@ -22242,7 +21159,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001368WOF",
@@ -22262,7 +21178,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000001368",
@@ -22282,7 +21197,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001277WOF",
@@ -22302,7 +21216,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000001277",
@@ -22322,7 +21235,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-000000719",
@@ -22342,7 +21254,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GT1030",
       "partNumber": "N1030D5-2GL 1.0",
@@ -22362,7 +21273,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100000719WOF",
@@ -22382,7 +21292,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "AMD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CPU",
       "sourceSubcategory": "AMD Ryzen /AM5",
       "partNumber": "100-100001978WOF",
@@ -22402,7 +21311,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "GP-550SS ICE",
@@ -22421,7 +21329,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "GP-UD850GM PG5",
@@ -22440,7 +21347,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "GP-UD1000GM PG5",
@@ -22459,7 +21365,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "UD1300GM PG5/PSU",
@@ -22478,7 +21383,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "90-UXC055-BNEAAA / CL-550B",
@@ -22497,7 +21401,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "90-UXC065-GNEAAA / CL-650G",
@@ -22516,7 +21419,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "90-UXC065-BNEAAA / CL-650B",
@@ -22535,7 +21437,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "90-UXC075-BNEAAA / CL-750B",
@@ -22554,7 +21455,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "90-UXC075-GNEAAA / CL-750G",
@@ -22573,7 +21473,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "90-UXC085-GNEAAA / CL-850G",
@@ -22592,7 +21491,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GTX1650",
       "partNumber": "N1656OC-4GD  2.0",
@@ -22612,7 +21510,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OMEGA",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "",
@@ -22631,7 +21528,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "OMEGA",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "SXJ650W",
@@ -22650,7 +21546,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX2070",
       "partNumber": "N2070GAMING OC-8GC  1.0",
@@ -22670,7 +21565,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "N3050OC-6GL 1.0",
@@ -22690,7 +21584,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "N3050EAGLE OC-6GD  1.0",
@@ -22710,7 +21603,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SG",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 2.5 HDD / for NB",
       "partNumber": "ST1000LM048",
@@ -22730,7 +21622,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "N3050WF2OCV2-8GD",
@@ -22750,7 +21641,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TOSHIBA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 2.5 HDD / for NB",
       "partNumber": "1TB TOSHIBA 7MM 5400",
@@ -22770,7 +21660,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 2.5 HDD / for NB",
       "partNumber": "",
@@ -22790,7 +21679,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3060",
       "partNumber": "N3060GAMING OC-8GD  2.0",
@@ -22810,7 +21698,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 2.5 HDD / for NB",
       "partNumber": "",
@@ -22830,7 +21717,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 2.5 HDD / for NB",
       "partNumber": "",
@@ -22850,7 +21736,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "HDD",
       "sourceSubcategory": "Internal 2.5 HDD / for NB",
       "partNumber": "",
@@ -22870,7 +21755,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3060",
       "partNumber": "N3060GAMING OC-12GD 2.0",
@@ -22890,7 +21774,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3060",
       "partNumber": "N3060WF2OC-12GD 2.0",
@@ -22910,7 +21793,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "75260122",
@@ -22929,7 +21811,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "75260131",
@@ -22948,7 +21829,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "75260140",
@@ -22967,7 +21847,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "75261547",
@@ -22986,7 +21865,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "PROBE650B",
@@ -23005,7 +21883,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "75261250",
@@ -23024,7 +21901,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "75261263",
@@ -23043,7 +21919,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "75261413",
@@ -23062,7 +21937,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "75261424",
@@ -23081,7 +21955,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550M K 1.0",
@@ -23103,7 +21976,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "75261350",
@@ -23122,7 +21994,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550M DS3H 1.7",
@@ -23144,7 +22015,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "75261435",
@@ -23163,7 +22033,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ADATA",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "CASE",
       "sourceSubcategory": "PSU",
       "partNumber": "15260170",
@@ -23182,7 +22051,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550M DS3H R2",
@@ -23204,7 +22072,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550M DS3H AC R2 1.0",
@@ -23226,7 +22093,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550M AORUS ELITE 1.3",
@@ -23248,7 +22114,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "N4060GAMING OC-8GD 1.0",
@@ -23268,7 +22133,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "N4060EAGLE OC-8GD 1.0",
@@ -23288,7 +22152,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "N4060TEAGLE OC-8GD 1.0",
@@ -23308,7 +22171,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550 GAMING X V2 1.3",
@@ -23330,7 +22192,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "N4060WF2OC-8G  1.0",
@@ -23350,7 +22211,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "N406TWF2OC-8GD 1.0",
@@ -23370,7 +22230,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550 EAGLE WIFI6 1.0",
@@ -23392,7 +22251,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "N406TEAGLE-8GD 1.0",
@@ -23412,7 +22270,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "B550 EAGLE 1.0",
@@ -23434,7 +22291,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "N406TEAGLE OC-8GD 1.0",
@@ -23454,7 +22310,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "N406TGAMING OC-8GD 1.0",
@@ -23474,7 +22329,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070",
       "partNumber": "N4070WF3OC-12GD 1.0",
@@ -23494,7 +22348,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "A620M H 2.2",
@@ -23516,7 +22369,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070",
       "partNumber": "N4070WF3OCV2-12GD 1.0",
@@ -23536,7 +22388,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "A620I AX 2.0",
@@ -23558,7 +22409,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070",
       "partNumber": "N4070WF2OCV2-12GD 1.0",
@@ -23578,7 +22428,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "A620M DS3H 2.0",
@@ -23600,7 +22449,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "N407SGAMING OC-12GD  1.0",
@@ -23620,7 +22468,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "N407SAORUS M-12GD 1.0",
@@ -23640,7 +22487,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "N407SAERO OC-12GD  1.0",
@@ -23660,7 +22506,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "N407SEAGLE OC-12GD 1.0",
@@ -23680,7 +22525,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "N407SEAGLEOC ICE-12GD 1.0",
@@ -23700,7 +22544,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070",
       "partNumber": "N4070GAMING OCV2-12GD 1.0",
@@ -23720,7 +22563,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "N407TSEAGLE OC-16GD 1.0",
@@ -23740,7 +22582,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "N407TSAERO OC-16GD  1.0",
@@ -23760,7 +22601,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "N407TSEAGLEOCICE-16GD 1.0",
@@ -23780,7 +22620,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650 EAGLE AX 1.2",
@@ -23802,7 +22641,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "N407TSGAMING OC-16GD 1.0",
@@ -23822,7 +22660,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650 UD AX 1.0 Y1",
@@ -23844,7 +22681,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "N407SWF3OC-12GD  1.0",
@@ -23864,7 +22700,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650 EAGLE 1.2",
@@ -23886,7 +22721,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "N407TSWF3OC-16GD 1.0",
@@ -23906,7 +22740,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "N407TSWF3MAX OC-16GD 1.0",
@@ -23926,7 +22759,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650 AORUS ELITE AX V2 1.1",
@@ -23948,7 +22780,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "N407TSAORUS M-16GD 1.0",
@@ -23968,7 +22799,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650 GAMING X AX V2 1.2",
@@ -23990,7 +22820,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650M GAMING PLUS WF 1.3",
@@ -24012,7 +22841,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650M GAMING WIFI6E 1.4",
@@ -24034,7 +22862,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "N408SGAMING OC-16GD  1.0",
@@ -24054,7 +22881,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650M D3HP AX  1.2",
@@ -24076,7 +22902,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "N408SWF3V2-16GD 1.0",
@@ -24096,7 +22921,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "N408SAORUS M-16GD  1.0",
@@ -24116,7 +22940,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650M D3HP 1.3",
@@ -24138,7 +22961,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650M S2H 1.4",
@@ -24160,7 +22982,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5050",
       "partNumber": "N5050WF2OC-8GD 1.0",
@@ -24180,7 +23001,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5050",
       "partNumber": "N5050GAMING OC-8GD 1.0",
@@ -24200,7 +23020,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "N5060AERO OC-8GD  1.0",
@@ -24220,7 +23039,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650E EAGLE WF6E 1.0",
@@ -24242,7 +23060,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "N5060GAMING OC-8GD 1.0",
@@ -24262,7 +23079,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "N5060AORUS E-8GD 1.0",
@@ -24282,7 +23098,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650M AORUS ELITE 1.3",
@@ -24304,7 +23119,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "N506TGAMING OC-8GD",
@@ -24324,7 +23138,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650M AORUS ELITE AX ICE 1.1",
@@ -24346,7 +23159,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "N506TWF2OC-16GD",
@@ -24366,7 +23178,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "N506TWF2MAXOC-16GD 1.0",
@@ -24386,7 +23197,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "N506TWF2OC-8GD 1.0",
@@ -24406,7 +23216,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "N5060OC-8GL",
@@ -24426,7 +23235,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X670E AORUS MASTER  1.1",
@@ -24448,7 +23256,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "N506TEAGLEOC ICE-8GD",
@@ -24468,7 +23275,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "N506TEAGLEMAXOC-16GD 1.0",
@@ -24488,7 +23294,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "N506TEAGLEOC ICE-16GD 1.0",
@@ -24508,7 +23313,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "N5060TEAGLE OC-16GD",
@@ -24528,7 +23332,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B650E A STAEALTH ICE 1.0",
@@ -24550,7 +23353,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B840 EAGLE WF6E 1.0",
@@ -24572,7 +23374,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "N5060EAGLE OC-8GD",
@@ -24592,7 +23393,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B840M DS3H 1.2",
@@ -24614,7 +23414,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "N5060EAGLEMAX OC-8GD 1.0",
@@ -24634,7 +23433,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "N5060WF2-8GD 1.0",
@@ -24654,7 +23452,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B840M DS3H WF6 1.1",
@@ -24676,7 +23473,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M D3HP 1.2",
@@ -24698,7 +23494,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "N5060WF2OC-8GD",
@@ -24718,7 +23513,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M DS3H 1.2",
@@ -24740,7 +23534,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "N5060WF2MAX OC-8GD",
@@ -24760,7 +23553,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M GAMING X WF6E 1.0",
@@ -24782,7 +23574,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "N506TGAMING OC-16GD",
@@ -24802,7 +23593,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M EAGLE WF6E",
@@ -24824,7 +23614,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "N506TWF2MAX OC-8GD",
@@ -24844,7 +23633,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850M AORUS ELITE WF6E ICE",
@@ -24866,7 +23654,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 GAMING WF6 1.0",
@@ -24888,7 +23675,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "N5070WF3OC-12GD",
@@ -24908,7 +23694,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "N5070EAGLE OC-12GD",
@@ -24928,7 +23713,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "GB B850 EAGLE ICE 1.0",
@@ -24950,7 +23734,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 EAGLE WIFI6E 1.0",
@@ -24972,7 +23755,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "N5070EAGLEOC ICE-12GD",
@@ -24992,7 +23774,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 GAMING X WIFI6E 1.0",
@@ -25014,7 +23795,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "N5070GAMING OC-12GD",
@@ -25034,7 +23814,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 AORUS ELITE WF7 ICE 1.0",
@@ -25056,7 +23835,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "GV-N5070AERO OC-12GD",
@@ -25076,7 +23854,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "N5070AORUS M-12GD 1.0",
@@ -25096,7 +23873,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 EAGLE WF7 ICE 1.0",
@@ -25118,7 +23894,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "B850 AORUS ELITE WF7  1.0",
@@ -25140,7 +23915,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "N507TWF3OC-16GD 1.0",
@@ -25160,7 +23934,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "N507TEAGLE OC-16GD 1.0",
@@ -25180,7 +23953,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870 GAMING WF6 1.0",
@@ -25202,7 +23974,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "N507TEAGLEOC ICE-16GD 1.0",
@@ -25222,7 +23993,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870 GAMING X WIFI7 1.1",
@@ -25244,7 +24014,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "N507TGAMING OC-16GD 1.0",
@@ -25264,7 +24033,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870 EAGLE WIFI7 1.1",
@@ -25286,7 +24054,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "GV-N507TAERO OC-16GD 1.0",
@@ -25306,7 +24073,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870 AORUS ELITE WIFI7 1.1",
@@ -25328,7 +24094,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "N507TAORUS M-16GD 1.0",
@@ -25348,7 +24113,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "N5080WF3OC-16GD 1.0",
@@ -25368,7 +24132,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870 A ELITE WIFI7 ICE 1.2",
@@ -25390,7 +24153,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "N5080GAMING OC-16GD 1.0",
@@ -25410,7 +24172,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870E EAGLE WIFI7",
@@ -25432,7 +24193,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "N5080AERO OC-16GD 1.0",
@@ -25452,7 +24212,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870E EAGLE X WF7",
@@ -25474,7 +24233,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "N5080AORUS M-16GD 1.0",
@@ -25494,7 +24252,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870E A PRO X",
@@ -25516,7 +24273,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "N5080AORUSM ICE-16GD",
@@ -25536,7 +24292,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870E AORUS PRO ICE 1.0",
@@ -25558,7 +24313,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "GV-N5080AORUSX W-16GD",
@@ -25578,7 +24332,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "N5090GAMING OC-32GD",
@@ -25598,7 +24351,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870E A PRO X  ICE 1.0",
@@ -25620,7 +24372,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870E AORUS PRO 1.1",
@@ -25642,7 +24393,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "N5090AORUSM ICE-32GD",
@@ -25662,7 +24412,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870E AORUS PRO X 1.0",
@@ -25684,7 +24433,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870E AORUS MASTER 1.0",
@@ -25706,7 +24454,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "N5090AORUS M-32GD",
@@ -25726,7 +24473,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870E AORUS ELITE WIFI7 1.2",
@@ -25748,7 +24494,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "N5090AORUSX W-32GD",
@@ -25768,7 +24513,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "N5090WF3OC-32GD  1.0",
@@ -25788,7 +24532,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "X870E AORUS ELITE WF7 ICE 1.2",
@@ -25810,7 +24553,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "N5090IXEB-32GD",
@@ -25830,7 +24572,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "HMD",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "N5090WF3OC-32GD  1.0",
@@ -25850,7 +24591,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4090",
       "partNumber": "N4090WF3V2-24GD  1.1",
@@ -25870,7 +24610,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4090",
       "partNumber": "N4090GAMING OC-24GD  1.0",
@@ -25890,7 +24629,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4090",
       "partNumber": "N4090AORUS M-24GD  1.0",
@@ -25910,7 +24648,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4090",
       "partNumber": "N4090AERO OC-24GD  1.0",
@@ -25930,7 +24667,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX6600",
       "partNumber": "R66EAGLE-8GD 1.0",
@@ -25950,7 +24686,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7600",
       "partNumber": "R76GAMING OC-8GD 1.0",
@@ -25970,7 +24705,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7600XT",
       "partNumber": "R76XTGAMING OC-16GD  1.0",
@@ -25990,7 +24724,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7700XT",
       "partNumber": "R77XTGAMING OC-12GD 1.0",
@@ -26010,7 +24743,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7800XT",
       "partNumber": "R78XTGAMING OC-16GD 1.0",
@@ -26030,7 +24762,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7900XT",
       "partNumber": "R79XTGAMING OC-20GD 1.0",
@@ -26050,7 +24781,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9060XT",
       "partNumber": "R9060XTGAMING OC-8G 1.0",
@@ -26070,7 +24800,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7900GRE",
       "partNumber": "R79GREGAMING OC-16GD 1.0",
@@ -26090,7 +24819,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9060XT",
       "partNumber": "R9060XTGAMING OC-16GD 1.0",
@@ -26110,7 +24838,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070XT",
       "partNumber": "R9070XTGAMING OC-16G 1.0",
@@ -26130,7 +24857,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070XT",
       "partNumber": "R9070XTAORUS E-16GD 1.0",
@@ -26150,7 +24876,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070",
       "partNumber": "R9070GAMING OC-16GD 1.0",
@@ -26170,7 +24895,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1200 /Intel 10th and 11th Gen",
       "partNumber": "H510M S2H V3  1.0",
@@ -26192,7 +24916,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "H610M H V2 1.0",
@@ -26214,7 +24937,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "H610M H V3 DDR4 1.0",
@@ -26236,7 +24958,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "H610M S2H V2 1.0",
@@ -26258,7 +24979,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "H610M S2H V3 DDR4  1.0",
@@ -26280,7 +25000,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "H610M K DDR4  2.0",
@@ -26302,7 +25021,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "H610M GAMING WIFI DDR4 1.0",
@@ -26324,7 +25042,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M H DDR4  1.0",
@@ -26346,7 +25063,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M H V2 1.0",
@@ -26368,7 +25084,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M GAMING X AX  1.1",
@@ -26390,7 +25105,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M GAMING DDR4 1.1",
@@ -26412,7 +25126,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M GAMING PLUS WIFI DDR4 1.",
@@ -26434,7 +25147,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M AORUS ELITE WF6E GEN5",
@@ -26456,7 +25168,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 GAMING X AX  1.3",
@@ -26478,7 +25189,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 GAMING X  1.0",
@@ -26500,7 +25210,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 GAMING X GEN5",
@@ -26522,7 +25231,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 G X WF6E GEN5 1.0",
@@ -26544,7 +25252,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 GAMING X D4 GEN5 1.0",
@@ -26566,7 +25273,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 GAMING X DDR4 1.0",
@@ -26588,7 +25294,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 DS3H DDR4 1.0",
@@ -26610,7 +25315,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 DS3H 1.0",
@@ -26632,7 +25336,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 DS3H GEN5 1.0",
@@ -26654,7 +25357,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 DS3H WF6E GEN5 1.0",
@@ -26676,7 +25378,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 DS3H AX 1.1",
@@ -26698,7 +25399,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760 DS3H AX DDR4  1.2",
@@ -26720,7 +25420,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M DS3H DDR4 1.0",
@@ -26742,7 +25441,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M DS3H AX 1.3",
@@ -26764,7 +25462,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M DS3H  1.0",
@@ -26786,7 +25483,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M DS3H GEN5 1.0",
@@ -26808,7 +25504,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M DS3H WF6E GEN5 1.0",
@@ -26830,7 +25525,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M D3HP DDR4 1.0",
@@ -26852,7 +25546,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M D3HP 1.0",
@@ -26874,7 +25567,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "B760M D3HP WIFI6 1.0",
@@ -26896,7 +25588,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "Z790 D 1.2",
@@ -26918,7 +25609,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "Z790 EAGLE AX 1.2",
@@ -26940,7 +25630,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "H810M S2H 1.0",
@@ -26962,7 +25651,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860 DS3H 1.0",
@@ -26984,7 +25672,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860 DS3H WIFI6E",
@@ -27006,7 +25693,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M E",
@@ -27028,7 +25714,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M E GEN5",
@@ -27050,7 +25735,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M EAGLE 1.0",
@@ -27072,7 +25756,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860 EAGLE WIFI6E 1.0",
@@ -27094,7 +25777,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860 GAMING X WIFI6E 1.0",
@@ -27116,7 +25798,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M A ELT WF6E ICE 1.0",
@@ -27138,7 +25819,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M D3HP 1.0",
@@ -27160,7 +25840,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M DS3H 1.0",
@@ -27182,7 +25861,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "B860M DS3H WIFI6E",
@@ -27204,7 +25882,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890M GAMING X 1.0",
@@ -27226,7 +25903,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890M AORUS ELITE WF7 ICE",
@@ -27248,7 +25924,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 A ELITE WIFI7 1.0",
@@ -27270,7 +25945,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 A ELITE WF7 ICE  1.0",
@@ -27292,7 +25966,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 A EAGLE WIFI7 1.0",
@@ -27314,7 +25987,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 EAGLE WIFI7 P",
@@ -27336,7 +26008,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 EAGLE",
@@ -27358,7 +26029,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 AORUS PRO ICE  1.0",
@@ -27380,7 +26050,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 AORUS MASTER  1.0",
@@ -27402,7 +26071,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "GIGABYTE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "Z890 GAMING X WIFI7",
@@ -27424,7 +26092,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "911-7C96-055",
@@ -27446,7 +26113,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "911-7D14-020",
@@ -27468,7 +26134,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E28-014",
@@ -27490,7 +26155,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E28-017",
@@ -27512,7 +26176,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E36-001",
@@ -27534,7 +26197,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "911-7C95-084",
@@ -27556,7 +26218,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7C56-093",
@@ -27578,7 +26239,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7C56-095",
@@ -27600,7 +26260,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "911-7C90-002",
@@ -27622,7 +26281,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "911-7C95-081",
@@ -27644,7 +26302,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "911-7D14-023",
@@ -27666,7 +26323,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "911-7C95-201",
@@ -27688,7 +26344,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "911-7C56-076",
@@ -27710,7 +26365,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "911-7C91-062",
@@ -27732,7 +26386,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "911-7C56-075",
@@ -27754,7 +26407,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7D75-010",
@@ -27776,7 +26428,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E24-013",
@@ -27798,7 +26449,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E09-010",
@@ -27820,7 +26470,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E26-024",
@@ -27842,7 +26491,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E10-002",
@@ -27864,7 +26512,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7D73-008",
@@ -27886,7 +26533,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E28-020",
@@ -27908,7 +26554,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E27-007",
@@ -27930,7 +26575,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E26-019",
@@ -27952,7 +26596,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E16-009",
@@ -27974,7 +26617,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7D70-016",
@@ -27996,7 +26638,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E57-002",
@@ -28018,7 +26659,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E76-002",
@@ -28040,7 +26680,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E57-001",
@@ -28062,7 +26701,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E56-021",
@@ -28084,7 +26722,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E80-002",
@@ -28106,7 +26743,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E97-001",
@@ -28128,7 +26764,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E56-014",
@@ -28150,7 +26785,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E80-001",
@@ -28172,7 +26806,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E66-001",
@@ -28194,7 +26827,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E81-002",
@@ -28216,7 +26848,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E61-008",
@@ -28238,7 +26869,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E71-001",
@@ -28260,7 +26890,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7F02-001",
@@ -28282,7 +26911,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E62-001",
@@ -28304,7 +26932,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E53-001",
@@ -28326,7 +26953,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E62-002",
@@ -28348,7 +26974,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E62-015",
@@ -28370,7 +26995,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E47-010",
@@ -28392,7 +27016,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E59-006",
@@ -28414,7 +27037,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E49-014",
@@ -28436,7 +27058,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E49-022",
@@ -28458,7 +27079,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E59-001",
@@ -28480,7 +27100,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E48-006",
@@ -28502,7 +27121,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E70-001",
@@ -28524,7 +27142,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E70-002",
@@ -28546,7 +27163,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E86-003",
@@ -28568,7 +27184,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E51-010",
@@ -28590,7 +27205,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7E59-018",
@@ -28612,7 +27226,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7D46-221",
@@ -28634,7 +27247,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7D48-075",
@@ -28656,7 +27268,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7D48-062",
@@ -28678,7 +27289,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E64-001",
@@ -28700,7 +27310,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7D98-051",
@@ -28722,7 +27331,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7D96-024",
@@ -28744,7 +27352,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7E29-009",
@@ -28766,7 +27373,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7E02-029",
@@ -28788,7 +27394,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7E02-030",
@@ -28810,7 +27415,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7D99-060",
@@ -28832,7 +27436,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "911-7D98-043",
@@ -28854,7 +27457,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7E14-007",
@@ -28876,7 +27478,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7E07-025",
@@ -28898,7 +27499,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7E06-091",
@@ -28920,7 +27520,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7D91-046",
@@ -28942,7 +27541,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "911-7E06-084",
@@ -28964,7 +27562,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E41-001",
@@ -28986,7 +27583,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E41-002",
@@ -29008,7 +27604,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E42-003",
@@ -29030,7 +27625,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E42-002",
@@ -29052,7 +27646,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E41-003",
@@ -29074,7 +27667,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E39-001",
@@ -29096,7 +27688,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E22-001",
@@ -29118,7 +27709,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E21-002",
@@ -29140,7 +27730,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E34-002",
@@ -29162,7 +27751,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E34-020",
@@ -29184,7 +27772,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E54-001",
@@ -29206,7 +27793,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E54-010",
@@ -29228,7 +27814,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E32-004",
@@ -29250,7 +27835,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E17-001",
@@ -29272,7 +27856,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E19-002",
@@ -29294,7 +27877,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "911-7E32-013",
@@ -29316,7 +27898,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX6500XT",
       "partNumber": "11314-08-20G",
@@ -29336,7 +27917,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX6600",
       "partNumber": "11310-01-20G",
@@ -29356,7 +27936,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7600",
       "partNumber": "11324-01-20G",
@@ -29376,7 +27955,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7600XT",
       "partNumber": "11339-04-20G",
@@ -29396,7 +27974,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7700XT",
       "partNumber": "11335-04-20G",
@@ -29416,7 +27993,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7700XT",
       "partNumber": "11335-03-20G",
@@ -29436,7 +28012,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7700XT",
       "partNumber": "11335-02-20G",
@@ -29456,7 +28031,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7800XT",
       "partNumber": "11330-02-20G",
@@ -29476,7 +28050,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7800XT",
       "partNumber": "11330-03-20G",
@@ -29496,7 +28069,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7900XT",
       "partNumber": "11323-02-20G",
@@ -29516,7 +28088,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7900XT",
       "partNumber": "11323-01-40G",
@@ -29536,7 +28107,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9060XT",
       "partNumber": "11350-04-20G",
@@ -29556,7 +28126,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9060XT",
       "partNumber": "11350-03-20G",
@@ -29576,7 +28145,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9060XT",
       "partNumber": "11350-02-20G",
@@ -29596,7 +28164,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9060XT",
       "partNumber": "11350-01-20G",
@@ -29616,7 +28183,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7900XTX",
       "partNumber": "11322-02-20G",
@@ -29636,7 +28202,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070",
       "partNumber": "11349-03-20G",
@@ -29656,7 +28221,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7900XTX",
       "partNumber": "11322-01-40G",
@@ -29676,7 +28240,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070",
       "partNumber": "11349-01-20G",
@@ -29696,7 +28259,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070XT",
       "partNumber": "11348-03-20G",
@@ -29716,7 +28278,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070XT",
       "partNumber": "11348-02-20G",
@@ -29736,7 +28297,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070XT",
       "partNumber": "11348-01-20G",
@@ -29756,7 +28316,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070XT",
       "partNumber": "11348-08-20G",
@@ -29776,7 +28335,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070XT",
       "partNumber": "11348-09-20G",
@@ -29796,7 +28354,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GT710",
       "partNumber": "912-V809-3814",
@@ -29816,7 +28373,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "912-V809-4404",
@@ -29836,7 +28392,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GT730",
       "partNumber": "912-V809-4403",
@@ -29856,7 +28411,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GT730",
       "partNumber": "912-V809-3874",
@@ -29876,7 +28430,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GT730",
       "partNumber": "912-V809-4402",
@@ -29896,7 +28449,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GT1030",
       "partNumber": "912-V809-3817",
@@ -29916,7 +28468,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GT1030",
       "partNumber": "912-V812-037",
@@ -29936,7 +28487,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GT1030",
       "partNumber": "912-V809-4069",
@@ -29956,7 +28506,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GT1030",
       "partNumber": "912-V812-065",
@@ -29976,7 +28525,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GTX1650",
       "partNumber": "912-V812-004",
@@ -29996,7 +28544,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB1500-M0EAY0",
@@ -30018,7 +28565,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB1510-M0EAYC",
@@ -30040,7 +28586,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB18F0-M0EAY0",
@@ -30062,7 +28607,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB17G0-M0EAYO",
@@ -30084,7 +28628,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "912-V812-015",
@@ -30104,7 +28647,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "912-V812-056",
@@ -30124,7 +28666,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "912-V812-025",
@@ -30144,7 +28685,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "912-V812-213",
@@ -30164,7 +28704,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3060",
       "partNumber": "912-V397-644",
@@ -30184,7 +28723,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "912-V809-4287",
@@ -30204,7 +28742,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "912-V809-4401",
@@ -30224,7 +28761,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "912-V809-4401",
@@ -30244,7 +28780,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3060",
       "partNumber": "912-V397-886",
@@ -30264,7 +28799,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3060",
       "partNumber": "912-V397-699",
@@ -30284,7 +28818,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB1600-M0EAY0",
@@ -30306,7 +28839,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB15Z0-M0EAY0",
@@ -30328,7 +28860,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB14V0-MOEAY0",
@@ -30350,7 +28881,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB1GC0-M0EAY0",
@@ -30372,7 +28902,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB14I0-M0EAY0",
@@ -30394,7 +28923,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB14A0-M0EAY0",
@@ -30416,7 +28944,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB19U0-MOEAY0",
@@ -30438,7 +28965,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB14U0-M0EAY0",
@@ -30460,7 +28986,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB14G0-M0EAY0",
@@ -30482,7 +29007,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "90MB17R0-M0EAY0",
@@ -30504,7 +29028,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1F40-M0EAY0",
@@ -30526,7 +29049,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1F10-M0EAY0",
@@ -30548,7 +29070,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1EZ0-MOEAY0",
@@ -30570,7 +29091,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1F00-M0EAY0",
@@ -30592,7 +29112,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "912-V516-208",
@@ -30612,7 +29131,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "912-V516-208",
@@ -30632,7 +29150,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "912-V516-218",
@@ -30652,7 +29169,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "912-V516-083",
@@ -30672,7 +29188,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "912-V812-012",
@@ -30692,7 +29207,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "912-V516-032",
@@ -30712,7 +29226,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1BS0-M0EAY0",
@@ -30734,7 +29247,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "912-V516-081",
@@ -30754,7 +29266,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1BS0-M0EAYC",
@@ -30776,7 +29287,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V515-017",
@@ -30796,7 +29306,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1F60-M0EAY0",
@@ -30818,7 +29327,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V515-027",
@@ -30838,7 +29346,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1H30-M0EAY0",
@@ -30860,7 +29367,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1EG0-M0EAY0",
@@ -30882,7 +29388,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V512-013",
@@ -30902,7 +29407,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1BF0-M0EAY0",
@@ -30924,7 +29428,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V512-001",
@@ -30944,7 +29447,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1BG0-M0EAY0",
@@ -30966,7 +29468,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V515-045",
@@ -30986,7 +29487,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V515-218",
@@ -31006,7 +29506,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1KP0-M0EAY0",
@@ -31028,7 +29527,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1BY0-M0EAY0",
@@ -31050,7 +29548,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V515-205",
@@ -31070,7 +29567,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1BZ0-M0EAY0",
@@ -31092,7 +29588,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V515-076",
@@ -31112,7 +29607,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1BP0-M0EAY0",
@@ -31134,7 +29628,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V517-069",
@@ -31154,7 +29647,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1M20-M0EAY0",
@@ -31176,7 +29668,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V517-070",
@@ -31196,7 +29687,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V517-088",
@@ -31216,7 +29706,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V517-012",
@@ -31236,7 +29725,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "912-V517-098",
@@ -31256,7 +29744,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070",
       "partNumber": "912-V512-018",
@@ -31276,7 +29763,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070",
       "partNumber": "912-V513-819",
@@ -31296,7 +29782,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070",
       "partNumber": "912-V512-032",
@@ -31316,7 +29801,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "912-V513-800",
@@ -31336,7 +29820,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "912-V513-656",
@@ -31356,7 +29839,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "912-V513-619",
@@ -31376,7 +29858,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "912-V513-840",
@@ -31396,7 +29877,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "912-V513-839",
@@ -31416,7 +29896,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI",
       "partNumber": "912-V513-440",
@@ -31436,7 +29915,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI",
       "partNumber": "912-V513-288",
@@ -31456,7 +29934,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI",
       "partNumber": "912-V513-433",
@@ -31476,7 +29953,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI",
       "partNumber": "912-V513-452",
@@ -31496,7 +29972,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI",
       "partNumber": "912-V513-235",
@@ -31516,7 +29991,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "912-V513-873",
@@ -31536,7 +30010,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "912-V513-867",
@@ -31556,7 +30029,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "912-V513-660",
@@ -31576,7 +30048,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "912-V513-611",
@@ -31596,7 +30067,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "912-V513-613",
@@ -31616,7 +30086,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "912-V513-689",
@@ -31636,7 +30105,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "912-V513-886",
@@ -31656,7 +30124,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5050",
       "partNumber": "912-V538-001",
@@ -31676,7 +30143,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5050",
       "partNumber": "912-V538-002",
@@ -31696,7 +30162,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5050",
       "partNumber": "912-V538-006",
@@ -31716,7 +30181,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "912-V537-004",
@@ -31736,7 +30200,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "912-V537-098",
@@ -31756,7 +30219,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "912-V537-095",
@@ -31776,7 +30238,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "912-V537-002",
@@ -31796,7 +30257,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "912-V550-009",
@@ -31816,7 +30276,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "912-V537-001",
@@ -31836,7 +30295,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "912-V537-003",
@@ -31856,7 +30314,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "912-V537-014",
@@ -31876,7 +30333,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "912-V537-005",
@@ -31896,7 +30352,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "912-V550-008",
@@ -31916,7 +30371,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V536-005",
@@ -31936,7 +30390,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "",
@@ -31956,7 +30409,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V536-087",
@@ -31976,7 +30428,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V536-001",
@@ -31996,7 +30447,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V536-002",
@@ -32016,7 +30466,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V536-003",
@@ -32036,7 +30485,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V536-076",
@@ -32056,7 +30504,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V535-003",
@@ -32076,7 +30523,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V535-005",
@@ -32096,7 +30542,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V535-006",
@@ -32116,7 +30561,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "",
@@ -32136,7 +30580,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V535-033",
@@ -32156,7 +30599,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V812-080",
@@ -32176,7 +30618,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "",
@@ -32196,7 +30637,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V812-077",
@@ -32216,7 +30656,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "912-V535-002",
@@ -32236,7 +30675,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "912-V532-031",
@@ -32256,7 +30694,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "912-V532-029",
@@ -32276,7 +30713,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "912-V532-004",
@@ -32296,7 +30732,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "912-V532-003",
@@ -32316,7 +30751,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "912-V532-267",
@@ -32336,7 +30770,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "912-V532-005",
@@ -32356,7 +30789,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "912-V532-026",
@@ -32376,7 +30808,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "912-V532-241",
@@ -32396,7 +30827,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "912-V532-006",
@@ -32416,7 +30846,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "912-V531-286",
@@ -32436,7 +30865,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "912-V531-057",
@@ -32456,7 +30884,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "912-V531-616",
@@ -32476,7 +30903,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "912-V531-445",
@@ -32496,7 +30922,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "912-V531-281",
@@ -32516,7 +30941,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "912-V531-081",
@@ -32536,7 +30960,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "912-V531-446",
@@ -32556,7 +30979,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "912-V531-006",
@@ -32576,7 +30998,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "912-V531-005",
@@ -32596,7 +31017,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "912-V531-049",
@@ -32616,7 +31036,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "912-V531-064",
@@ -32636,7 +31055,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "912-V531-039",
@@ -32656,7 +31074,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "912-V531-444",
@@ -32676,7 +31093,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "912-V531-428",
@@ -32696,7 +31112,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "912-V531-297",
@@ -32716,7 +31131,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "912-V531-062",
@@ -32736,7 +31150,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "912-V531-009",
@@ -32756,7 +31169,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "912-V530-012",
@@ -32776,7 +31188,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "912-V530-207",
@@ -32796,7 +31207,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "912-V530-236",
@@ -32816,7 +31226,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "912-V530-018",
@@ -32836,7 +31245,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "912-V530-011",
@@ -32856,7 +31264,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "912-V511-270",
@@ -32876,7 +31283,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "912-V511-242",
@@ -32896,7 +31302,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "912-V511-220",
@@ -32916,7 +31321,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "912-V511-228",
@@ -32936,7 +31340,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "912-V511-221",
@@ -32956,7 +31359,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4080 Super",
       "partNumber": "912-V511-249",
@@ -32976,7 +31378,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4090",
       "partNumber": "912-V510-271",
@@ -32996,7 +31397,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4090",
       "partNumber": "912-V510-013",
@@ -33016,7 +31416,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4090",
       "partNumber": "912-V510-405",
@@ -33036,7 +31435,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4090",
       "partNumber": "912-V510-225",
@@ -33056,7 +31454,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "MSI",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4090",
       "partNumber": "912-V510-068",
@@ -33076,7 +31473,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1KJ0-M0EAY0",
@@ -33098,7 +31494,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1J20-M0EAY0",
@@ -33120,7 +31515,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1IZ0-M0EAY0",
@@ -33142,7 +31536,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1L80-M0EAY0",
@@ -33164,7 +31557,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1J30-M0EAY0",
@@ -33186,7 +31578,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1L20-M0EAY0",
@@ -33208,7 +31599,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1LV0-M0EAY0",
@@ -33230,7 +31620,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1LN0-M0EAY0",
@@ -33252,7 +31641,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1IY0-M0EAY0",
@@ -33274,7 +31662,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1MU0-MOEAY0",
@@ -33296,7 +31683,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1M10-M0EAY0",
@@ -33318,7 +31704,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1IT0-M0EAY0",
@@ -33340,7 +31725,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1IS0-M0EAY0",
@@ -33362,7 +31746,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1IU0-M0EAY0",
@@ -33384,7 +31767,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1M70-M0EAY0",
@@ -33406,7 +31788,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1IB0-M0EAY0",
@@ -33428,7 +31809,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1KR0-M0EAY0",
@@ -33450,7 +31830,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1IE0-M0EAY0",
@@ -33472,7 +31851,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1LB0-M0EAY0",
@@ -33494,7 +31872,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "90MB1LZ0-M0EAY0",
@@ -33516,7 +31893,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GT1030",
       "partNumber": "90YV0AT0-M0NA00",
@@ -33536,7 +31912,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce GTX1070TI",
       "partNumber": "90YV0BI0-M0NA00",
@@ -33556,7 +31931,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "90YV0K60-M0NA00",
@@ -33576,7 +31950,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3050",
       "partNumber": "90YV0GH6-M0NA00",
@@ -33596,7 +31969,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX3060",
       "partNumber": "90YV0GB2-M0NA10",
@@ -33616,7 +31988,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "90YV0JC7-M0NA00",
@@ -33636,7 +32007,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060",
       "partNumber": "90YV0JC4-M0NA00",
@@ -33656,7 +32026,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "90YV0J49-M0NA00",
@@ -33676,7 +32045,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "90YV0J47-M0NB00",
@@ -33696,7 +32064,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4060Ti",
       "partNumber": "90YV0JH8-M0NAOO",
@@ -33716,7 +32083,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "90YV0KF1-M0NA00",
@@ -33736,7 +32102,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "90YV0KF0-M0NA00",
@@ -33756,7 +32121,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070TI Super",
       "partNumber": "90YV0KF3-M0NA00",
@@ -33776,7 +32140,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX4070 Super",
       "partNumber": "90YV0K83-M0NA00",
@@ -33796,7 +32159,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5050",
       "partNumber": "90YV0N72-M0NA00",
@@ -33816,7 +32178,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "90YV0N12-M0NA00",
@@ -33836,7 +32197,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "90YV0N00-M0NA00",
@@ -33856,7 +32216,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "90YV0MP2-M0NA00",
@@ -33876,7 +32235,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060",
       "partNumber": "90YV0N10-M0NA00",
@@ -33896,7 +32254,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "90YV0MH0-M0NA00",
@@ -33916,7 +32273,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5060TI",
       "partNumber": "90YV0MG0-M0NA00",
@@ -33936,7 +32292,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "90YV0M10-M0NA00",
@@ -33956,7 +32311,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "90YV0M17-M0NA00",
@@ -33976,7 +32330,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "90YV0M19-M0NA00",
@@ -33996,7 +32349,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070",
       "partNumber": "90YV0LZ0-M0NA00",
@@ -34016,7 +32368,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "90YV0MF0-M0NA00",
@@ -34036,7 +32387,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "90YV0MD3-M0NA00",
@@ -34056,7 +32406,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5070TI",
       "partNumber": "90YV0MD0-M0NA00",
@@ -34076,7 +32425,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "90YV0LX0-M0NA00",
@@ -34096,7 +32444,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5080",
       "partNumber": "90YV0M30-M0NA00",
@@ -34116,7 +32463,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX5090",
       "partNumber": "90YV0LY0-M0NA00",
@@ -34136,7 +32482,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1200 /Intel 10th and 11th Gen",
       "partNumber": "90MB1E80-M0EAY0",
@@ -34158,7 +32503,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1A10-M0EAY0",
@@ -34180,7 +32524,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1HN0-M0EAY0",
@@ -34202,7 +32545,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1GA0-M0EAY0",
@@ -34224,7 +32566,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB19P0-M0EAYC",
@@ -34246,7 +32587,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1GL0-M0ECY0",
@@ -34268,7 +32608,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1950-M1EAY0",
@@ -34290,7 +32629,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB19K0-M1EAYC",
@@ -34312,7 +32650,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB18X0-M1EAY0",
@@ -34334,7 +32671,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1GY0-M0EAY0",
@@ -34356,7 +32692,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1FI0-M1EAY0",
@@ -34378,7 +32713,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1DS0-M1EAY0",
@@ -34400,7 +32734,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1CX0-M1EAY0",
@@ -34422,7 +32755,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1EL0-M1EAY0",
@@ -34444,7 +32776,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1HA0-M0EAY0",
@@ -34466,7 +32797,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1EK0-M1EAYC",
@@ -34488,7 +32818,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1D00-M0EAYC",
@@ -34510,7 +32839,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1DI0-M1EAY0",
@@ -34532,7 +32860,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1HE0-M0EAY0",
@@ -34554,7 +32881,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1HD0-M0EAY0",
@@ -34576,7 +32902,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1CW0-M1EAY0",
@@ -34598,7 +32923,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1EF0-M1EAY0",
@@ -34620,7 +32944,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1ER0-M1EAY0",
@@ -34642,7 +32965,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1DF0-M1EAY0",
@@ -34664,7 +32986,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1CT0-M1EAY0",
@@ -34686,7 +33007,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1CK0-M1EAY0",
@@ -34708,7 +33028,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1CJ0-M1EAY0",
@@ -34730,7 +33049,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1700 /Intel 12th and 13th Gen",
       "partNumber": "90MB1CS0-M1EAY0",
@@ -34752,7 +33070,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1JT0-M0EAY0",
@@ -34774,7 +33091,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1JY0-M0EAY0",
@@ -34796,7 +33112,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1JV0-M0EAY0",
@@ -34818,7 +33133,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1K50-M0EAY0",
@@ -34840,7 +33154,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1JL0-M0EAY0",
@@ -34862,7 +33175,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1I50-M0EAY0",
@@ -34884,7 +33196,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1I70-M0EAY0",
@@ -34906,7 +33217,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1IQ0-M0EAY0",
@@ -34928,7 +33238,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1IR0-M0EAY0",
@@ -34950,7 +33259,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1ID0-M0EAY0",
@@ -34972,7 +33280,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1IA0-M0EAY0",
@@ -34994,7 +33301,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1I40-M0EAY0",
@@ -35016,7 +33322,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1IM0-M0EAY0",
@@ -35038,7 +33343,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1I90-M0EAY0",
@@ -35060,7 +33364,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "LGA1851 /Intel Core Ultra 200",
       "partNumber": "90MB1J80-M0EAY0",
@@ -35082,7 +33385,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "52119-04-40G",
@@ -35104,7 +33406,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM4",
       "partNumber": "52103-05-40G",
@@ -35126,7 +33427,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7600",
       "partNumber": "90YV0IH2-M0NA00",
@@ -35146,7 +33446,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX6700",
       "partNumber": "90YV0LD0-M0NA00",
@@ -35166,7 +33465,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7600XT",
       "partNumber": "90YV0K20-M0NA00",
@@ -35186,7 +33484,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7600XT",
       "partNumber": "90YV0K21-M0NA00",
@@ -35206,7 +33503,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7700XT",
       "partNumber": "90YV0JZ0-M0NA00",
@@ -35226,7 +33522,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7800XT",
       "partNumber": "90YV0K70-M0NA00",
@@ -35246,7 +33541,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7800XT",
       "partNumber": "90YV0JJ1-M0NA00",
@@ -35266,7 +33560,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7800XT",
       "partNumber": "90YV0JJ0-M0NA00",
@@ -35286,7 +33579,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7900XT",
       "partNumber": "90YV0IV1-M0NA00",
@@ -35306,7 +33598,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9060XT",
       "partNumber": "90YV0MI0-M0NA00",
@@ -35326,7 +33617,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9060XT",
       "partNumber": "90YV0LF1-M0NA00",
@@ -35346,7 +33636,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070",
       "partNumber": "90YV0PP0-M0NA00",
@@ -35366,7 +33655,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070",
       "partNumber": "90YV0LI1-M0NA00",
@@ -35386,7 +33674,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9060XT",
       "partNumber": "90YV0LG3-M0NA00",
@@ -35406,7 +33693,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070",
       "partNumber": "90YV0LI0-M0NA00",
@@ -35426,7 +33712,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASUS",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070XT",
       "partNumber": "90YV0L70-M0NA00",
@@ -35446,7 +33731,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7700XT",
       "partNumber": "RX7700XT CHALLENGER 12G OC",
@@ -35466,7 +33750,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7900XT",
       "partNumber": "RX7900XT PGW 20GO",
@@ -35486,7 +33769,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7900XTX",
       "partNumber": "RX7900XTX TCW 24GO",
@@ -35506,7 +33788,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX7900XTX",
       "partNumber": "RX7900XTX PHANTOM GAMING 24G O",
@@ -35526,7 +33807,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "90-GA5MZZ-00UANF",
@@ -35546,7 +33826,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9060XT",
       "partNumber": "RX9060XT CL 8GO",
@@ -35566,7 +33845,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9060XT",
       "partNumber": "RX9060XT SL 16GO",
@@ -35586,7 +33864,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070",
       "partNumber": "RX9070 CL 16G",
@@ -35606,7 +33883,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "RC9070GRE SLD 12GO",
@@ -35626,7 +33902,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070XT",
       "partNumber": "RX9070XT CL 16G",
@@ -35646,7 +33921,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070XT",
       "partNumber": "RX9070XT SL 16G",
@@ -35666,7 +33940,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "Radeon RX9070XT",
       "partNumber": "RX9070XT SLD 16G",
@@ -35686,7 +33959,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "R9700 CT 32GB",
@@ -35706,7 +33978,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "B60 CT 24G",
@@ -35726,7 +33997,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "ASROCK",
       "currency": "EUR",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "B70 CT 32G",
@@ -35746,7 +34016,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "TD",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "GeForce RTX2070",
       "partNumber": "AX-RTX2070/8GD6P6I",
@@ -35766,7 +34035,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "_NONAME",
       "currency": "EUR",
-      "status": "Обадете се",
       "sourceCategory": "VIDEO CARD",
       "sourceSubcategory": "",
       "partNumber": "",
@@ -35786,7 +34054,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "52112-04-40G",
@@ -35808,7 +34075,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "Обадете се",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "52123-04-40G",
@@ -35830,7 +34096,6 @@ export const feedComponents = [
     "specs": {
       "manufacturer": "SAPPHIRE",
       "currency": "USD",
-      "status": "В наличност",
       "sourceCategory": "MAIN BOARD",
       "sourceSubcategory": "AMD AM5",
       "partNumber": "52123-03-40G",

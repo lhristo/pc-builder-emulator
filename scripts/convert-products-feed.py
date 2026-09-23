@@ -135,7 +135,6 @@ def product_base(elem, mapped_category, props):
         "specs": {
             "manufacturer": manufacturer,
             "currency": currency,
-            "status": text(elem, "product_status"),
             "sourceCategory": category,
             "sourceSubcategory": subcategory,
             "partNumber": part_number,
