@@ -139,17 +139,23 @@ h2 {
 
 .category-tabs {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 6px;
 }
 
 .category-tab {
   min-height: 32px;
+  min-width: 0;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel-strong);
   color: var(--muted);
   cursor: pointer;
+  font-size: 0.78rem;
+  line-height: 1.1;
+  padding: 0 6px;
+  text-align: center;
+  overflow-wrap: anywhere;
 }
 
 .category-tab[aria-selected="true"] {
