@@ -593,6 +593,83 @@ const requiredSlots = ["case", "motherboard", "cpu", "ram", "gpu", "storage", "p
 const multiSlots = new Set(["ram", "storage"]);
 const savedBuildsKey = "pc-builder-emulator.saved-builds";
 const build = Object.fromEntries(requiredSlots.map((slot) => [slot, multiSlots.has(slot) ? [] : null]));
+const buildPresets = [
+  {
+    id: "gaming",
+    name: "Gaming PC",
+    description: "Fast AM5 gaming build with RTX 5080 and Gen5 storage.",
+    build: {
+      case: "case-atx-2025-airflow",
+      motherboard: "mb-x870-atx",
+      cpu: "cpu-9800x3d",
+      ram: ["ram-ddr5-32-6400"],
+      gpu: "gpu-rtx-5080",
+      storage: ["ssd-wd-sn8100-2tb"],
+      psu: "psu-1000-atx31",
+      cooler: "cooler-aio-360"
+    }
+  },
+  {
+    id: "office",
+    name: "Office PC",
+    description: "Quiet mATX build for daily work, multitasking, and light graphics.",
+    build: {
+      case: "case-matx-compact-2024",
+      motherboard: "mb-b840-matx",
+      cpu: "cpu-9600x",
+      ram: ["ram-ddr5-32"],
+      gpu: "gpu-4070",
+      storage: ["ssd-pcie4-value-4tb"],
+      psu: "psu-750-atx31",
+      cooler: "cooler-air-2025-dual"
+    }
+  },
+  {
+    id: "creator",
+    name: "Creator Workstation",
+    description: "High-core Ryzen build with large memory and mixed fast/bulk storage.",
+    build: {
+      case: "case-atx-creator-xl",
+      motherboard: "mb-x870e-atx",
+      cpu: "cpu-9950x",
+      ram: ["ram-ddr5-64-6000"],
+      gpu: "gpu-rtx-5080",
+      storage: ["ssd-samsung-9100-4tb", "ssd-sata-8tb-2026"],
+      psu: "psu-1200-atx31",
+      cooler: "cooler-aio-420"
+    }
+  },
+  {
+    id: "budget",
+    name: "Budget Build",
+    description: "Balanced mATX gaming/work build using practical midrange parts.",
+    build: {
+      case: "case-matx-compact-2024",
+      motherboard: "mb-b850-matx",
+      cpu: "cpu-9600x",
+      ram: ["ram-ddr5-32"],
+      gpu: "gpu-rx7800",
+      storage: ["ssd-m2"],
+      psu: "psu-750-atx31",
+      cooler: "cooler-air-2025-dual"
+    }
+  },
+  {
+    id: "high-end",
+    name: "High-end Build",
+    description: "Flagship Intel/NVIDIA build with CUDIMM memory and top-tier power.",
+    build: {
+      case: "case-atx-creator-xl",
+      motherboard: "mb-z890-atx",
+      cpu: "cpu-ultra-285k",
+      ram: ["ram-cudimm-64-8000"],
+      gpu: "gpu-rtx-5090",
+      storage: ["ssd-samsung-9100-4tb", "ssd-wd-sn8100-2tb"],
+      psu: "psu-1200-atx31",
+      cooler: "cooler-aio-420"
+    }
+  }
+];
 const filters = {
   search: "",
   price: "all",
@@ -602,8 +679,10 @@ const filters = {
 };
 let selectedCategory = "case";
 let draggedId = null;
+let activePresetId = null;
 
 const categoryTabs = document.querySelector("#categoryTabs");
+const presetGrid = document.querySelector("#presetGrid");
 const componentFilters = document.querySelector("#componentFilters");
 const searchInput = document.querySelector("#searchInput");
 const priceFilter = document.querySelector("#priceFilter");
@@ -670,6 +749,31 @@ function renderCategories() {
       (category) =>
         `<button class="category-tab" type="button" data-category="${category.id}" aria-selected="${category.id === selectedCategory}">${category.label}</button>`
     )
+    .join("");
+}
+
+function presetMetrics(preset) {
+  const parts = Object.values(preset.build)
+    .flat()
+    .map(findComponent)
+    .filter(Boolean);
+  const currencies = [...new Set(parts.map(partCurrency))];
+  const price = parts.reduce((sum, part) => sum + (part.price ?? 0), 0);
+  const wattage = parts.reduce((sum, part) => sum + (part.wattage ?? 0), 50);
+  const priceLabel = currencies.length > 1 ? "Mixed" : formatCurrency(price, currencies[0] ?? "USD");
+  return { priceLabel, wattage, partCount: parts.length };
+}
+
+function renderPresets() {
+  presetGrid.innerHTML = buildPresets
+    .map((preset) => {
+      const metrics = presetMetrics(preset);
+      return `<button class="preset-card" type="button" data-preset="${preset.id}" aria-pressed="${preset.id === activePresetId}">
+        <span>${escapeHtml(preset.name)}</span>
+        <strong>${metrics.priceLabel} · ${metrics.wattage} W</strong>
+        <small>${escapeHtml(preset.description)}</small>
+      </button>`;
+    })
     .join("");
 }
 
@@ -842,6 +946,16 @@ function hydrateBuild(serialized) {
       build[slot] = value ? findComponent(value) ?? null : null;
     }
   });
+}
+
+function applyPreset(presetId) {
+  const preset = buildPresets.find((item) => item.id === presetId);
+  if (!preset) return;
+  hydrateBuild(preset.build);
+  activePresetId = preset.id;
+  buildNameInput.value = preset.name;
+  renderAll();
+  updateModel(build);
 }
 
 function readSavedBuilds() {
@@ -1106,12 +1220,14 @@ function setPart(partId, slot) {
   if (!part || !canDrop(part, slot)) return;
   if (multiSlots.has(slot)) build[slot].push(part);
   else build[slot] = part;
+  activePresetId = null;
   renderAll();
   updateModel(build);
 }
 
 function renderAll() {
   renderCategories();
+  renderPresets();
   renderComponents();
   renderSlots();
   renderStatus();
@@ -1123,6 +1239,12 @@ categoryTabs.addEventListener("click", (event) => {
   if (!button) return;
   selectedCategory = button.dataset.category;
   renderAll();
+});
+
+presetGrid.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-preset]");
+  if (!button) return;
+  applyPreset(button.dataset.preset);
 });
 
 componentFilters.addEventListener("input", () => {
@@ -1174,6 +1296,7 @@ saveBuildForm.addEventListener("submit", (event) => {
 
   writeSavedBuilds(savedBuilds);
   buildNameInput.value = "";
+  activePresetId = null;
   renderSavedBuilds();
 });
 
@@ -1188,6 +1311,7 @@ savedBuildsEl.addEventListener("click", (event) => {
     const savedBuild = savedBuilds.find((item) => item.id === loadButton.dataset.loadBuild);
     if (!savedBuild) return;
     hydrateBuild(savedBuild.build);
+    activePresetId = null;
     buildNameInput.value = savedBuild.name;
     renderAll();
     updateModel(build);
@@ -1243,6 +1367,7 @@ slotsEl.addEventListener("click", (event) => {
   const slot = removeButton.dataset.remove;
   if (multiSlots.has(slot)) build[slot].splice(Number(removeButton.dataset.index), 1);
   else build[slot] = null;
+  activePresetId = null;
   renderAll();
   updateModel(build);
 });
@@ -1251,6 +1376,8 @@ document.querySelector("#resetBuild").addEventListener("click", () => {
   requiredSlots.forEach((slot) => {
     build[slot] = multiSlots.has(slot) ? [] : null;
   });
+  activePresetId = null;
+  buildNameInput.value = "";
   renderAll();
   updateModel(build);
 });

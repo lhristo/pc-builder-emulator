@@ -16,6 +16,7 @@ https://lhristo.github.io/pc-builder-emulator/
 - Automatically calculates the total build price and estimated wattage
 - Checks component compatibility while the user builds
 - Supports multiple RAM kits and multiple storage drives in one build
+- Includes preset sample builds for gaming, office, creator workstation, budget, and high-end PCs
 - Shows a build summary with selected parts, price, wattage, missing slots, and review items
 - Saves, loads, overwrites, and deletes named builds in browser local storage
 - Deploys automatically to GitHub Pages from the `main` branch
