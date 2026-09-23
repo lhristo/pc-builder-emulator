@@ -37,6 +37,38 @@ http://localhost:4173/
 
 The app loads Three.js from a CDN, so the 3D preview needs internet access.
 
+## iOS App
+
+The iOS wrapper uses Capacitor and keeps the browser app as the shared source of truth.
+
+Prepare the web assets and sync the iOS project:
+
+```sh
+npm run cap:sync:ios
+```
+
+Open the native project in Xcode:
+
+```sh
+npm run cap:open:ios
+```
+
+The generated native project lives in:
+
+```text
+ios/App/App.xcodeproj
+```
+
+Capacitor copies the static web app into `ios/App/App/public` from the generated `www/` folder. Run `npm run cap:sync:ios` after changing `index.html`, `app.js`, `styles.css`, or `data/feed-components.js`.
+
+Requirements for building/running on iPhone or Simulator:
+
+- Node/npm
+- Full Xcode installed from Apple
+- Apple Developer account for physical-device signing or App Store/TestFlight distribution
+
+This app still loads Three.js from a CDN, so the iOS app needs internet access for the 3D preview unless Three.js is bundled locally later.
+
 ## Component Data
 
 The app currently combines two component sources:

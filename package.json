@@ -1,0 +1,28 @@
+{
+  "name": "pc-builder-emulator",
+  "version": "1.0.0",
+  "description": "A static browser app for assembling a desktop computer from categorized components, checking compatibility, estimating price and wattage, and previewing the build in a rotatable 3D case.",
+  "scripts": {
+    "serve": "python3 -m http.server 4173",
+    "prepare:ios": "python3 scripts/prepare-capacitor-web.py",
+    "cap:sync:ios": "npm run prepare:ios && cap sync ios",
+    "cap:open:ios": "npm run prepare:ios && cap open ios"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhristo/pc-builder-emulator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lhristo/pc-builder-emulator/issues"
+  },
+  "homepage": "https://github.com/lhristo/pc-builder-emulator#readme",
+  "dependencies": {
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/ios": "^8.5.2"
+  }
+}

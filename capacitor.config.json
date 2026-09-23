@@ -1,0 +1,8 @@
+{
+  "appId": "com.lhristo.pcbuilder",
+  "appName": "PC Builder Emulator",
+  "webDir": "www",
+  "ios": {
+    "scheme": "PCBuilder"
+  }
+}
