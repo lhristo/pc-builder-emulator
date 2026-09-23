@@ -27,6 +27,16 @@
           </button>
         </div>
 
+        <section class="presets-panel" aria-label="Build presets">
+          <div class="summary-heading">
+            <div>
+              <p class="eyebrow">Start here</p>
+              <h2>Preset Builds</h2>
+            </div>
+          </div>
+          <div class="preset-grid" id="presetGrid"></div>
+        </section>
+
         <div class="category-tabs" id="categoryTabs" aria-label="Component categories"></div>
         <form class="filters" id="componentFilters" aria-label="Component filters">
           <label class="filter-field filter-field-wide">
@@ -94,16 +104,6 @@
               <output id="wattage" class="wattage" aria-label="Estimated wattage">0 W</output>
             </div>
           </div>
-
-          <section class="presets-panel" aria-label="Build presets">
-            <div class="summary-heading">
-              <div>
-                <p class="eyebrow">Presets</p>
-                <h2>Sample Builds</h2>
-              </div>
-            </div>
-            <div class="preset-grid" id="presetGrid"></div>
-          </section>
 
           <div class="slots" id="slots"></div>
 
