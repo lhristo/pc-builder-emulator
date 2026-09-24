@@ -1541,6 +1541,9 @@ function updateModel(parts) {
   const whiteCase = !selectedCaseColor || ["#f4f7f5", "#f5f7f9", "#eef4f8"].includes(selectedCaseColor);
   const caseColor = whiteCase ? "#f4f5f6" : selectedCaseColor;
   const trimColor = whiteCase ? "#d7dde2" : "#252d35";
+  const chassisColor = whiteCase ? "#e8ecef" : "#1f262d";
+  const innerMetal = whiteCase ? "#cbd2d8" : "#2b333b";
+  const darkMetal = whiteCase ? "#7f8a94" : "#151a1f";
   const caseHeight = parts.case?.specs.formFactor === "Mini-ITX" ? 2.55 : parts.case?.specs.formFactor === "mATX" ? 2.9 : 3.24;
   const caseWidth = parts.case?.specs.formFactor === "Mini-ITX" ? 2.12 : 2.72;
   const caseDepth = parts.case?.specs.formFactor === "Mini-ITX" ? 1.42 : 1.92;
@@ -1550,48 +1553,90 @@ function updateModel(parts) {
   const rearZ = -caseDepth / 2;
   const frontZ = caseDepth / 2;
 
-  panel("case-backplate", [caseWidth, caseHeight, 0.09], [0, caseCenterY, rearZ], "#e9edf0");
-  panel("case-bottom", [caseWidth, 0.12, caseDepth], [0, 0.08, 0], caseColor);
-  panel("case-top", [caseWidth, 0.12, caseDepth], [0, caseHeight + 0.08, 0], caseColor);
-  panel("case-front-frame", [0.12, caseHeight, caseDepth], [frontX, caseCenterY, 0], caseColor);
-  panel("case-left-rear-upright", [0.11, caseHeight, 0.1], [sideX, caseCenterY, rearZ + 0.05], trimColor);
-  panel("case-left-front-upright", [0.11, caseHeight, 0.1], [sideX, caseCenterY, frontZ - 0.05], trimColor);
-  panel("case-open-side-bottom-rail", [0.11, 0.1, caseDepth], [sideX, 0.22, 0], trimColor);
-  panel("case-open-side-top-rail", [0.11, 0.1, caseDepth], [sideX, caseHeight + 0.02, 0], trimColor);
-  panel("case-bottom-psu-shroud", [caseWidth * 0.9, 0.34, caseDepth * 0.88], [-0.08, 0.34, -0.02], "#dfe4e8");
-  panel("case-inner-tray", [0.08, caseHeight * 0.72, caseDepth * 0.64], [0.08, 1.84, rearZ + 0.34], "#cfd6dc");
+  panel("case-rear-steel-panel", [caseWidth, caseHeight, 0.08], [0, caseCenterY, rearZ], chassisColor, { roughness: 0.6, metalness: 0.28 });
+  panel("case-bottom-floor", [caseWidth, 0.12, caseDepth], [0, 0.08, 0], caseColor, { roughness: 0.52, metalness: 0.3 });
+  panel("case-top-frame", [caseWidth, 0.12, caseDepth], [0, caseHeight + 0.08, 0], caseColor, { roughness: 0.48, metalness: 0.28 });
+  panel("case-front-bezel", [0.14, caseHeight, caseDepth], [frontX, caseCenterY, 0], caseColor, { roughness: 0.46, metalness: 0.24 });
 
-  const glassPanel = box("removed-glass-panel", [0.035, caseHeight * 0.92, caseDepth * 0.86], [sideX + 0.16, caseCenterY, 0.03], "#b9d7ee", {
+  panel("case-motherboard-tray", [0.075, caseHeight * 0.74, caseDepth * 0.67], [0.09, 1.84, rearZ + 0.34], innerMetal, { roughness: 0.64, metalness: 0.34 });
+  panel("rear-io-cutout", [0.084, 0.48, 0.36], [0.132, 2.62, -0.36], darkMetal, { roughness: 0.42, metalness: 0.4 });
+
+  const railPositions = [
+    ["open-side-front-upright", [0.09, caseHeight, 0.1], [sideX, caseCenterY, frontZ - 0.05]],
+    ["open-side-rear-upright", [0.09, caseHeight, 0.1], [sideX, caseCenterY, rearZ + 0.05]],
+    ["open-side-top-rail", [0.1, 0.1, caseDepth], [sideX, caseHeight + 0.02, 0]],
+    ["open-side-bottom-rail", [0.1, 0.1, caseDepth], [sideX, 0.22, 0]],
+    ["front-left-upright", [0.1, caseHeight, 0.1], [frontX + 0.05, caseCenterY, frontZ - 0.05]],
+    ["rear-left-upright", [0.1, caseHeight, 0.1], [frontX + 0.05, caseCenterY, rearZ + 0.05]]
+  ];
+  railPositions.forEach(([name, size, position]) => panel(`case-${name}`, size, position, trimColor, { roughness: 0.36, metalness: 0.48 }));
+
+  panel("psu-shroud-main", [caseWidth * 0.88, 0.34, caseDepth * 0.86], [-0.08, 0.34, -0.02], whiteCase ? "#dfe4e8" : "#222a31", { roughness: 0.5, metalness: 0.24 });
+  panel("psu-shroud-side-window", [0.035, 0.2, 0.72], [sideX - 0.02, 0.38, -0.14], "#111820", { roughness: 0.28, metalness: 0.18 });
+  panel("psu-shroud-label", [0.04, 0.1, 0.48], [sideX + 0.002, 0.46, -0.14], "#4d5964", { roughness: 0.5, metalness: 0.06 });
+
+  const grommetColor = "#111820";
+  panel("cable-grommet-24pin", [0.04, 0.42, 0.16], [0.15, 1.72, 0.18], grommetColor, { roughness: 0.82, metalness: 0.02 });
+  panel("cable-grommet-gpu", [0.04, 0.28, 0.16], [0.15, 1.05, 0.2], grommetColor, { roughness: 0.82, metalness: 0.02 });
+  panel("cable-grommet-cpu", [0.04, 0.2, 0.18], [0.15, 2.62, -0.06], grommetColor, { roughness: 0.82, metalness: 0.02 });
+
+  for (let index = 0; index < 7; index += 1) {
+    const y = 0.74 + index * 0.13;
+    panel(`rear-expansion-cover-${index}`, [0.08, 0.045, 0.58], [sideX - 0.015, y, rearZ + 0.38], index % 2 ? "#c4ccd3" : "#d8dee3", { roughness: 0.42, metalness: 0.5 });
+    screw(`expansion-screw-${index}`, [sideX + 0.028, y + 0.012, rearZ + 0.08], 0.018, "#7d8790");
+  }
+
+  const footY = 0.01;
+  [
+    [frontX + 0.36, footY, frontZ - 0.28],
+    [frontX + 0.36, footY, rearZ + 0.28],
+    [sideX - 0.36, footY, frontZ - 0.28],
+    [sideX - 0.36, footY, rearZ + 0.28]
+  ].forEach((position, index) => panel(`rubber-foot-${index}`, [0.34, 0.06, 0.18], position, "#111820", { roughness: 0.86, metalness: 0.02 }));
+
+  const glassPanel = box("removed-tempered-glass-panel", [0.035, caseHeight * 0.9, caseDepth * 0.84], [sideX + 0.22, caseCenterY - 0.03, 0.08], "#9ed1f0", {
     transparent: true,
-    opacity: 0.18,
-    roughness: 0.04,
+    opacity: 0.16,
+    roughness: 0.02,
     metalness: 0
   });
-  glassPanel.rotation.z = -0.04;
+  glassPanel.rotation.z = -0.07;
+  panel("glass-panel-black-border-top", [0.045, 0.04, caseDepth * 0.84], [sideX + 0.222, caseHeight * 0.94, 0.08], "#111820", { roughness: 0.36, metalness: 0.14 });
+  panel("glass-panel-black-border-bottom", [0.045, 0.04, caseDepth * 0.84], [sideX + 0.222, 0.23, 0.08], "#111820", { roughness: 0.36, metalness: 0.14 });
 
   [
     [frontX + 0.06, caseHeight + 0.12, rearZ + 0.08],
     [frontX + 0.06, 0.19, rearZ + 0.08],
     [sideX + 0.02, caseHeight + 0.1, frontZ - 0.12],
-    [sideX + 0.02, 0.2, frontZ - 0.12]
+    [sideX + 0.02, 0.2, frontZ - 0.12],
+    [sideX + 0.02, caseHeight + 0.1, rearZ + 0.12],
+    [sideX + 0.02, 0.2, rearZ + 0.12]
   ].forEach((position, index) => screw(`case-screw-${index}`, position));
 
-  vent("front-intake-vent", [frontX - 0.01, 0.62, frontZ - 0.52], 9, 4, 0.12, 0.1, "#aab3ba");
-  vent("psu-shroud-vent", [-0.78, 0.54, 0.32], 3, 8, 0.07, 0.07, "#9aa4ac");
+  vent("front-mesh-intake", [frontX - 0.012, 0.58, frontZ - 0.54], 14, 6, 0.105, 0.085, whiteCase ? "#8e9aa3" : "#4a545e");
+  vent("top-radiator-vent", [-0.86, caseHeight + 0.145, -0.5], 4, 16, 0.08, 0.09, whiteCase ? "#a1abb3" : "#4d5964");
+  vent("psu-shroud-vent", [-0.78, 0.54, 0.32], 3, 10, 0.07, 0.065, whiteCase ? "#9aa4ac" : "#59646f");
 
-  const bayCount = parts.case?.specs.formFactor === "Mini-ITX" ? 2 : 4;
+  panel("front-io-strip", [0.025, 0.42, 0.08], [frontX - 0.02, caseHeight - 0.34, frontZ - 0.08], darkMetal, { roughness: 0.44, metalness: 0.2 });
+
+  const powerButton = cylinder("front-power-button", 0.05, 0.024, [frontX - 0.035, caseHeight - 0.2, frontZ - 0.08], "#42d68d", "x", { roughness: 0.25, metalness: 0.25 });
+  powerButton.scale.y = 0.55;
+  panel("front-usb-c-port", [0.018, 0.055, 0.1], [frontX - 0.04, caseHeight - 0.34, frontZ - 0.08], "#0d1117", { roughness: 0.4, metalness: 0.2 });
+  panel("front-usb-a-port", [0.018, 0.048, 0.14], [frontX - 0.04, caseHeight - 0.45, frontZ - 0.08], "#0d1117", { roughness: 0.4, metalness: 0.2 });
+
+  const bayCount = parts.case?.specs.formFactor === "Mini-ITX" ? 1 : 3;
   for (let index = 0; index < bayCount; index += 1) {
-    const y = 1.6 + index * 0.32;
-    panel(`front-drive-bay-${index}`, [0.62, 0.18, 0.45], [frontX + 0.34, y, frontZ - 0.34], "#e8ecef");
-    panel(`front-drive-bay-slot-${index}`, [0.48, 0.035, 0.48], [frontX + 0.35, y + 0.02, frontZ - 0.33], "#9da8b0");
+    const y = 1.38 + index * 0.28;
+    panel(`drive-cage-frame-${index}`, [0.58, 0.15, 0.42], [frontX + 0.36, y, frontZ - 0.34], whiteCase ? "#e3e8ec" : "#2d363f", { roughness: 0.5, metalness: 0.3 });
+    panel(`drive-cage-rail-${index}`, [0.5, 0.035, 0.46], [frontX + 0.36, y + 0.07, frontZ - 0.34], whiteCase ? "#9da8b0" : "#56616c", { roughness: 0.34, metalness: 0.45 });
   }
 
   const frontFanCount = parts.case?.specs.formFactor === "Mini-ITX" ? 1 : parts.case?.specs.radiator >= 360 ? 3 : 2;
   for (let index = 0; index < frontFanCount; index += 1) {
-    const y = 0.9 + index * 0.68;
-    fan(`front-fan-${index}`, [frontX + 0.12, y, 0.24], 0.23, "x", "#1b2127");
+    const y = 0.86 + index * 0.68;
+    fan(`front-intake-fan-${index}`, [frontX + 0.13, y, 0.22], 0.24, "x", "#151b22");
   }
-  fan("rear-exhaust-fan", [sideX - 0.02, caseHeight - 0.52, rearZ + 0.28], 0.2, "x", "#1c242b");
+  fan("rear-exhaust-fan", [sideX - 0.02, caseHeight - 0.52, rearZ + 0.28], 0.2, "x", "#151b22");
 
   const boardColor = parts.motherboard?.specs.color ?? "#53606a";
   panel("motherboard", [0.08, 2.18, 1.26], [0.18, 1.76, -0.55], boardColor, { roughness: 0.56, metalness: 0.12 });
