@@ -1,7 +1,7 @@
 {
   "name": "pc-builder-emulator",
   "version": "1.0.0",
-  "description": "A static browser app for assembling a desktop computer from categorized components, checking compatibility, and estimating price and wattage.",
+  "description": "A static browser app for assembling a desktop computer from categorized components, checking compatibility, estimating price and wattage, and previewing the build in a rotatable 3D case.",
   "scripts": {
     "serve": "python3 -m http.server 4173",
     "prepare:ios": "python3 scripts/prepare-capacitor-web.py",
