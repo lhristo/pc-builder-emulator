@@ -1,6 +1,6 @@
-# Desktop Assembly Emulator
+# PC Builder
 
-A static browser app for assembling a desktop computer from categorized components, checking compatibility, estimating price and wattage, and previewing the build in a rotatable 3D case.
+A static browser app for assembling a desktop computer from categorized components, checking compatibility, and estimating price and wattage.
 
 Live app:
 
@@ -11,8 +11,8 @@ https://lhristo.github.io/pc-builder-emulator/
 ## What It Does
 
 - Lets users build a desktop PC by choosing case, motherboard, processor, RAM, graphics card, storage, power supply, and cooling
-- Supports drag-and-drop assembly into build slots, plus keyboard placement with Enter
-- Keeps the 3D desktop preview fixed while the component library and build panel scroll
+- Adds components automatically to the correct build slot when a user clicks a part
+- Supports keyboard placement with Enter or Space
 - Automatically calculates the total build price and estimated wattage
 - Checks component compatibility while the user builds
 - Supports multiple RAM kits and multiple storage drives in one build
@@ -34,8 +34,6 @@ Then open:
 ```text
 http://localhost:4173/
 ```
-
-The app loads Three.js from a CDN, so the 3D preview needs internet access.
 
 ## iOS App
 
@@ -66,8 +64,6 @@ Requirements for building/running on iPhone or Simulator:
 - Node/npm
 - Full Xcode installed from Apple
 - Apple Developer account for physical-device signing or App Store/TestFlight distribution
-
-This app still loads Three.js from a CDN, so the iOS app needs internet access for the 3D preview unless Three.js is bundled locally later.
 
 ## Component Data
 
