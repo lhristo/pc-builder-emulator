@@ -28,18 +28,11 @@ def write_text_asset(relative_path, content):
 def ios_index_html(content):
     content = content.replace("Desktop Assembly Emulator", "PC Builder")
     content = content.replace("Assembly Emulator", "Component Builder")
-    content = content.replace(
-        """    <script type="importmap">
-      {
-        "imports": {
-          "three": "https://esm.sh/three@0.164.1",
-          "three/addons/": "https://esm.sh/three@0.164.1/examples/jsm/"
-        }
-      }
-    </script>
-""",
-        ""
-    )
+    importmap_start = content.find('    <script type="importmap">')
+    if importmap_start >= 0:
+        importmap_end = content.find("    </script>", importmap_start)
+        if importmap_end >= 0:
+            content = content[:importmap_start] + content[importmap_end + len("    </script>\n"):]
     content = content.replace(
         """      <section class="workspace" aria-label="Assembly workspace">
         <div class="scene-panel">
