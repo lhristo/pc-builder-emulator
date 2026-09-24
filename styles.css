@@ -768,7 +768,7 @@ h2 {
   margin-right: 8px;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 760px) {
   body {
     overflow: auto;
   }
