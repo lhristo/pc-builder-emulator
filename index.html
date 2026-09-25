@@ -159,5 +159,11 @@
     </main>
 
     <script type="module" src="./app.js"></script>
+    <script type="module">
+      // Browser-only previews; the native bundle deliberately has no pcScene.
+      if (document.getElementById('pcScene')) {
+        import('./component-previews.js').catch(error => console.warn('3D card previews unavailable:', error));
+      }
+    </script>
   </body>
 </html>

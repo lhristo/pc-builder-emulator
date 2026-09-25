@@ -810,3 +810,8 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
+/* Browser catalog: snapshots rendered from local Three.js geometry. */
+.component-preview { margin: -2px -2px 12px; overflow: hidden; border-radius: 10px; background: radial-gradient(ellipse at 50% 40%, #354459, #101720 75%); pointer-events: none; }
+.component-preview img { display: block; width: 100%; height: 150px; object-fit: contain; }
+.component-preview figcaption { padding: 0 10px 8px; text-align: center; color: #afbed0; font-size: 0.65rem; }
