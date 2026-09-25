@@ -1906,7 +1906,42 @@ function animate() {
 // This block lives inside the browser scene section stripped by the iOS generator.
 const { setupWebUI, renderWebCard } = await import('./web-ui.js');
 const basicComponentCard = renderComponentCard;
-renderComponentCard = part => renderWebCard(part, basicComponentCard(part), getSlotParts(part.category), multiSlots.has(part.category), escapeHtml, visibleSpecEntries, formatSpecKey);
+// Reuse the build evaluator for a hypothetical add/replace, never committing it.
+// Removing this category for the baseline keeps unrelated existing issues off cards.
+function candidateCompatibility(part) {
+  const category = part.category;
+  const previous = build[category];
+  let baseline, candidate;
+  try {
+    build[category] = multiSlots.has(category) ? [] : null;
+    baseline = evaluateCompatibility();
+    build[category] = multiSlots.has(category) ? [...previous, part] : part;
+    candidate = evaluateCompatibility();
+  } finally {
+    build[category] = previous;
+  }
+  const errors = candidate.errors.filter(message => !baseline.errors.includes(message));
+  if (errors.length) return { status: 'incompatible', reasons: errors };
+  const dependencies = {
+    case: [], motherboard: ['case', 'cpu', 'ram'], cpu: ['motherboard', 'cooler'],
+    ram: ['motherboard'], gpu: ['case', 'motherboard', 'psu'],
+    storage: ['motherboard'], cooler: ['cpu', 'case'], psu: ['cpu', 'gpu']
+  };
+  const missing = dependencies[category].filter(slot => !getSlotParts(slot).length);
+  const warnings = candidate.warnings.filter(message => !baseline.warnings.includes(message)
+    && !/required component slots still empty|^Add (at least one|a power supply)/.test(message));
+  if (missing.length) return { status: 'pending', reasons: [
+    `Select ${missing.map(slot => categories.find(item => item.id === slot).label).join(', ')} to finish checking this part.`, ...warnings
+  ] };
+  if (warnings.length) return { status: 'review', reasons: warnings };
+  return { status: 'compatible', reasons: [category === 'case' && !selectedParts().length
+    ? 'Start here. Fit checks update as you add parts.'
+    : 'No conflicts found with the selected parts.'] };
+}
+const basePartMatchesFilters = partMatchesFilters;
+partMatchesFilters = part => basePartMatchesFilters(part)
+  && (!document.querySelector('#compatibleOnly')?.checked || candidateCompatibility(part).status === 'compatible');
+renderComponentCard = part => renderWebCard(part, basicComponentCard(part), getSlotParts(part.category), multiSlots.has(part.category), escapeHtml, visibleSpecEntries, formatSpecKey, candidateCompatibility(part));
 await setupWebUI({
   add: id => { const part = findComponent(id); if (part) setPart(id, part.category); },
   zoom: factor => {

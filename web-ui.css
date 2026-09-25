@@ -50,3 +50,17 @@
 }
 @media (max-width: 360px) { .web-builder .component-list, .web-builder .slots { grid-template-columns: 1fr; } }
 .web-builder .scene-tools button { flex: 0 0 auto; height: auto; white-space: nowrap; }
+
+.compatibility-filter { display: grid; gap: 6px; }
+.compatibility-filter label { display: flex; align-items: center; gap: 8px; font-size: .82rem; font-weight: 700; cursor: pointer; min-height: 32px; }
+.compatibility-filter input { width: 18px; height: 18px; accent-color: var(--green); }
+.compatibility-filter small { color: var(--muted); font-size: .7rem; line-height: 1.45; }
+.part-compatibility { margin-top: 12px; border-left: 3px solid var(--compatibility-color); padding: 8px 10px; background: #ffffff05; }
+.part-compatibility strong { display: block; color: var(--compatibility-color); font-size: .76rem; }
+.part-compatibility small { display: block; color: var(--muted); font-size: .65rem; margin-top: 4px; }
+.part-compatibility ul { padding-left: 14px; margin: 6px 0 0; font-size: .7rem; line-height: 1.5; overflow-wrap: anywhere; }
+.part-compatibility li + li { margin-top: 5px; }
+.compatibility-compatible { --compatibility-color: #72d9a1; }
+.compatibility-pending, .compatibility-review { --compatibility-color: #f2c66d; }
+.compatibility-incompatible { --compatibility-color: #ff9696; }
+.web-builder .component-list > .empty-state { grid-column: 1 / -1; }

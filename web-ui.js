@@ -1,4 +1,4 @@
-export function renderWebCard(part, original, selected, multi, escapeHtml, entries, formatKey) {
+export function renderWebCard(part, original, selected, multi, escapeHtml, entries, formatKey, compatibility) {
   const doc = document.createElement('template');
   doc.innerHTML = original;
   const card = doc.content.firstElementChild;
@@ -14,6 +14,21 @@ export function renderWebCard(part, original, selected, multi, escapeHtml, entri
     details.innerHTML=`<summary>All specifications</summary><div class="specs">${rows.map(row).join('')}</div>`;
     card.append(details);
   }
+  const assessment = document.createElement('section');
+  assessment.className = `part-compatibility compatibility-${compatibility.status}`;
+  assessment.dataset.compatibility = compatibility.status;
+  const labels = { compatible: 'Compatible', pending: 'Needs another component', incompatible: 'Incompatible', review: 'Needs review' };
+  const heading = document.createElement('strong');
+  heading.textContent = labels[compatibility.status];
+  assessment.append(heading);
+  const scope = document.createElement('small');
+  scope.textContent = multi && selected.length ? 'Checks adding another' : selected.length && !count ? 'Checks replacing current part' : 'Based on your current build';
+  assessment.append(scope);
+  const reasons = document.createElement('ul');
+  for (const reason of compatibility.reasons) {
+    const item = document.createElement('li'); item.textContent = reason; reasons.append(item);
+  }
+  assessment.append(reasons); card.append(assessment);
   const action = document.createElement('div'); action.className='part-actions';
   const button = document.createElement('button'); button.type='button'; button.dataset.webAdd=part.id;
   button.textContent=count ? (multi ? 'Add another' : 'Selected ✓') : selected.length && !multi ? 'Replace' : 'Add to build';
@@ -30,6 +45,9 @@ export async function setupWebUI({add, zoom, reset, resize}) {
   const stylesheet=document.createElement('link'); stylesheet.rel='stylesheet'; stylesheet.href=new URL('./web-ui.css',import.meta.url).href;
   await new Promise((resolve,reject)=>{stylesheet.onload=resolve;stylesheet.onerror=reject;document.head.append(stylesheet);});
   document.body.classList.add('web-builder');
+  const filter = document.createElement('div'); filter.className = 'compatibility-filter';
+  filter.innerHTML = '<label><input id="compatibleOnly" type="checkbox" aria-describedby="compatibilityHelp"> Compatible only</label><small id="compatibilityHelp">Hides conflicts, parts awaiting another component, and parts needing review. Checks use catalog specs, not a manufacturer guarantee.</small>';
+  document.querySelector('.filter-actions').before(filter);
   const list=document.querySelector('#componentList');
   list.addEventListener('click',event=>{
     const button=event.target.closest('[data-web-add]');
