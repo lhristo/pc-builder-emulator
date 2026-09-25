@@ -1,0 +1,52 @@
+.web-builder .shell { grid-template-columns: minmax(420px, 46%) minmax(0, 1fr); }
+.web-builder .workspace { grid-template-columns: 1fr; grid-template-rows: minmax(340px, 58vh) minmax(0, 1fr); }
+.web-builder .scene-panel { position: relative; height: 100%; min-height: 0; }
+.web-builder .build-panel { border-top: 1px solid var(--line); padding: 18px 22px; }
+.web-builder .slots { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.web-builder .component-list { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; min-height: 0; }
+.web-builder .component-card { min-width: 0; padding: 12px; display: flex; flex-direction: column; }
+.web-builder .component-card.is-selected { border-color: var(--green); }
+.web-builder .component-preview img { height: 170px; }
+.web-builder .card-top { align-items: flex-start; flex-direction: column; gap: 8px; }
+.web-builder .card-top h3 { font-size: .9rem; line-height: 1.4; overflow-wrap: anywhere; }
+.web-builder .component-card > .badge { align-self: flex-start; }
+.web-builder .spec-row { font-size: .75rem; align-items: flex-start; }
+.web-builder .spec-row strong { text-align: right; overflow-wrap: anywhere; min-width: 0; }
+.part-details { margin-top: 12px; font-size: .78rem; }
+.part-details summary, .preset-disclosure > summary { cursor: pointer; color: var(--blue); padding: 8px 0; }
+.preset-disclosure { flex: 0 0 auto; }
+.preset-disclosure[open] { max-height: 30vh; overflow: auto; }
+.part-actions { margin-top: auto; padding-top: 14px; display: flex; gap: 8px; flex-direction: column; }
+.part-actions button { border: 1px solid #67d8b3; background: #285a4b; color: #e6fff6; border-radius: 8px; min-height: 42px; padding: 8px; cursor: pointer; font-weight: 700; }
+.part-actions button:hover { background: #34745f; }
+.part-actions button:disabled { background: #202e29; color: #8bd9b5; cursor: default; }
+.selected-label { font-size: .75rem; color: var(--green); }
+.web-builder :is(button,summary):focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+.viewer-heading { position: absolute; top: 18px; left: 20px; z-index: 1; display: grid; gap: 5px; color: #253247; pointer-events: none; }
+.viewer-heading span { font-size: .75rem; }
+.web-builder .scene-tools { left: 12px; right: 12px; bottom: 12px; justify-content: center; flex-wrap: wrap; gap: 6px; }
+.web-builder .scene-tools button { width: auto; min-height: 36px; padding: 6px 10px; font-size: .75rem; background: #202c3b; color: white; }
+.web-announcement { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+@media (min-width: 1700px) { .web-builder .component-list { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+@media (max-width: 980px) and (min-width: 761px) {
+ .web-builder .shell { grid-template-columns: 380px minmax(0,1fr); }
+ .web-builder .component-list, .web-builder .slots { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+ .web-builder .shell { display: flex; flex-direction: column; height: auto; overflow: visible; }
+ .web-builder .workspace { display: contents; }
+ .web-builder .scene-panel { order: -1; position: sticky; top: 0; z-index: 3; height: 36vh; min-height: 250px; flex: 0 0 auto; }
+ .web-builder .library { overflow: visible; }
+ .web-builder .component-list { max-height: 65vh; overflow: auto; min-height: 250px; }
+ .web-builder .category-tabs { grid-template-columns: repeat(4,minmax(0,1fr)); }
+ .web-builder .category-tab { padding: 8px 2px; font-size: .7rem; }
+ .web-builder .component-preview img { height: 130px; }
+ .web-builder .component-preview figcaption { font-size: .55rem; }
+ .web-builder .build-panel { overflow: visible; }
+ .viewer-heading { top: 10px; left: 12px; }
+ .viewer-heading span { font-size: .65rem; }
+ .web-builder .scene-tools { bottom: 5px; gap: 3px; }
+ .web-builder .scene-tools button { padding: 5px; font-size: .65rem; min-height: 30px; }
+}
+@media (max-width: 360px) { .web-builder .component-list, .web-builder .slots { grid-template-columns: 1fr; } }
+.web-builder .scene-tools button { flex: 0 0 auto; height: auto; white-space: nowrap; }

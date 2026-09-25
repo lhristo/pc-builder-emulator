@@ -1902,6 +1902,23 @@ function animate() {
   requestAnimationFrame(animate);
 }
 
+
+// This block lives inside the browser scene section stripped by the iOS generator.
+const { setupWebUI, renderWebCard } = await import('./web-ui.js');
+const basicComponentCard = renderComponentCard;
+renderComponentCard = part => renderWebCard(part, basicComponentCard(part), getSlotParts(part.category), multiSlots.has(part.category), escapeHtml, visibleSpecEntries, formatSpecKey);
+await setupWebUI({
+  add: id => { const part = findComponent(id); if (part) setPart(id, part.category); },
+  zoom: factor => {
+    const offset = camera.position.clone().sub(controls.target);
+    offset.setLength(Math.max(controls.minDistance, Math.min(controls.maxDistance, offset.length() * factor)));
+    camera.position.copy(controls.target).add(offset);
+    controls.update();
+  },
+  reset: () => { modelRoot.rotation.set(0, 0, 0); controls.update(); },
+  resize
+});
+
 renderFilterOptions();
 renderAll();
 updateModel(build);
