@@ -19,7 +19,7 @@ const components = [
     category: "case",
     name: "Northline Air ATX",
     price: 129,
-    specs: { formFactor: "ATX", maxGpu: 360, radiator: 240, color: "#d8e0e8" }
+    specs: { formFactor: "ATX", maxGpu: 360, radiator: 240, color: "#111820" }
   },
   {
     id: "case-matx-glass",
@@ -1596,13 +1596,17 @@ function clearModel() {
 function updateModel(parts) {
   clearModel();
 
+  const isNorthlineAir = !parts.case || parts.case?.id === "case-atx-air";
   const selectedCaseColor = parts.case?.specs.color;
   const whiteCase = !selectedCaseColor || ["#f4f7f5", "#f5f7f9", "#eef4f8"].includes(selectedCaseColor);
-  const caseColor = whiteCase ? "#f4f5f6" : selectedCaseColor;
-  const trimColor = whiteCase ? "#d7dde2" : "#252d35";
-  const chassisColor = whiteCase ? "#e8ecef" : "#1f262d";
-  const innerMetal = whiteCase ? "#cbd2d8" : "#2b333b";
-  const darkMetal = whiteCase ? "#7f8a94" : "#151a1f";
+  const caseColor = isNorthlineAir ? "#111820" : whiteCase ? "#f4f5f6" : selectedCaseColor;
+  const trimColor = isNorthlineAir ? "#05080c" : whiteCase ? "#d7dde2" : "#252d35";
+  const chassisColor = isNorthlineAir ? "#161d24" : whiteCase ? "#e8ecef" : "#1f262d";
+  const innerMetal = isNorthlineAir ? "#202a33" : whiteCase ? "#cbd2d8" : "#2b333b";
+  const darkMetal = isNorthlineAir ? "#080c10" : whiteCase ? "#7f8a94" : "#151a1f";
+  const caseAccent = isNorthlineAir ? "#76e4c5" : "#42d68d";
+  const secondaryAccent = isNorthlineAir ? "#66e6ff" : "#66e6ff";
+  const glassTint = isNorthlineAir ? "#5f95b8" : "#9ed1f0";
   const caseHeight = parts.case?.specs.formFactor === "Mini-ITX" ? 2.55 : parts.case?.specs.formFactor === "mATX" ? 2.9 : 3.24;
   const caseWidth = parts.case?.specs.formFactor === "Mini-ITX" ? 2.12 : 2.72;
   const caseDepth = parts.case?.specs.formFactor === "Mini-ITX" ? 1.42 : 1.92;
@@ -1616,13 +1620,39 @@ function updateModel(parts) {
   panel("case-bottom-floor", [caseWidth, 0.12, caseDepth], [0, 0.08, 0], caseColor, { roughness: 0.52, metalness: 0.3 });
   panel("case-top-frame", [caseWidth, 0.14, caseDepth], [0, caseHeight + 0.08, 0], caseColor, { roughness: 0.48, metalness: 0.28 });
   panel("case-front-bezel", [0.14, caseHeight, caseDepth], [frontX, caseCenterY, 0], caseColor, { roughness: 0.46, metalness: 0.24 });
-  panel("front-tempered-glass", [0.035, caseHeight * 0.86, caseDepth * 0.88], [frontX - 0.045, caseCenterY + 0.05, 0.02], "#86c7ec", {
-    transparent: true,
-    opacity: 0.12,
-    roughness: 0.02,
-    metalness: 0
-  });
-  panel("front-glass-black-edge", [0.045, caseHeight * 0.9, 0.045], [frontX - 0.055, caseCenterY + 0.03, frontZ - 0.02], "#05070a", { roughness: 0.3, metalness: 0.22 });
+  if (isNorthlineAir) {
+    panel("northline-front-recess", [0.038, caseHeight * 0.88, caseDepth * 0.78], [frontX - 0.048, caseCenterY + 0.02, 0], "#05070a", { roughness: 0.74, metalness: 0.04 });
+    panel("northline-front-mesh-shadow", [0.028, caseHeight * 0.82, caseDepth * 0.7], [frontX - 0.067, caseCenterY + 0.01, 0], "#0b1117", { roughness: 0.88, metalness: 0.03 });
+
+    for (let row = 0; row < 19; row += 1) {
+      const y = 0.42 + row * 0.14;
+      panel(`northline-front-mesh-horizontal-${row}`, [0.018, 0.009, caseDepth * 0.66], [frontX - 0.084, y, 0], "#34414b", { roughness: 0.56, metalness: 0.18 });
+    }
+    for (let column = 0; column < 11; column += 1) {
+      const z = -0.72 + column * 0.145;
+      panel(`northline-front-mesh-vertical-${column}`, [0.019, caseHeight * 0.78, 0.008], [frontX - 0.086, caseCenterY + 0.02, z], "#1e2933", { roughness: 0.58, metalness: 0.2 });
+    }
+
+    panel("northline-front-left-edge", [0.054, caseHeight * 0.9, 0.05], [frontX - 0.072, caseCenterY + 0.02, -frontZ + 0.1], "#05070a", { roughness: 0.34, metalness: 0.22 });
+    panel("northline-front-right-edge", [0.054, caseHeight * 0.9, 0.05], [frontX - 0.072, caseCenterY + 0.02, frontZ - 0.1], "#05070a", { roughness: 0.34, metalness: 0.22 });
+    panel("northline-front-top-edge", [0.054, 0.055, caseDepth * 0.82], [frontX - 0.072, caseHeight - 0.03, 0], "#05070a", { roughness: 0.34, metalness: 0.22 });
+    panel("northline-front-bottom-edge", [0.054, 0.055, caseDepth * 0.82], [frontX - 0.072, 0.34, 0], "#05070a", { roughness: 0.34, metalness: 0.22 });
+    const frontAccent = panel("northline-front-diagonal-accent", [0.024, 0.05, caseDepth * 0.74], [frontX - 0.102, 1.86, 0], "#76e4c5", {
+      roughness: 0.25,
+      metalness: 0.12,
+      emissive: "#76e4c5",
+      emissiveIntensity: 0.18
+    });
+    frontAccent.rotation.x = -0.38;
+  } else {
+    panel("front-tempered-glass", [0.035, caseHeight * 0.86, caseDepth * 0.88], [frontX - 0.045, caseCenterY + 0.05, 0.02], "#86c7ec", {
+      transparent: true,
+      opacity: 0.12,
+      roughness: 0.02,
+      metalness: 0
+    });
+    panel("front-glass-black-edge", [0.045, caseHeight * 0.9, 0.045], [frontX - 0.055, caseCenterY + 0.03, frontZ - 0.02], "#05070a", { roughness: 0.3, metalness: 0.22 });
+  }
 
   panel("case-motherboard-tray", [0.075, caseHeight * 0.74, caseDepth * 0.67], [0.09, 1.84, rearZ + 0.34], innerMetal, { roughness: 0.64, metalness: 0.34 });
   panel("rear-io-cutout", [0.084, 0.48, 0.36], [0.132, 2.62, -0.36], darkMetal, { roughness: 0.42, metalness: 0.4 });
@@ -1661,9 +1691,9 @@ function updateModel(parts) {
     [sideX - 0.36, footY, rearZ + 0.28]
   ].forEach((position, index) => panel(`rubber-foot-${index}`, [0.34, 0.06, 0.18], position, "#111820", { roughness: 0.86, metalness: 0.02 }));
 
-  const glassPanel = box("installed-tempered-glass-side", [0.035, caseHeight * 0.9, caseDepth * 0.88], [sideX + 0.035, caseCenterY - 0.02, 0.04], "#9ed1f0", {
+  const glassPanel = box("installed-tempered-glass-side", [0.035, caseHeight * 0.9, caseDepth * 0.88], [sideX + 0.035, caseCenterY - 0.02, 0.04], glassTint, {
     transparent: true,
-    opacity: 0.1,
+    opacity: isNorthlineAir ? 0.16 : 0.1,
     roughness: 0.02,
     metalness: 0
   });
@@ -1686,7 +1716,7 @@ function updateModel(parts) {
 
   panel("front-io-strip", [0.025, 0.42, 0.08], [frontX - 0.02, caseHeight - 0.34, frontZ - 0.08], darkMetal, { roughness: 0.44, metalness: 0.2 });
 
-  const powerButton = cylinder("front-power-button", 0.05, 0.024, [frontX - 0.035, caseHeight - 0.2, frontZ - 0.08], "#42d68d", "x", { roughness: 0.25, metalness: 0.25 });
+  const powerButton = cylinder("front-power-button", 0.05, 0.024, [frontX - 0.035, caseHeight - 0.2, frontZ - 0.08], caseAccent, "x", { roughness: 0.25, metalness: 0.25 });
   powerButton.scale.y = 0.55;
   panel("front-usb-c-port", [0.018, 0.055, 0.1], [frontX - 0.04, caseHeight - 0.34, frontZ - 0.08], "#0d1117", { roughness: 0.4, metalness: 0.2 });
   panel("front-usb-a-port", [0.018, 0.048, 0.14], [frontX - 0.04, caseHeight - 0.45, frontZ - 0.08], "#0d1117", { roughness: 0.4, metalness: 0.2 });
@@ -1701,21 +1731,42 @@ function updateModel(parts) {
   const frontFanCount = parts.case?.specs.formFactor === "Mini-ITX" ? 1 : 3;
   for (let index = 0; index < frontFanCount; index += 1) {
     const y = 0.86 + index * 0.66;
-    rgbFan(`front-intake-fan-${index}`, [frontX + 0.13, y, 0.22], 0.23, "x", "#42d68d");
+    rgbFan(`front-intake-fan-${index}`, [frontX + 0.13, y, 0.22], 0.23, "x", caseAccent);
   }
   const bottomFanCount = parts.case?.specs.formFactor === "Mini-ITX" ? 1 : 3;
   for (let index = 0; index < bottomFanCount; index += 1) {
     const x = -0.62 + index * 0.52;
-    rgbFan(`bottom-rgb-fan-${index}`, [x, 0.63, 0.35], 0.19, "y", "#42d68d");
+    rgbFan(`bottom-rgb-fan-${index}`, [x, 0.63, 0.35], 0.19, "y", caseAccent);
   }
   const topFanCount = parts.case?.specs.formFactor === "Mini-ITX" ? 1 : 3;
   for (let index = 0; index < topFanCount; index += 1) {
     const x = -0.62 + index * 0.52;
-    rgbFan(`top-rgb-fan-${index}`, [x, caseHeight - 0.22, -0.42], 0.18, "y", "#42d68d");
+    rgbFan(`top-rgb-fan-${index}`, [x, caseHeight - 0.22, -0.42], 0.18, "y", caseAccent);
   }
-  rgbFan("rear-exhaust-fan", [sideX - 0.02, caseHeight - 0.52, rearZ + 0.28], 0.2, "x", "#66e6ff");
-  accentBox("case-top-rgb-strip", [caseWidth * 0.72, 0.025, 0.035], [-0.18, caseHeight - 0.04, frontZ - 0.12], "#42d68d", 0.7);
-  accentBox("case-front-rgb-strip", [0.025, caseHeight * 0.68, 0.035], [frontX - 0.065, caseCenterY + 0.08, frontZ - 0.12], "#66e6ff", 0.55);
+  rgbFan("rear-exhaust-fan", [sideX - 0.02, caseHeight - 0.52, rearZ + 0.28], 0.2, "x", secondaryAccent);
+  if (isNorthlineAir) {
+    for (let column = 0; column < 15; column += 1) {
+      const z = -0.74 + column * 0.1;
+      panel(`northline-top-mesh-slot-${column}`, [caseWidth * 0.62, 0.018, 0.02], [-0.18, caseHeight + 0.16, z], "#34414b", { roughness: 0.55, metalness: 0.2 });
+    }
+    panel("northline-glass-reflection-a", [0.024, 1.9, 0.025], [sideX + 0.058, 1.86, -0.35], "#d7f2ff", {
+      transparent: true,
+      opacity: 0.25,
+      roughness: 0.02,
+      metalness: 0
+    });
+    panel("northline-glass-reflection-b", [0.024, 1.2, 0.018], [sideX + 0.06, 1.35, 0.44], "#d7f2ff", {
+      transparent: true,
+      opacity: 0.18,
+      roughness: 0.02,
+      metalness: 0
+    });
+    panel("northline-front-brand-plate", [0.026, 0.12, 0.42], [frontX - 0.108, 0.68, -0.04], "#161f27", { roughness: 0.36, metalness: 0.22 });
+    accentBox("northline-front-air-glow", [0.024, 0.52, 0.026], [frontX - 0.112, 1.04, frontZ - 0.22], caseAccent, 0.35);
+  } else {
+    accentBox("case-top-rgb-strip", [caseWidth * 0.72, 0.025, 0.035], [-0.18, caseHeight - 0.04, frontZ - 0.12], caseAccent, 0.7);
+    accentBox("case-front-rgb-strip", [0.025, caseHeight * 0.68, 0.035], [frontX - 0.065, caseCenterY + 0.08, frontZ - 0.12], secondaryAccent, 0.55);
+  }
 
   const boardColor = parts.motherboard?.specs.color ?? "#53606a";
   panel("motherboard", [0.08, 2.18, 1.26], [0.18, 1.76, -0.55], boardColor, { roughness: 0.56, metalness: 0.12 });
@@ -1723,9 +1774,9 @@ function updateModel(parts) {
   panel("motherboard-io", [0.11, 0.42, 0.3], [0.25, 2.62, -0.36], "#b8c0c7");
   panel("vrm-heatsink-top", [0.12, 0.15, 0.78], [0.28, 2.43, -0.2], "#aab2b9");
   panel("vrm-heatsink-left", [0.12, 0.55, 0.16], [0.28, 2.15, -0.48], "#a0a8af");
-  panel("vrm-heatsink-stripe", [0.13, 0.04, 0.64], [0.35, 2.43, -0.2], "#42d68d", { roughness: 0.24, metalness: 0.16, emissive: "#42d68d", emissiveIntensity: 0.22 });
+  panel("vrm-heatsink-stripe", [0.13, 0.04, 0.64], [0.35, 2.43, -0.2], caseAccent, { roughness: 0.24, metalness: 0.16, emissive: caseAccent, emissiveIntensity: 0.22 });
   panel("chipset-heatsink", [0.12, 0.34, 0.34], [0.28, 1.18, -0.38], "#87929a");
-  panel("chipset-trim", [0.13, 0.04, 0.28], [0.35, 1.18, -0.38], "#66e6ff", { roughness: 0.24, metalness: 0.16, emissive: "#66e6ff", emissiveIntensity: 0.18 });
+  panel("chipset-trim", [0.13, 0.04, 0.28], [0.35, 1.18, -0.38], secondaryAccent, { roughness: 0.24, metalness: 0.16, emissive: secondaryAccent, emissiveIntensity: 0.18 });
   for (let index = 0; index < 14; index += 1) {
     const y = 0.92 + (index % 7) * 0.22;
     const z = -0.08 - Math.floor(index / 7) * 0.38;
@@ -1752,28 +1803,28 @@ function updateModel(parts) {
       panel("aio-radiator", [0.18, 0.58 * fanCount, 0.34], [frontX + 0.18, 1.34 + fanCount * 0.28, 0.0], "#111820", { roughness: 0.56, metalness: 0.28 });
       for (let index = 0; index < fanCount; index += 1) {
         const y = 1.1 + index * 0.55;
-        rgbFan(`aio-fan-${index}`, [frontX + 0.29, y, 0.0], 0.18, "x", "#42d68d");
+        rgbFan(`aio-fan-${index}`, [frontX + 0.29, y, 0.0], 0.18, "x", caseAccent);
       }
       cylinder("pump-round-screen", 0.19, 0.12, [0.4, 1.95, -0.22], "#10161c", "x", { roughness: 0.28, metalness: 0.38 });
-      torus("pump-rgb-ring", 0.19, 0.012, [0.47, 1.95, -0.22], "#42d68d", "x", { emissive: "#42d68d", emissiveIntensity: 0.6 });
+      torus("pump-rgb-ring", 0.19, 0.012, [0.47, 1.95, -0.22], caseAccent, "x", { emissive: caseAccent, emissiveIntensity: 0.6 });
       cylinder("pump-screen-core", 0.11, 0.13, [0.48, 1.95, -0.22], "#1e2933", "x", { roughness: 0.18, metalness: 0.1, emissive: "#0a1b18", emissiveIntensity: 0.18 });
       cable("aio-tube-a", [0.43, 2.06, -0.08], [frontX + 0.3, 1.72, 0.0], "#0f1419", [[0.04, 2.28, 0.17]]);
       cable("aio-tube-b", [0.43, 1.88, -0.06], [frontX + 0.3, 1.48, 0.0], "#0f1419", [[0.02, 2.04, 0.18]]);
     } else {
       panel("air-cooler", [0.38, 0.78, 0.56], [0.44, 2.05, -0.22], parts.cooler.specs.color);
-      rgbFan("cooler-fan", [0.64, 2.05, -0.22], 0.24, "x", "#66e6ff");
+      rgbFan("cooler-fan", [0.64, 2.05, -0.22], 0.24, "x", secondaryAccent);
       panel("cooler-fin-stack", [0.3, 0.64, 0.5], [0.29, 2.05, -0.22], "#aeb8c2", { metalness: 0.45, roughness: 0.32 });
     }
   } else {
     panel("stock-cooler-placeholder", [0.2, 0.32, 0.32], [0.4, 1.95, -0.22], "#d2d8dd");
-    rgbFan("stock-cooler-fan", [0.51, 1.95, -0.22], 0.15, "x", "#66e6ff");
+    rgbFan("stock-cooler-fan", [0.51, 1.95, -0.22], 0.15, "x", secondaryAccent);
   }
 
   const ramModuleColors = parts.ram.flatMap((part) => Array.from({ length: part.specs.modules ?? 2 }, () => part.specs.color)).slice(0, 4);
   for (let index = 0; index < 4; index += 1) {
     const y = 1.43 + index * 0.12;
     panel(`ram-${index}`, [0.11, 0.78, 0.055], [0.39, y, 0.08], "#10161c");
-    const ramLight = ramModuleColors[index] ?? "#42d68d";
+    const ramLight = ramModuleColors[index] ?? caseAccent;
     accentBox(`ram-light-${index}`, [0.115, 0.66, 0.018], [0.46, y, 0.08], ramLight, 0.46);
   }
 
@@ -1787,11 +1838,11 @@ function updateModel(parts) {
     }
     panel("gpu-backplate", [gpuLength, 0.04, 0.6], [0.25, 1.31, 0.18], "#2b333a");
     panel("gpu-end-cap", [0.18, gpuHeight + 0.02, 0.6], [0.25 + gpuLength / 2 - 0.08, 1.12, 0.18], parts.gpu.specs.color, { roughness: 0.36, metalness: 0.36 });
-    accentBox("gpu-logo-light", [0.42, 0.035, 0.04], [0.38, 1.31, -0.1], "#42d68d", 0.55);
+    accentBox("gpu-logo-light", [0.42, 0.035, 0.04], [0.38, 1.31, -0.1], caseAccent, 0.55);
     const fanCount = parts.gpu.specs.length > 310 ? 3 : 2;
     for (let index = 0; index < fanCount; index += 1) {
       const x = -0.18 + index * 0.42;
-      rgbFan(`gpu-fan-${index}`, [x, 1.1, 0.5], 0.14, "z", "#66e6ff");
+      rgbFan(`gpu-fan-${index}`, [x, 1.1, 0.5], 0.14, "z", secondaryAccent);
     }
     accentBox("gpu-light-strip", [gpuLength * 0.76, 0.035, 0.04], [0.25, 1.32, -0.06], parts.gpu.specs.color, 0.28);
   } else {
