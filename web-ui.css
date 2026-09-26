@@ -110,3 +110,10 @@
 }
 .web-builder .component-preview { pointer-events: auto; }
 @media(max-width:760px) { .web-builder .shell { min-height: 0; } }
+.inspector-view-switch { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.inspector-view-switch button[aria-pressed=true] { border-color: #78cfe1; background: #31536a; }
+.inspector-photo { padding: 12px; border-radius: 12px; background: #f4f5f7; color: #243142; text-align: center; }
+.inspector-photo img { display: block; max-width: 100%; width: auto; max-height: 46dvh; object-fit: contain; margin: 0 auto 12px; }
+.inspector-photo p { color: #3e5165; }
+.inspector-photo a { color: #185c8f; overflow-wrap: anywhere; }
+.component-inspector [hidden] { display: none !important; }

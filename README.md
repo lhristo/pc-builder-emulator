@@ -152,3 +152,18 @@ Then commit `data/feed-components.js` with the app.
 - Prices are displayed from the loaded catalog data and are meant for planning.
 - If selected parts use mixed currencies, the total price displays `Mixed`.
 - Saved builds stay in the current browser through local storage.
+
+### Component inspection on the web
+
+Catalog cards remain picture-free. **Inspect in 3D** uses the selected component's
+ID, name and catalog specifications to generate an individual illustration.
+Models vary by form factor, socket/package, module count, GPU dimensions and
+cooling layout, drive type, power-supply enclosure, and cooler/radiator type.
+Model names and part numbers distinguish products that share a physical shell.
+These are illustrative models, not verified manufacturer CAD; imported catalog
+specifications and name-derived visual hints can be incomplete or inaccurate.
+
+For listings with an image URL, **Product photo** opens the supplier's listing
+image inside the inspector. This may depict packaging or a shared product family.
+Images are fetched only when that view is selected; missing images leave the 3D
+illustration available. The native iOS build does not include these web inspectors.

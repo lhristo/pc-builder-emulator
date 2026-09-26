@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { createComponentModel, disposeComponentModel } from './component-models.js';
 
 const scene = new THREE.Scene();
 scene.add(new THREE.AmbientLight(0xffffff, 1.8));
@@ -9,112 +10,16 @@ for (const [position, power] of [[[3, 5, 6], 65], [[-4, 2, -2], 45]]) {
   light.position.set(...position); scene.add(light);
 }
 
-function model(category, name) {
-  const group = new THREE.Group();
-  const materials = new Map();
-  function material(color) {
-    if (!materials.has(color)) materials.set(color, new THREE.MeshStandardMaterial({ color, roughness: 0.45, metalness: 0.25 }));
-    return materials.get(color);
-  }
-  function box(w, h, d, x=0, y=0, z=0, color=0x252d38) {
-    const mesh = new THREE.Mesh(new THREE.BoxGeometry(w,h,d), material(color));
-    mesh.position.set(x,y,z); group.add(mesh); return mesh;
-  }
-  function ring(radius, tube, x,y,z, color=0x61d6ed) {
-    const mesh = new THREE.Mesh(new THREE.TorusGeometry(radius,tube,8,40), material(color));
-    mesh.position.set(x,y,z); group.add(mesh);
-  }
-  function fan(x,y,z,r=0.42) {
-    box(r*2.2,r*2.2,0.12,x,y,z,0x131920);
-    ring(r,0.035,x,y,z+0.09); ring(r*0.23,0.055,x,y,z+0.13,0x697584);
-    for(let i=0;i<9;i++) {
-      const a=i*Math.PI*2/9;
-      const blade=box(r*0.26,r*0.65,0.035,x+Math.cos(a)*r*0.55,y+Math.sin(a)*r*0.55,z+0.1,0x46515f);
-      blade.rotation.z=a-0.6;
-    }
-  }
-  function contacts(count, x,y,z, spacing=0.08) {
-    for(let i=0;i<count;i++) box(0.04,0.12,0.025,x+i*spacing,y,z,0xd4ad55);
-  }
-  if(category==='Case') {
-    const small=/mATX|mini|cube/i.test(name), h=small?2.1:2.7;
-    box(1.65,0.12,1.35,0,-h/2); box(1.65,0.12,1.35,0,h/2);
-    box(1.65,h,0.07,0,0,-0.65);
-    for(const x of [-0.78,0.78]) for(const z of [-0.61,0.61]) box(0.09,h,0.09,x,0,z);
-    box(1.55,0.42,1.25,0,-h/2+0.27);
-    box(0.08,h,1.3,0.77,0,0);
-    for(let i=0;i<3;i++) fan(0,(-1+i)*h*0.29,0.64,0.32);
-    for(const x of [-0.57,0.57]) box(0.24,0.13,0.8,x,-h/2-0.1);
-    box(0.3,0.025,0.06,0.35,h/2+0.07,0.4,0x68d9eb);
-  } else if(category==='Motherboard') {
-    box(1.9,2.3,0.09,0,0,0,0x24423b);
-    box(0.64,0.64,0.08,-0.08,0.38,0.08,0x9babb2);
-    box(0.49,0.49,0.09,-0.08,0.38,0.14,0x252d38);
-    for(let i=0;i<4;i++) box(0.07,1.05,0.15,0.48+i*0.12,0.35,0.13);
-    for(let i=0;i<3;i++) box(1.05,0.08,0.15,-0.14,-0.35-i*0.23,0.13,0x737e89);
-    box(0.3,1.6,0.35,-0.77,0.2,0.18);
-    for(let i=0;i<8;i++) box(0.055,0.6,0.18,-0.56+i*0.08,0.91,0.17,0x72808b);
-    for(let i=0;i<16;i++) box(0.12,0.11,0.04,-0.67+(i%4)*0.34,-0.92+Math.floor(i/4)*0.17,0.08,0x11151c);
-  } else if(category==='Processor') {
-    box(1.6,1.6,0.12,0,0,0,0x235443);
-    box(1.35,1.35,0.14,0,0,0.12,0xbcc7d1);
-    for(let i=0;i<4;i++) contacts(16,-0.61,-0.72+i*0.025,0.08);
-    box(0.7,0.04,0.01,0,0.2,0.2,0x616d77); box(0.45,0.025,0.01,0,0.09,0.2,0x616d77);
-  } else if(category==='RAM') {
-    for(const y of [-0.4,0.4]) {
-      box(2.55,0.56,0.08,0,y,0,0x255647);
-      box(2.45,0.4,0.15,0,y+0.04,0.08);
-      contacts(29,-1.14,y-0.28,0.055);
-      box(2.4,0.065,0.15,0,y+0.29,0.08,/RGB/i.test(name)?0x70d9df:0x9ba7b3);
-      for(let i=0;i<9;i++) box(0.04,0.32,0.02,-1+i*0.25,y+0.03,0.17,0x566170);
-    }
-  } else if(category==='Graphics') {
-    const count=/4090|4080|7900|7800|5090|5080/i.test(name)?3:2;
-    const w=count*0.96+0.18;
-    box(w,1.1,0.42); box(w+0.08,0.06,0.48,0,0.58,0,0x8c99a5);
-    for(let i=0;i<count;i++) fan((i-(count-1)/2)*0.96,0,0.28,0.4);
-    box(0.1,1.3,0.55,-w/2-0.06,0,0,0xb4bec5);
-    contacts(18,-0.75,-0.61,-0.1);
-    for(let i=0;i<24;i++) box(0.03,0.15,0.4,-w/2+0.1+i*(w-0.2)/24,0.43,0,0x9eabb3);
-  } else if(category==='Storage') {
-    if(/NVMe|M\.2/i.test(name)) {
-      box(2.7,0.72,0.07,0,0,0,0x285348);
-      for(let i=0;i<4;i++) box(0.46,0.48,0.07,-0.85+i*0.55,0,0.07,0x151c25);
-      contacts(8,-1.28,-0.3,0.08); ring(0.07,0.022,1.22,0,0.06,0xb6c0c8);
-    } else {
-      box(1.65,2.0,0.22); box(1.35,1.45,0.015,0,0.06,0.12,0x8b99a8);
-      box(0.75,0.2,0.035,0,0.4,0.14,0x203747); contacts(12,-0.55,-1.01,0);
-    }
-  } else if(category==='Power') {
-    box(1.85,1.55,1.1); fan(0,0,0.57,0.61);
-    for(let i=0;i<5;i++) ring(0.22+i*0.09,0.012,0,0,0.8,0x95a1af);
-    for(let i=0;i<4;i++) box(0.16,0.23,0.08,-0.6+i*0.4,-0.54,-0.59,0x090d12);
-  } else if(category==='Cooling') {
-    if(/liquid|AIO|240|360|radiator/i.test(name)) {
-      box(2.35,1.1,0.26); fan(-0.57,0,0.2,0.47); fan(0.57,0,0.2,0.47);
-      box(0.6,0.6,0.3,0,-1,0.2); ring(0.23,0.045,0,-1,0.38);
-      for(const x of [-0.18,0.18]) {
-        const curve=new THREE.CatmullRomCurve3([new THREE.Vector3(x,-1,0.2),new THREE.Vector3(x+1.4,-0.8,0.1),new THREE.Vector3(1,-0.3,0)]);
-        group.add(new THREE.Mesh(new THREE.TubeGeometry(curve,24,0.045,8,false),material(0x151b24)));
-      }
-    } else {
-      for(let i=0;i<17;i++) box(1.35,0.035,0.85,0,-0.65+i*0.08,0,0xa5b0bb);
-      fan(0,0,0.5,0.59);
-      for(const x of [-0.45,-0.15,0.15,0.45]) box(0.055,1.6,0.06,x,0,-0.38,0xb78655);
-    }
-  }
-  return group;
-}
-
 function decorate() {
   document.querySelectorAll('.component-card:not([data-preview])').forEach(card=>{
     card.dataset.preview='true';
-    const name=card.querySelector('h3').textContent, category=card.querySelector('.badge').textContent;
+    if (!card.dataset.component) return;
+    const part=JSON.parse(card.dataset.component), name=part.name;
     const inspect=document.createElement('button');
     inspect.type='button';inspect.className='inspect-component';
     inspect.textContent='Inspect in 3D';
     inspect.setAttribute('aria-label',`Inspect ${name} in 3D`);
-    inspect.addEventListener('click',()=>openInspector(card,category,name,inspect));
+    inspect.addEventListener('click',()=>openInspector(card,part,inspect));
     card.querySelector('.part-actions').prepend(inspect);
   });
 }
@@ -123,28 +28,53 @@ new MutationObserver(decorate).observe(list,{childList:true});
 decorate();
 
 // One interactive renderer per open dialog, released on close.
-function openInspector(card, category, name, trigger) {
+function openInspector(card, part, trigger) {
+  const name=part.name;
   const dialog=document.createElement('dialog');dialog.className='component-inspector';dialog.setAttribute('aria-labelledby','inspectorTitle');
-  dialog.innerHTML='<header><h2 id="inspectorTitle"></h2><button type="button" class="inspector-close" aria-label="Close component inspection" autofocus>Close ×</button></header><p>Representative design, not an exact manufacturer model. Drag to rotate · Scroll or pinch to zoom.</p><div class="inspector-stage"></div><div class="inspector-tools"></div><section class="inspector-specs"><h3>Specifications</h3></section>';
+  dialog.innerHTML='<header><h2 id="inspectorTitle"></h2><button type="button" class="inspector-close" aria-label="Close component inspection" autofocus>Close ×</button></header><p>Illustration based on this part’s catalog specs and name, not manufacturer CAD. Shared enclosures may differ only in markings. Drag to rotate · Scroll or pinch to zoom.</p><div class="inspector-stage"></div><div class="inspector-tools"></div><section class="inspector-specs"><h3>Specifications</h3></section>';
   dialog.querySelector('h2').textContent=name;
   const specs=card.querySelector('.part-details .specs') || card.querySelector('.specs');if(specs)dialog.querySelector('.inspector-specs').append(specs.cloneNode(true));
   const price=card.querySelector('.price');if(price)dialog.querySelector('header').after(price.cloneNode(true));
   document.body.append(dialog);dialog.showModal();
   const stage=dialog.querySelector('.inspector-stage');let live, control, observer, frame, group;
-  function cleanup(){cancelAnimationFrame(frame);observer?.disconnect();control?.dispose();if(group){const materials=new Set();group.traverse(o=>{if(o.isMesh){o.geometry.dispose();materials.add(o.material);}});materials.forEach(m=>m.dispose());}live?.dispose();live?.forceContextLoss();dialog.remove();if(trigger.isConnected)trigger.focus({preventScroll:true});}
+  function cleanup(){cancelAnimationFrame(frame);observer?.disconnect();control?.dispose();if(group)disposeComponentModel(group);live?.dispose();live?.forceContextLoss();dialog.remove();if(trigger.isConnected)trigger.focus({preventScroll:true});}
   dialog.addEventListener('close',cleanup,{once:true});dialog.querySelector('.inspector-close').onclick=()=>dialog.close();
   dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
+  setupPhotoView(dialog,part,stage);
   try {
     live=new THREE.WebGLRenderer({antialias:true,alpha:true});live.setPixelRatio(Math.min(devicePixelRatio,2));live.outputColorSpace=THREE.SRGBColorSpace;live.toneMapping=THREE.ACESFilmicToneMapping;
     stage.append(live.domElement);live.domElement.setAttribute('aria-label',`Interactive ${name} model`);
     const world=new THREE.Scene();for(const light of scene.children.filter(o=>o.isLight))world.add(light.clone());
-    group=model(category,name);world.add(group);const bounds=new THREE.Box3().setFromObject(group);group.position.sub(bounds.getCenter(new THREE.Vector3()));
+    group=createComponentModel(part);world.add(group);const bounds=new THREE.Box3().setFromObject(group);group.position.sub(bounds.getCenter(new THREE.Vector3()));
     const size=bounds.getSize(new THREE.Vector3()), radius=size.length()/2;
-    const view=new THREE.PerspectiveCamera(38,1,0.01,100);control=new OrbitControls(view,live.domElement);control.enableDamping=true;control.enablePan=false;control.minDistance=radius*1.2;control.maxDistance=radius*9;
-    function reset(){const distance=radius/Math.sin(THREE.MathUtils.degToRad(view.fov/2))*1.15;view.position.set(distance*.45,distance*.3,distance);control.target.set(0,0,0);control.update();}
-    function fit(){const width=stage.clientWidth,height=stage.clientHeight;live.setSize(width,height);view.aspect=width/height;view.updateProjectionMatrix();}observer=new ResizeObserver(fit);observer.observe(stage);fit();reset();
+    const view=new THREE.PerspectiveCamera(38,1,0.01,100);control=new OrbitControls(view,live.domElement);control.enableDamping=true;control.enablePan=false;control.minDistance=radius*1.2;control.maxDistance=radius*12;
+    function reset(){const angle=Math.atan(Math.tan(THREE.MathUtils.degToRad(view.fov/2))*Math.min(1,view.aspect));const distance=radius/Math.sin(angle)*1.1;view.position.set(distance*.45,distance*.3,distance);control.target.set(0,0,0);control.update();}
+    function fit(){const width=stage.clientWidth,height=stage.clientHeight;if(!width||!height)return;live.setSize(width,height);view.aspect=width/height;view.updateProjectionMatrix();}observer=new ResizeObserver(fit);observer.observe(stage);fit();reset();
     const actions=[['Rotate left',()=>{view.position.applyAxisAngle(new THREE.Vector3(0,1,0),-.25);}],['Rotate right',()=>{view.position.applyAxisAngle(new THREE.Vector3(0,1,0),.25);}],['Zoom in',()=>{view.position.setLength(Math.max(control.minDistance,view.position.length()*.8));}],['Zoom out',()=>{view.position.setLength(Math.min(control.maxDistance,view.position.length()*1.25));}],['Reset',reset]];
     for(const [label,action] of actions){const b=document.createElement('button');b.type='button';b.textContent=label;b.onclick=()=>{action();control.update();};dialog.querySelector('.inspector-tools').append(b);}
-    function animateInspection(){control.update();live.render(world,view);frame=requestAnimationFrame(animateInspection);}animateInspection();
+    function animateInspection(){if(!stage.hidden){control.update();live.render(world,view);}frame=requestAnimationFrame(animateInspection);}animateInspection();
   } catch(error){stage.textContent='Interactive preview is unavailable on this device. Specifications are shown below.';console.warn('Inspection unavailable:',error);}
+}
+
+function setupPhotoView(dialog,part,stage) {
+  const raw=part.specs?.image;
+  let url;try { url=new URL(raw); if(url.protocol!=='https:')return; } catch { return; }
+  const modes=document.createElement('div');modes.className='inspector-view-switch';modes.setAttribute('role','group');modes.setAttribute('aria-label','Component view');
+  const photo=document.createElement('section');photo.className='inspector-photo';photo.hidden=true;
+  const status=document.createElement('p');status.setAttribute('role','status');status.textContent='Loading supplier image…';
+  const img=document.createElement('img');img.alt=`Supplier image for ${part.name}`;img.referrerPolicy='no-referrer';img.decoding='async';img.hidden=true;
+  const source=document.createElement('a');source.href=url.href;source.target='_blank';source.rel='noopener noreferrer';source.referrerPolicy='no-referrer';source.textContent=`Supplier image · ${url.hostname}`;
+  const caption=document.createElement('p');caption.textContent='Photo from the product listing; it may show packaging or a shared product-family image. Loads from the supplier when selected.';
+  photo.append(status,img,source,caption);stage.before(modes);stage.after(photo);
+  let requested=false,timeout;
+  img.onload=()=>{clearTimeout(timeout);status.textContent='';img.hidden=false;};
+  img.onerror=()=>{clearTimeout(timeout);status.textContent='The supplier image is unavailable. You can still use the 3D illustration or open the source link.';img.hidden=true;};
+  for(const [mode,label] of [['model','3D illustration'],['photo','Product photo']]){
+    const button=document.createElement('button');button.type='button';button.textContent=label;button.dataset.inspectorView=mode;button.setAttribute('aria-pressed',String(mode==='model'));
+    button.onclick=()=>{const showPhoto=mode==='photo';stage.hidden=showPhoto;photo.hidden=!showPhoto;dialog.querySelector('.inspector-tools').hidden=showPhoto;
+      for(const b of modes.children)b.setAttribute('aria-pressed',String(b===button));
+      if(showPhoto&&!requested){requested=true;timeout=setTimeout(()=>{status.textContent='The supplier is taking longer to respond. You can return to the 3D illustration.';},12000);img.src=url.href;}
+    };modes.append(button);
+  }
+  dialog.addEventListener('close',()=>{clearTimeout(timeout);img.onload=null;img.onerror=null;img.removeAttribute('src');},{once:true});
 }

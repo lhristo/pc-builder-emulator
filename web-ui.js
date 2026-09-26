@@ -2,6 +2,7 @@ export function renderWebCard(part, original, selected, multi, escapeHtml, entri
   const doc = document.createElement('template');
   doc.innerHTML = original;
   const card = doc.content.firstElementChild;
+  card.dataset.component = JSON.stringify({id: part.id, name: part.name, category: part.category, specs: part.specs});
   const count = selected.filter(item => item.id === part.id).length;
   card.classList.toggle('is-selected', count > 0);
   const specs = card.querySelector('.specs');
