@@ -1,12 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
-// One offscreen renderer, lazy snapshots: no per-card contexts or animation loop.
-const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-renderer.setSize(480, 280);
-renderer.setPixelRatio(1);
-renderer.outputColorSpace = THREE.SRGBColorSpace;
-renderer.toneMapping = THREE.ACESFilmicToneMapping;
 const scene = new THREE.Scene();
 scene.add(new THREE.AmbientLight(0xffffff, 1.8));
 scene.add(new THREE.HemisphereLight(0xcce4ff, 0x334155, 3));
@@ -14,8 +8,6 @@ for (const [position, power] of [[[3, 5, 6], 65], [[-4, 2, -2], 45]]) {
   const light = new THREE.PointLight(0xffffff, power);
   light.position.set(...position); scene.add(light);
 }
-const camera = new THREE.PerspectiveCamera(32, 480 / 280, 0.1, 100);
-const cache = new Map();
 
 function model(category, name) {
   const group = new THREE.Group();
@@ -114,45 +106,20 @@ function model(category, name) {
   return group;
 }
 
-function snapshot(category,name) {
-  const key=category+name;
-  if(cache.has(key)) return cache.get(key);
-  const group=model(category,name); scene.add(group);
-  const bounds=new THREE.Box3().setFromObject(group), center=bounds.getCenter(new THREE.Vector3());
-  group.position.sub(center);
-  const size=bounds.getSize(new THREE.Vector3());
-  const distance=Math.max(size.y,size.x/1.5,size.z)*2.15;
-  camera.position.set(distance*0.48,distance*0.32,distance); camera.lookAt(0,0,0);
-  renderer.render(scene,camera);
-  const url=renderer.domElement.toDataURL('image/png');
-  scene.remove(group);
-  const materials=new Set();
-  group.traverse(o=>{if(o.isMesh){o.geometry.dispose(); materials.add(o.material);}});
-  materials.forEach(m=>m.dispose());
-  if(cache.size>=120) cache.delete(cache.keys().next().value);
-  cache.set(key,url); return url;
-}
-const observer=new IntersectionObserver(entries=>{
-  for(const entry of entries) if(entry.isIntersecting) {
-    const img=entry.target; observer.unobserve(img);
-    if(img.isConnected) img.src=snapshot(img.dataset.category,img.dataset.name);
-  }
-},{rootMargin:'180px'});
 function decorate() {
   document.querySelectorAll('.component-card:not([data-preview])').forEach(card=>{
     card.dataset.preview='true';
     const name=card.querySelector('h3').textContent, category=card.querySelector('.badge').textContent;
-    const figure=document.createElement('figure'); figure.className='component-preview';
-    const img=document.createElement('img'); img.alt=`Representative 3D ${category.toLowerCase()} model`; img.width=480; img.height=280; img.draggable=false;
-    img.dataset.category=category; img.dataset.name=name;
-    const caption=document.createElement('figcaption'); caption.textContent='3D preview · representative design';
-    const inspect=document.createElement('button');inspect.type='button';inspect.className='inspect-component';inspect.setAttribute('aria-label',`Inspect ${name} in 3D`);inspect.append(img);inspect.addEventListener('click',()=>openInspector(card,category,name,inspect));
-    caption.textContent='Inspect in 3D · representative design';
-    figure.append(inspect,caption); card.prepend(figure); observer.observe(img);
+    const inspect=document.createElement('button');
+    inspect.type='button';inspect.className='inspect-component';
+    inspect.textContent='Inspect in 3D';
+    inspect.setAttribute('aria-label',`Inspect ${name} in 3D`);
+    inspect.addEventListener('click',()=>openInspector(card,category,name,inspect));
+    card.querySelector('.part-actions').prepend(inspect);
   });
 }
 const list=document.querySelector('#componentList');
-new MutationObserver(()=>{observer.disconnect(); decorate(); list.querySelectorAll('.component-preview img:not([src])').forEach(img=>observer.observe(img));}).observe(list,{childList:true});
+new MutationObserver(decorate).observe(list,{childList:true});
 decorate();
 
 // One interactive renderer per open dialog, released on close.
