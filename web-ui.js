@@ -41,7 +41,7 @@ export function renderWebCard(part, original, selected, multi, escapeHtml, entri
   return card.outerHTML;
 }
 
-export async function setupWebUI({add, zoom, reset, resize}) {
+export async function setupWebUI({add, zoom, reset, resize, progress, browse}) {
   const stylesheet=document.createElement('link'); stylesheet.rel='stylesheet'; stylesheet.href=new URL('./web-ui.css',import.meta.url).href;
   await new Promise((resolve,reject)=>{stylesheet.onload=resolve;stylesheet.onerror=reject;document.head.append(stylesheet);});
   document.body.classList.add('web-builder');
@@ -75,4 +75,44 @@ export async function setupWebUI({add, zoom, reset, resize}) {
   document.getElementById('fitView').addEventListener('click',reset);
   document.querySelector('.panel-heading .eyebrow').textContent='Selected parts';
   new ResizeObserver(resize).observe(panel);
+  setupBuildNavigation({progress, browse, resize});
+}
+
+function setupBuildNavigation({progress, browse, resize}) {
+  const shell=document.querySelector('.shell');
+  const bar=document.createElement('section'); bar.className='build-progress'; bar.setAttribute('aria-label','Build progress');
+  bar.innerHTML='<div><strong id="buildProgressText"></strong><span id="buildProgressTotals"></span></div><progress id="buildProgressMeter" max="8" value="0" aria-label="Filled component categories"></progress><button type="button" id="nextPart"></button>';
+  shell.before(bar);
+  const nav=document.createElement('div'); nav.className='mobile-build-tabs';nav.setAttribute('role','tablist');nav.setAttribute('aria-label','Builder views');
+  const panels=[['parts','Parts','.library'],['preview','PC Preview','.scene-panel'],['build','Your Build','.build-panel']];
+  let active='parts';
+  const mobile=matchMedia('(max-width: 760px)');
+  function select(id, focus=false) {
+    active=id; document.body.dataset.builderView=id;
+    for(const [key,,selector] of panels) {
+      const target=document.querySelector(selector), button=nav.querySelector(`[data-view="${key}"]`);
+      button.setAttribute('aria-selected',String(key===id));button.tabIndex=key===id?0:-1;
+      if(mobile.matches){target.setAttribute('role','tabpanel');target.setAttribute('aria-labelledby',button.id);}else{target.removeAttribute('role');target.removeAttribute('aria-labelledby');}
+    }
+    if(focus)nav.querySelector(`[data-view="${id}"]`).focus();
+    requestAnimationFrame(resize);
+  }
+  for(const [id,label,selector] of panels) {
+    const target=document.querySelector(selector);target.id ||= `view-${id}`;
+    const button=document.createElement('button');button.type='button';button.id=`tab-${id}`;button.dataset.view=id;button.textContent=label;button.setAttribute('role','tab');button.setAttribute('aria-controls',target.id);button.onclick=()=>select(id);nav.append(button);
+  }
+  nav.addEventListener('keydown',event=>{
+    const keys=['ArrowRight','ArrowLeft','Home','End'];if(!keys.includes(event.key))return;event.preventDefault();
+    const i=panels.findIndex(p=>p[0]===active);const n=event.key==='Home'?0:event.key==='End'?2:(i+(event.key==='ArrowRight'?1:2))%3;select(panels[n][0],true);
+  });
+  bar.after(nav); mobile.addEventListener('change',()=>select(active));select(active);
+  function update(){
+    const state=progress();document.getElementById('buildProgressText').textContent=`${state.filled} of ${state.total} categories filled`;
+    document.getElementById('buildProgressTotals').textContent=`${state.price} · Estimated ${state.watts} W`;
+    document.getElementById('buildProgressMeter').value=state.filled;
+    const next=document.getElementById('nextPart');next.textContent=state.next?`Next: choose ${state.next.label}`:'All categories filled · Review build';
+    document.querySelectorAll('[data-slot]').forEach(slot=>slot.classList.toggle('next-missing',slot.dataset.slot===state.next?.id));
+  }
+  document.getElementById('nextPart').onclick=()=>{const state=progress();if(state.next){browse(state.next.id);select('parts');document.querySelector('#categoryTabs button[aria-selected="true"]')?.focus();}else{select('build');document.querySelector('.build-panel').scrollIntoView({block:'nearest'});}};
+  new MutationObserver(update).observe(document.querySelector('#slots'),{childList:true});update();
 }

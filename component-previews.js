@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 // One offscreen renderer, lazy snapshots: no per-card contexts or animation loop.
 const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
@@ -145,9 +146,38 @@ function decorate() {
     const img=document.createElement('img'); img.alt=`Representative 3D ${category.toLowerCase()} model`; img.width=480; img.height=280; img.draggable=false;
     img.dataset.category=category; img.dataset.name=name;
     const caption=document.createElement('figcaption'); caption.textContent='3D preview · representative design';
-    figure.append(img,caption); card.prepend(figure); observer.observe(img);
+    const inspect=document.createElement('button');inspect.type='button';inspect.className='inspect-component';inspect.setAttribute('aria-label',`Inspect ${name} in 3D`);inspect.append(img);inspect.addEventListener('click',()=>openInspector(card,category,name,inspect));
+    caption.textContent='Inspect in 3D · representative design';
+    figure.append(inspect,caption); card.prepend(figure); observer.observe(img);
   });
 }
 const list=document.querySelector('#componentList');
 new MutationObserver(()=>{observer.disconnect(); decorate(); list.querySelectorAll('.component-preview img:not([src])').forEach(img=>observer.observe(img));}).observe(list,{childList:true});
 decorate();
+
+// One interactive renderer per open dialog, released on close.
+function openInspector(card, category, name, trigger) {
+  const dialog=document.createElement('dialog');dialog.className='component-inspector';dialog.setAttribute('aria-labelledby','inspectorTitle');
+  dialog.innerHTML='<header><h2 id="inspectorTitle"></h2><button type="button" class="inspector-close" aria-label="Close component inspection" autofocus>Close ×</button></header><p>Representative design, not an exact manufacturer model. Drag to rotate · Scroll or pinch to zoom.</p><div class="inspector-stage"></div><div class="inspector-tools"></div><section class="inspector-specs"><h3>Specifications</h3></section>';
+  dialog.querySelector('h2').textContent=name;
+  const specs=card.querySelector('.part-details .specs') || card.querySelector('.specs');if(specs)dialog.querySelector('.inspector-specs').append(specs.cloneNode(true));
+  const price=card.querySelector('.price');if(price)dialog.querySelector('header').after(price.cloneNode(true));
+  document.body.append(dialog);dialog.showModal();
+  const stage=dialog.querySelector('.inspector-stage');let live, control, observer, frame, group;
+  function cleanup(){cancelAnimationFrame(frame);observer?.disconnect();control?.dispose();if(group){const materials=new Set();group.traverse(o=>{if(o.isMesh){o.geometry.dispose();materials.add(o.material);}});materials.forEach(m=>m.dispose());}live?.dispose();live?.forceContextLoss();dialog.remove();if(trigger.isConnected)trigger.focus({preventScroll:true});}
+  dialog.addEventListener('close',cleanup,{once:true});dialog.querySelector('.inspector-close').onclick=()=>dialog.close();
+  dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
+  try {
+    live=new THREE.WebGLRenderer({antialias:true,alpha:true});live.setPixelRatio(Math.min(devicePixelRatio,2));live.outputColorSpace=THREE.SRGBColorSpace;live.toneMapping=THREE.ACESFilmicToneMapping;
+    stage.append(live.domElement);live.domElement.setAttribute('aria-label',`Interactive ${name} model`);
+    const world=new THREE.Scene();for(const light of scene.children.filter(o=>o.isLight))world.add(light.clone());
+    group=model(category,name);world.add(group);const bounds=new THREE.Box3().setFromObject(group);group.position.sub(bounds.getCenter(new THREE.Vector3()));
+    const size=bounds.getSize(new THREE.Vector3()), radius=size.length()/2;
+    const view=new THREE.PerspectiveCamera(38,1,0.01,100);control=new OrbitControls(view,live.domElement);control.enableDamping=true;control.enablePan=false;control.minDistance=radius*1.2;control.maxDistance=radius*9;
+    function reset(){const distance=radius/Math.sin(THREE.MathUtils.degToRad(view.fov/2))*1.15;view.position.set(distance*.45,distance*.3,distance);control.target.set(0,0,0);control.update();}
+    function fit(){const width=stage.clientWidth,height=stage.clientHeight;live.setSize(width,height);view.aspect=width/height;view.updateProjectionMatrix();}observer=new ResizeObserver(fit);observer.observe(stage);fit();reset();
+    const actions=[['Rotate left',()=>{view.position.applyAxisAngle(new THREE.Vector3(0,1,0),-.25);}],['Rotate right',()=>{view.position.applyAxisAngle(new THREE.Vector3(0,1,0),.25);}],['Zoom in',()=>{view.position.setLength(Math.max(control.minDistance,view.position.length()*.8));}],['Zoom out',()=>{view.position.setLength(Math.min(control.maxDistance,view.position.length()*1.25));}],['Reset',reset]];
+    for(const [label,action] of actions){const b=document.createElement('button');b.type='button';b.textContent=label;b.onclick=()=>{action();control.update();};dialog.querySelector('.inspector-tools').append(b);}
+    function animateInspection(){control.update();live.render(world,view);frame=requestAnimationFrame(animateInspection);}animateInspection();
+  } catch(error){stage.textContent='Interactive preview is unavailable on this device. Specifications are shown below.';console.warn('Inspection unavailable:',error);}
+}

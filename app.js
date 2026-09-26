@@ -1876,8 +1876,10 @@ function updateModel(parts) {
 
 function resize() {
   const { clientWidth, clientHeight } = canvas.parentElement;
+  if (!clientWidth || !clientHeight) return;
   renderer.setSize(clientWidth, clientHeight, false);
   camera.aspect = clientWidth / clientHeight;
+  camera.fov = THREE.MathUtils.radToDeg(2 * Math.atan(Math.tan(THREE.MathUtils.degToRad(42 / 2)) / Math.min(1, camera.aspect)));
   camera.updateProjectionMatrix();
 }
 
@@ -1943,6 +1945,8 @@ partMatchesFilters = part => basePartMatchesFilters(part)
   && (!document.querySelector('#compatibleOnly')?.checked || candidateCompatibility(part).status === 'compatible');
 renderComponentCard = part => renderWebCard(part, basicComponentCard(part), getSlotParts(part.category), multiSlots.has(part.category), escapeHtml, visibleSpecEntries, formatSpecKey, candidateCompatibility(part));
 await setupWebUI({
+  progress: () => ({ filled: requiredSlots.length - missingSlots().length, total: requiredSlots.length, price: buildPriceLabel(), watts: estimateWattage(), next: categories.find(c => c.id === missingSlots()[0]) }),
+  browse: category => { selectedCategory = category; clearFilters.click(); renderAll(); },
   add: id => { const part = findComponent(id); if (part) setPart(id, part.category); },
   zoom: factor => {
     const offset = camera.position.clone().sub(controls.target);
